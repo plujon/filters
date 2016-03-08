@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-
+require 'yaml'
+filters = YAML::load_file("data.yml")
+hidden_features = ['dns', 'etchosts', 'iptables']
+toxic_features = ['beta', 'dead', 'hide', 'junk', 'scuzzy']
+filters.select! { |x| x["url"] }
+filters.reject! { |x| x["aliasfor"] }
+filters.reject! { |x| x["audience"] && x["audience"].include?("developer") }
+filters.reject! { |x| x["features"] && (x["features"] & toxic_features).any? }
+-%>
+  <head>
+    <title>List of Internet Filters | Pluckeye</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="description" content="A searchable list of Internet content filters with descriptions (<%= filters.size %> entries).">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/os.js"></script>
+    <script src="js/js.js"></script>
+  </head>
+<body>
+  <div class="container">
+    <div>
+      <h2>Internet Filters
+        <small>a work in progress
+          <a class="btn btn-primary btn-xs" href="https://github.com/plujon/filters">help this page</a></small>
+      </h2>
+    </div>
+    <div class="text-center">
+      Hint: Type addict, general, parent, overlord, or other terms in the search box.
+    </div>
+    <div class="row">
+      <div class="text-center">
+        This page originated at <a href="http://www.pluckeye.net/filters.html">http://www.pluckeye.net/filters.html</a>.
+      </div>
+      <div class="table">
+        <table id="thetable" class="table">
+          <caption>Various Internet Content Filters</caption>
+          <thead>
+            <tr>
+              <th>Filter</th>
+              <th>Cost</th>
+              <th>Platform</th>
+              <th title="Audiences are listed in order of relevance, with the most relevant audience listed first.">Audience</th>
+              <th title="See feature legend below.">Features</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% filters.each do |filter| %>
+            <% filter["features"].reject! { |x| hidden_features.include?(x) } if filter["features"] %>
+            <tr>
+              <td><a href="<%= filter["url"] %>" title="<%= filter["name"]%>">
+                  <% if filter["icon"] %>
+                  <img height="40" src="<%= filter["icon"] %>" alt="<%= filter["name"]%>" /><br>
+                  <% end %>
+                  <%= filter["name"] %>
+                </a>
+              </td>
+              <td><%= filter["cost"] %></td>
+              <td><%= filter["platform"].join(", ") if filter["platform"] %></td>
+              <td><%= filter["audience"].join(", ") if filter["audience"] %></td>
+              <td><%= filter["features"].join(", ") if filter["features"] %></td>
+              <td><%= filter["description"] if filter["description"] %></td>
+            </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div id="Audience_legend" class="panel panel-default">
+        <div class="panel-heading">
+          Audience Legend
+        </div>
+        <div class="panel-body">
+          <dl>
+            <dt>addict</dt> <dd>Porn addicts and compulsive porn users who want to quit porn.</dd>
+            <dt>general</dt> <dd>General users who don't regularly and actively seek out porn.</dd>
+            <dt>overlord</dt> <dd>Schools, companies, or governments that want to restrict Internet access of their students, employees, or citizens respectively.</dd>
+            <dt>parent</dt> <dd>Parents who want to protect their childrem.</dd>
+            <dt>spouse</dt> <dd>A spouse of a porn addict if the addict himself does not want to stop using porn.  This audience is not categorized on this page.  See instead parent or overlord.</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="Platform_legend" class="panel panel-default">
+        <div class="panel-heading">
+          Platform Legend
+        </div>
+        <div class="panel-body">
+          <dl>
+            <dt>android</dt> <dd>The software integrates with Android.</dd>
+            <dt>chrome</dt> <dd>The software integrates with Chrome and/or Chromium.</dd>
+            <dt>browser</dt> <dd>The software integrates with one or more browsers (e.g., Chrome, Firefox, Internet Explorer, Opera, Safari) as opposed to the operating system or network.</dd>
+            <dt>firefox</dt> <dd>The software integrates with Firefox.</dd>
+            <dt>ios</dt> <dd>The software integrates with iOS.</dd>
+            <dt>linux</dt> <dd>The software integrates with Linux.</dd>
+            <dt>macosx</dt> <dd>The software integrates with Mac OS X.</dd>
+            <dt>network</dt> <dd>The software integrates with a network device, usually as opposed to a browser or operating system.  Such software is typically installed on a router, but can sometimes be installed on the local machine if the operating system is of the right kind.  All gateways and proxies work at the network level.</dd>
+            <dt>windows</dt> <dd>The software integrates with Windows.</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="feature_legend" class="panel panel-default">
+        <div class="panel-heading">
+          Feature Legend
+        </div>
+        <div class="panel-body">
+          <dl>
+            <dt>abandoned</dt> <dd>The software has not been updated for a long time and may not work on modern operating systems.</dd>
+            <dt>accountability</dt> <dd>The software notifies an accountability partner, parent, or spouse regarding Internet activity or filter configuration, typically over email but sometimes using another means such as RSS.</dd>
+            <dt>antivirus</dt> <dd>The software is part of an antivirus product.  Most antivirus products come with some type of parental controls.</dd>
+            <dt>biglist</dt> <dd>Filtering is accomplished through a large database of categorized resources.</dd>
+            <dt>changedelay</dt> <dd>The software allows the end-user to configure it without a password, but will not allow the change to take effect for some amount of time.  The author knows of no filter that supports this other than Pluckeye.</dd>
+            <dt>cloud</dt> <dd>The software interacts with data in the cloud.  E.g., a list of websites to block are retrieved from a remote server.</dd>
+            <dt>countermeasures</dt> <dd>The software will notice and respond to attempts to work around it.  E.g., k9 can be configured to block all Internet access for a specified time if too many attempts to visit blocked pages are detected.</dd>
+            <!-- <dt>dns</dt> <dd>The software works primarily through control over DNS.</dd> -->
+            <!-- <dt>etchosts</dt> <dd>The software works by modifiying etchosts.</dd> -->
+            <dt>filtering</dt> <dd>The software blocks some content.  There are several kinds of filtering.</dd>
+            <dt>games</dt> <dd>The software can block user access to other programs (typically this is used to limit game time).</dd>
+            <dt>gateway</dt> <dd>The software is meant to be installed on a network router separate from the end-user machine.  In the case of a gateway filter on this page, the OS value lists all operating systems to reflect the fact that the end-user machine may have any operating system.  Such software is typically created for schools and employers.</dd>
+            <dt>hardware</dt> <dd>The software comes preinstalled on a device that connects to and filters for the local network.</dd>
+            <!-- <dt>icap</dt> <dd>The software is based on ICAP.</dd> -->
+            <dt>incomplete</dt> <dd>The software describes itself as incomplete.</dd>
+            <!-- <dt>iptables</dt> <dd>The software works primarily through control over routing tables.</dd> -->
+            <!-- <dt>isp</dt> <dd>The service is marketed as an ISP.</dd> -->
+            <dt>keyword</dt> <dd>Filtering is accomplished on the fly through keyword detection within web pages.</dd>
+            <dt>locationtracking</dt> <dd>The location of the end-user is tracked and usually presented to another person (ostensibly the end-user's parent).</dd>
+            <dt>mimetypes</dt> <dd>Filtering can be done on a mime type basis.  E.g., Pluckeye can block all images from http://craigslist.org/ , but still allow text.</dd>
+            <dt>monitoring</dt> <dd>The software monitors Internet activity or filter settings for the purpose of allowing a parent, accountability partner, or other person to view.  See also accountability.</dd>
+            <dt>more</dt> <dd>The software has other features that do not fit one of the other feature categories.</dd>
+            <dt>motivate</dt> <dd>The software has motivational messages for the end-user.</dd>
+            <dt>opensource</dt> <dd>The software is open source.</dd>
+            <dt>opensource-contrib</dt> <dd>The software is open source to interested contributors.</dd>
+            <dt>password</dt> <dd>The software allows or requires configuration to be protected by a password.</dd>
+            <dt>pixelation</dt> <dd>The software uses computer vision algorithms to anaylze images and pixelates ones that contain too much skin.</dd>
+            <dt>proxy</dt> <dd>The software is a proxy and requires browsers be configured to use it (note that this meaning is specific to this page).  See also gateway for another kind of proxy.</dd>
+            <dt>ratings</dt> <dd>The software uses self-identifying website ratings such as as <a href="http://www.rtalabel.org/">RTA</a> and <a href="http://www.safesurf.com/ssplan.html">SafeSurf</a>.</dd>
+            <dt>screenshots</dt> <dd>The software takes screenshots so that some other person can review what the user was doing.</dd>
+            <dt>smarts</dt> <dd>The software tries to determine whether content should be allowed or not by examining content.  This is sometimes used in combination with biglist techniques and sometimes as an alternative.</dd>
+            <dt>social</dt> <dd>The software specifically monitors interaction on social media sites such as Facebook, Google+, Instagram, LinkedIn, Pinterest, Tumblr, and Twitter, etc., with the intent of informing a parent about how their child is interacting through these sites.</dd>
+            <dt>spying</dt> <dd>The software spies on the user and generates reports for somebody else to look at.  Spying is similar to monitoring and accountability but distinct because filters that do spying are more invasive, often they go so far as to log key strokes.</dd>
+            <dt>timer</dt> <dd>The software can be configured to enable or disable access to the Internet or parts of the Internet for a specified amount of time or time of day.</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!--
+        <div class="row">
+          <div id="problem_legend" class="panel panel-default">
+            <div class="panel-heading">
+              Problem Legend
+            </div>
+            <div class="panel-body">
+              <dl>
+                <dt>disableable</dt> <dd>The software can be disabled fairly easily without detection.</dd>
+                <dt>failaddict</dt> <dd>The software would not be acceptable or of help to most addicts.</dd>
+                <dt>failgeneral</dt> <dd>The software would not be acceptable or of help to most general users.</dd>
+                <dt>failoverlord</dt> <dd>The software would not be acceptable or of help to most overlords.  This could be considered a positive feature rather than a problem.</dd>
+                <dt>failparents</dt> <dd>The software would not be acceptable or of help to most parents looking to protect their children.</dd>
+                <dt>falsepositives</dt> <dd>The software frequently reports benign content as problematic.</dd>
+                <dt>falseshutdown</dt> <dd>The software reports that the user shut it down when the user did not; usually this happens when the host machine is put to sleep.</dd>
+                <dt>falsedisable</dt> <dd>The software falsely reports that it has been disabled when it hasn't</dd>
+                <dt>httponly</dt> <dd>The software works only with http and not with https.</dd>
+                <dt>imagesearch</dt> <dd>Porn is available and not reported in image search.</dd>
+                <dt>overblock</dt> <dd>The software blocks significant content that is benign.</dd>
+                <dt>password</dt> <dd>The software can be disabled with an administrator password.</dd>
+                <dt>plecebo</dt> <dd>Even though the software it terrible, because the user believes that it works, it is effective in keeping the user from seeking porn.  This is listed as a problem because some users discover that the plecebo doesn't actually work, and then it is no longer effective for them.</dd>
+                <dt>underreports</dt> <dd>Users can view content that should be restricted, and the software doesn't report it.  This may include but is certainly not limited to image searches on www.google.com.</dd>
+                <dt>wikipedia</dt> <dd>Porn on sites such as wikipedia is accessible and not reported.</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        -->
+  </div>
+</body>
+</html>
+<%
+# Local Variables:
+# compile-command: "erb -T - index.html.erb >index.html && firefox index.html"
+# End:
+%>

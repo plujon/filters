@@ -1,0 +1,1587 @@
+---
+- name: AccessPatrol (CurrentWare)
+  audience:
+  - overlord
+  url: http://www.currentware.com/
+- name: accountabilitypal
+  audience:
+  - addict
+  cost: free
+  description: Accountability Pal monitors Internet usage and sends e-mail reports
+    to accountability partners.  It is designed to be run on a server.  It is incomplete,
+    and was last updated in 2005.
+  features:
+  - abandoned
+  - accountability
+  - gateway
+  - incomplete
+  - monitoring
+  - network
+  - opensource
+  platform:
+  - linux
+  - windows
+  url: http://www.accountabilitypal.org/
+- name: Activity Forensics
+  audience:
+  - overlord
+  - parent
+  cost: $99
+  description: Activity Forensics is primarily spying software that logs computer
+    use including keystrokes, screenshots, Internet activity, and other data.  It
+    offers rudimentary filtering.
+  features:
+  - filtering
+  - monitoring
+  - spying
+  platform:
+  - windows
+  url: http://activityforensics.com/
+- name: Adblock Plus
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
+- name: Adult Blocker
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/adult-blocker/
+- name: AhnLab SiteGuard
+- name: Anti-Porn Pro
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/cloudacl-anti-porn-pro/
+- name: Anti-Porn Warning
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/apm/
+- name: Aobo
+  audience:
+  - parent
+  - addict
+  - general
+  cost: $50 (free trial)
+  features:
+  - filtering
+  - monitoring
+  platform:
+  - macosx
+  - windows
+  url: http://aobo.cc/aobo-filter.html
+- name: Archangel
+  cost: free
+  features:
+  - beta
+  - icap
+  url: https://code.google.com/p/archangel/
+- name: Astaro - Parental Control for Wii
+- name: AVG Family Safety
+  audience:
+  - parent
+  features:
+  - antivirus
+  platform:
+  - windows
+  url: http://www.avg.com/us-en/avg-family-safety
+- name: BitDefender Internet Security
+  cost: $70
+  features:
+  - antivirus
+  platform:
+  - windows
+  url: http://www.bitdefender.com/solutions/internet-security.html
+- name: Blocksi
+  audience:
+  - parent
+  - general
+  - overlord
+  description: Blocksi is a Firefox and Chrome extension that blocks content according
+    to categories that are controlled by the end-user, parent, or overlord depending
+    on the device.
+  features:
+  - biglist
+  - cloud
+  - filtering
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/blocksi/
+- name: Blocksi Router
+  audience:
+  - parent
+  - general
+  - overlord
+  cost: $60 upfront + $30/year after 2 free years
+  description: The Blocksi router is a physical device intended to be installed as
+    the network router at home for families.
+  features:
+  - biglist
+  - cloud
+  - filtering
+  - hardware
+  - monitoring
+  platform:
+  - network
+  url: http://www.blocksi.net/parental-control.php
+- name: Boomerang Parental Control
+  cost: $12/year
+  features:
+  - filtering
+  platform:
+  - android
+- name: Brightfilter Parental Control
+- name: BrowseControl
+  audience:
+  - overlord
+  cost: $80
+  features:
+  - filtering
+  - free trial
+  - monitoring
+  platform:
+  - windows
+  url: http://www.browsecontrol.com/
+- name: BrowseControl (CurrentWare)
+  audience:
+  - overlord
+  url: http://www.currentware.com/
+- name: BrowseReporter (CurrentWare)
+  audience:
+  - overlord
+  url: http://www.currentware.com/
+- name: BSecure
+  features:
+  - dead
+- name: Buddy Browser
+- name: Buddy Browser
+  audience:
+  - parent
+  features:
+  - dead
+  platform:
+  - macosx
+  - windows
+  url: http://www.buddybrowser.com/Free-Parental-Controls.cfm
+- name: BullGuard Internet Security
+  features:
+  - antivirus
+  url: https://www.bullguard.com/
+- name: CA Security Suite
+- name: Care4teen
+  audience:
+  - parent
+  url: http://www.care4teen.com/
+- name: CensureBlock
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/censureblock/
+- name: Cenzor
+- name: Child Control
+  audience:
+  - parent
+  cost: $30
+  features:
+  - filtering
+  - monitoring
+  - timer
+  platform:
+  - windows
+  url: http://salfeld.com/software/parentalcontrol/index.html
+- name: Cleanfeed
+  audience:
+  - overlord
+- name: clearOS
+  audience:
+  - overlord
+  cost: $108/year to $588/year
+  description: Aimed at businesses, governments, and schools, ClearOS is designed
+    to be installed on a router.  clearOS sells switches with ClearOS installed and
+    calls them "appliances".  It is very similar to DansGuardian.
+  features:
+  - filtering
+  - gateway
+  - more
+  - network
+  platform:
+  - linux
+  url: http://www.clearcenter.com/
+- name: Cold Turkey
+  audience:
+  - addicts
+  cost: free to $19
+  description: Cold Turkey is a relatively simple opensource filter designed to support
+    self-control by allowing the end-user to configure times of the week during which
+    to block access to certain websites.
+  features:
+  - dns
+  - filtering
+  - opensource
+  - operatingsystem
+  - timer
+  platform:
+  - windows
+  url: http://getcoldturkey.com/
+- name: Computer Cop
+  audience:
+  - parent
+  url: http://www.computercop.com/
+- name: ComputerTime
+  audience:
+  - parent
+  features:
+  - timer
+  url: http://www.softwaretime.com/computertime/
+- name: Content Cleaner
+  cost: $20
+  features:
+  - pixelation
+  url: http://www.contentpurity.com/
+- name: Content Protect Pro
+  audience:
+  - overlord
+  cost: $40
+  features:
+  - filtering
+  platform:
+  - android
+  - macosx
+  - network
+  - windows
+  url: https://www.contentwatch.com/products/contentprotect_pro
+- name: ContentBarrier
+  audience:
+  - parent
+  - general
+  features:
+  - filtering
+  - monitoring
+  - spying
+  platform:
+  - macosx
+  url: http://www.intego.com/manuals/en/cb/1-welcome-to-contentbarrier.html
+- name: ContentProtect
+  audience:
+  - overlord
+  cost: $40/year
+  description: ContentProtect is Net Nanny for businesses.
+  platform:
+  - android
+  - windows
+- name: CovenantEyes
+  audience:
+  - addict
+  - parent
+  - general
+  cost: $9/month to $13/month
+  description: CovenantEyes has an beautiful website and probably an awesome product.  It
+    seems to target porn addicts and concerned parents with roughly equal emphasis.
+  features:
+  - accountability
+  - filtering
+  - monitoring
+  - operatingsystem
+  - timer
+  icon: http://pbs.twimg.com/profile_images/468823054357757953/jY1TV1Uu_400x400.png
+  platform:
+  - android
+  - ios
+  - macosx
+  - windows
+  url: http://www.covenanteyes.com/
+- name: CyberPatrol Parental Controls
+  audience:
+  - overlord
+  - parent
+  cost: $40/year
+  features:
+  - filtering
+  - games
+  - monitoring
+  - timer
+  platform:
+  - windows
+  url: https://www.cyberpatrol.com/home/
+- name: CyberSentinel
+  audience:
+  - parent
+  url: http://www.cybersentinel.com/
+- name: Cybersieve
+- name: CyberSitter
+  audience:
+  - parent
+  url: http://www.cybersitter.com/
+- name: Cybersitterlists
+  audience:
+  - overlord
+  - parent
+  - general
+  cost: $80 for Simple DNS + $39/year
+  description: Designed to be used with the Simple DNS Plus DNS server, it is similar
+    in approach to OpenDns and NX Filter.
+  features:
+  - biglist
+  - filtering
+  - gateway
+  - monitoring
+  platform:
+  - linux
+  - macosx
+  - windows
+  url: http://www.cybersitterlists.com/
+- name: Cyclope-Series
+  audience:
+  - overlord
+  url: http://www.cyclope-series.com/
+- name: DansGuardian
+  audience:
+  - overlord
+  cost: free
+  description: Unlike most filters listed here, DansGuardian is designed for installation
+    as a proxy. It seems to be targeted primarily toward filtering internet content
+    for organizations such as schools.  A guide to setting it up for personal use
+    can be found <a href="http://www.zephyrsoft.org/files/linux-filtering-monitoring-howto.pdf">here</a>.
+  features:
+  - filtering
+  - gateway
+  - more
+  - network
+  icon: http://dansguardian.org/images/left.jpg
+  platform:
+  - linux
+  - macosx
+  url: http://dansguardian.org/
+- name: Davide
+- name: Distractus
+  description: Distractus is a simple Firefox addon that allows the user to whitelist
+    and blacklist sites using regular expression matching.
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/distractus/
+- name: DNSthingy
+  audience:
+  - parent
+  - overlord
+  - general
+  - addict
+  cost: $8/month
+  description: DNSthingy is for Canadians, users of Clear OS, or those willing to
+    flash their home router.
+  platform:
+  - network
+  url: https://www.dnsthingy.com/
+- name: Dolphin Secure
+- name: Enologic Net Filter
+- name: ENUFF PC
+  audience:
+  - parent
+  features:
+  - dead
+  - timer
+  url: http://www.akrontech.com/
+- name: eSafely (netspark)
+  audience:
+  - parent
+  cost: free
+  features:
+  - dead
+  platform:
+  - browser
+  url: http://esafely.com
+- name: eScan
+- name: ESET Smart Security
+  features:
+  - antivirus
+  url: http://www.eset.com/
+- name: Familyloop Safeguard
+  audience:
+  - parent
+  cost: $5/month for 3 devices
+  features:
+  - filtering
+  - monitoring
+  url: https://www.familoop.com/
+- name: FB Limiter
+  cost: free to $15
+  platform:
+  - windows
+  url: http://www.facebooklimiter.com/
+- name: Fiddler
+  audience:
+  - developer
+  description: A free web debugging proxy, this product is aimed at web developers,
+    not general Internet consumers. Fiddler sets itself up as a WinINET Proxy [see
+    http://msdn.microsoft.com/en-us/library/windows/desktop/aa384075(v=vs.85).aspx
+    ], so it intercepts traffic from all applications that use WinINET (IE, Office).  It
+    is more useful for developing a web application and web server; it is not a consumer-oriented
+    filter.
+  url: http://www.telerik.com/fiddler
+- name: Filter Pak
+- name: FilterGate
+  features:
+  - dead
+- name: FilterPak
+  audience:
+  - parent
+  - addict
+  cost: unknown
+  features:
+  - accountability
+  - biglist
+  - filtering
+  - monitoring
+  platform:
+  - windows
+  url: http://www.s4f.com/products/filterpak
+- name: FinFisher
+  audience:
+  - overlord
+- name: Fortify
+  audience:
+  - addict
+  cost: free for youth, $39 for adults
+  description: Fortify is not a filter, but it is similar enough to warrant inclusion
+    here.  Instead filtering or monitoring, it aims to educate and support a porn
+    user as he/she moves toward that goal.
+  features:
+  - other
+  icon: http://fortifyprogram.org/assets/images/fortify-logo.svg
+  platform:
+  - android
+  - ios
+  - macosx
+  - windows
+  url: http://fortifyprogram.org/
+- name: FoxFilter
+  audience:
+  - parent
+  - general
+  - overlord
+  cost: free to $15/year
+  description: FoxFilter is an add-on to Firefox and Chrome designed to "protect children
+    and teens from inappropriate content on the Web."  It only works in Firefox and
+    Chrome.
+  features:
+  - filtering
+  - keyword
+  platform:
+  - browser
+  url: http://addons.mozilla.org/en-US/firefox/addon/foxfilter/
+- name: Fragfinn.de
+- name: FSecure
+  audience:
+  - general
+  - parent
+  features:
+  - antivirus
+  platform:
+  - windows
+  url: http://www.f-secure.com/en/web/home_global/home
+- name: Funamo
+  audience:
+  - parent
+  features:
+  - filtering
+  - games
+  - monitoring
+  - timer
+  platform:
+  - android
+  url: https://www.funamo.com/
+- name: Gaggle
+  audience:
+  - overlord
+  url: http://www.gaggle.net/
+- name: Gnome nanny
+  features:
+  - dead
+- name: GodSaves.tk Anti-Porn
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/godsavestk-anti-pornography/
+- name: goguardian
+  audience:
+  - overlord
+  url: https://www.goguardian.com/
+- name: Green Dam Youth Escort (Mainland Chinese Government mandated software)
+- name: Guard Your Eyes
+  audience:
+  - addict
+  cost: free, but fines if you view porn
+  description: Guard your eyes is an online program, not a true filter.  Users pay
+    fines every time they view porn.
+  features:
+  - other
+  url: http://guardyoureyes.com/
+- name: Handy Filter
+  audience:
+  - overlord
+  - general
+  cost: free
+  description: Originally developed for Internet Cafes in Turkey.
+  features:
+  - filtering
+  - monitoring
+  url: http://www.handyfilter.com/
+- name: HostsBlock
+  platform:
+  - linux
+  - windows
+  url: http://www.wilderssecurity.com/threads/hosts-block.378901/
+- name: HostsMan
+  platform:
+  - windows
+  url: http://www.abelhadigital.com/hostsman
+- name: IamBigBrother
+  features:
+  - monitoring
+  - spying
+  platform:
+  - windows
+  url: http://www.iambigbrother.com/
+- name: iBoss Home Parental Control Router
+  platform:
+  - network
+- name: Image and Flash Block
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/image-and-flash-blocker/
+- name: Image Block
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/image-block/
+- name: IMView
+  features:
+  - monitoring
+  - spying
+  platform:
+  - ios
+  - macosx
+  - windows
+  url: http://imview.com/
+- name: iNet Safety Bubble (Mobile)
+- name: Integard
+  features:
+  - dead
+- name: Intego IS Barrier X6 (Mac)
+- name: Integrity Online
+  url: http://www.integrity.com/
+- name: Internet 4 Families
+  features:
+  - dead
+- name: iOS Parental Controls (Mobile)
+- name: iProtectYou
+  features:
+  - filtering
+  platform:
+  - windows
+  url: http://www.softforyou.com/ip-index.html
+- name: iShield
+  audience:
+  - parent
+  - addict
+  cost: $25
+  features:
+  - accountability
+  - filtering
+  - monitoring
+  - smarts
+  platform:
+  - windows
+  url: http://www.guardwareinc.com/ishield.php
+- name: Jusprog
+- name: K9 Web Protection
+  audience:
+  - overlord
+  - parent
+  - general
+  - addict
+  cost: free for personal use
+  description: Sold to companies for overlord-style filtering, Blue Coat allows free
+    use of the filter for individuals looking to protect themselves or their family.  It
+    is configured using an administrative password.  The k9 administrator can view
+    all previous internet activity in addition to changing which categories to block
+    and which features to enable.
+  features:
+  - biglist
+  - countermeasures
+  - filtering
+  - monitoring
+  - operatingsystem
+  - timer
+  icon: http://www1.k9webprotection.com/sites/default/files/k9_logo.png
+  platform:
+  - android
+  - ios
+  - macosx
+  - windows
+  url: http://www1.k9webprotection.com
+- name: Kapersky Internet Security
+  features:
+  - antivirus
+- name: Kapersky Safe Kids
+- name: Kaspersky
+  features:
+  - antivirus
+  url: http://usa.kaspersky.com
+- name: Kaspersky Pure
+- name: KaZipster
+  features:
+  - dead
+- name: KidoZ
+  audience:
+  - parent
+  url: http://kidoz.net/
+- name: kidrex
+  features:
+  - hide
+  url: http://www.kidrex.org/
+- name: KidRocket
+  audience:
+  - parent
+  features:
+  - browser
+  url: http://kidrocket.en.softonic.com/
+- name: Kids Place
+  audience:
+  - parent
+  - addict
+  - general
+  features:
+  - filtering
+  - monitoring
+  platform:
+  - android
+  url: https://play.google.com/store/apps/details?id=com.kiddoware.kidsplace
+- name: KidsWatch
+  audience:
+  - parent
+  url: http://www.kidswatch.com/
+- name: KidZui
+  audience:
+  - parent
+  features:
+  - dead
+  url: http://www.kidzui.com/
+- name: Kinderserver
+- name: Knas Based Accountability
+  cost: free
+  features:
+  - accountability
+  - monitoring
+  platform:
+  - macosx
+  - windows
+  url: http://venishmartem.com/exclusives/kba
+- name: Kurupira
+  description: Project seems to have died in 2011
+  features:
+  - abandoned
+  - hide
+  url: http://kurupira.net/
+- name: LeeckBlock
+  platform:
+  - browser
+  url: http://www.proginosko.com/leechblock.html
+- name: livigent
+  features:
+  - filtering
+  - hardware
+  - mimetypes
+  - network
+  - smarts
+  - timer
+  url: http://www.livigent.com/
+- name: Mac OS X Parental Controls
+  audience:
+  - parent
+  description: ! 'Mac OS X Parental Controls can operate in three modes: unrestricted,
+    automatic, and whitelist.'
+  features:
+  - filtering
+  - monitoring
+  - ratings
+  - smarts
+  platform:
+  - macosx
+  url: https://support.apple.com/en-us/HT201813
+- name: Magic Desktop
+- name: McAfee All Access
+- name: McAfee Family Protection
+  features:
+  - filtering
+  - monitoring
+  platform:
+  - windows
+  url: http://home.mcafee.com/store/family-protection
+- name: McAfee IS
+- name: McGruff SafeGuard
+  audience:
+  - parent
+  features:
+  - filtering
+  - monitoring
+  platform:
+  - windows
+  url: http://www.gomcgruff.com/
+- name: Meine Startseite.de
+- name: Meshimer
+  cost: $5-$15/month
+  description: ''
+  features:
+  - pixelation
+  - scuzzy
+  platform:
+  - Windows
+  url: https://www.meshimer.com/
+- name: Microsoft Forefront Threat Management Gateway
+  features:
+  - dead
+  platform:
+  - network
+- name: Microsoft Forefront Threat Management Gateway
+  features:
+  - dead
+- name: Microsoft Parental Controls
+  audience:
+  - parent
+  features:
+  - filtering
+  - games
+  - timer
+  platform:
+  - windows
+  url: http://windows.microsoft.com/en-us/windows/set-parental-controls
+- name: MinorMonitor
+  cost: free
+  features:
+  - social
+  url: http://www.minormonitor.com/
+- name: MobiCIP
+  features:
+  - filtering
+  - monitoring
+  platform:
+  - android
+  - ios
+  url: http://www.mobicip.com/
+- name: Mobiflock
+- name: Mobile Parental Filter
+- name: MobileMinder
+  audience:
+  - parent
+  features:
+  - games
+  - monitoring
+  - timer
+  platform:
+  - android
+  url: http://mobileminder.com/
+- name: ModemLockDown
+  cost: $10
+  platform:
+  - windows
+  url: http://www.modemlockdown.com/
+- name: Mybee.nl
+- name: MyKidisSafe
+  audience:
+  - parent
+  features:
+  - filtering
+  - monitoring
+  - spying
+  platform:
+  - android
+  - ios
+  url: http://www.emobilesecurity.com/MyKidIsSafe.html
+- name: Net Nanny
+  audience:
+  - parent
+  cost: $13 to $40/year
+  features:
+  - accountability
+  - biglist
+  - filtering
+  - monitoring
+  - operatingsystem
+  - social
+  - timer
+  platform:
+  - android
+  - macosx
+  - windows
+  url: http://www.netnanny.com/
+- name: NETBLOX
+  platform:
+  - network
+- name: NetDefend
+  url: http://security.dlink.com.tw/netdefend_wcf.asp
+- name: NetDog Porn Filter
+  cost: $25
+  platform:
+  - windows
+  url: http://www.netdogsoft.com/
+- name: Netgear Live Parental Controls
+  platform:
+  - network
+- name: NetGenie
+  audience:
+  - parent
+  platform:
+  - network
+  url: http://www.netgenie.net/global/
+- name: Netintelligence
+- name: netresponsibility
+  audience:
+  - addict
+  cost: free
+  description: Net Responsibility monitors Internet usage and sends e-mail reports
+    to accountability partners.  Must be compiled from source on Mac OS X and Ubuntu
+    14.10 or above (see <a href="http://forum.netresponsibility.com/discussion/159/can-t-install-on-ubuntu-14-10">this
+    thread</a>).  A build script can be found <a href="/net-responsibility/build.sh">here</a>.
+  features:
+  - accountability
+  - monitoring
+  - opensource
+  - operatingsystem
+  icon: http://www.netresponsibility.com/img/soap2.png
+  platform:
+  - linux
+  - macosx
+  url: http://www.netresponsibility.com/
+- name: netsentron
+  audience:
+  - overlord
+  - parent
+  cost: $75/month
+  platform:
+  - network
+  url: http://www.netsentron.com/
+- name: NoFap Panic Button
+  features:
+  - motivate
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/nofap-panic-button/
+- name: Norman
+- name: Norton Family
+  audience:
+  - parent
+  - general
+  - addict
+  cost: free to $50
+  description: Norton Family has free and paid offerings, both of which are aimed
+    at parents who want to know what their children are doing online.
+  features:
+  - accountability
+  - monitoring
+  - operatingsystem
+  icon: http://safeweb.norton.com/images/global/norton-icon.png
+  platform:
+  - android
+  - ios
+  - macosx
+  - windows
+  url: http://onlinefamily.norton.com/
+- name: NX Filter
+  audience:
+  - overlord
+  - general
+  - parent
+  cost: free to $$
+  description: A DNS-based filter and monitor, similar to OpenDNS, but with user-authentication
+    capability for user-specific rules.
+  features:
+  - biglist
+  - filtering
+  - monitoring
+  platform:
+  - linux
+  - macosx
+  - windows
+  url: http://www.nxfilter.org/
+- name: opendium
+  audience:
+  - overlord
+  url: http://www.opendium.com/
+- name: OpenDNS
+  audience:
+  - general
+  - parent
+  cost: free to $20/year
+  description: Free for home use, OpenDNS is both easy-to-use and popular.
+  features:
+  - filtering
+  - monitoring
+  platform:
+  - android
+  - ios
+  - linux
+  - macosx
+  - windows
+  url: http://www.opendns.com/
+- name: Optenet
+  audience:
+  - parent
+  - addict
+  cost: $40
+  features:
+  - filtering
+  - monitoring
+  - smarts
+  - timer
+  platform:
+  - windows
+  url: http://www.optenetpc.com/
+- name: Panda
+  url: http://www.pandasecurity.com/usa/homeusers/solutions/internet-security/
+- name: Parental Controls and Web Filter from MetaCert
+  cost: free or donate
+  features:
+  - filtering
+  - password
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/metacert/
+- name: PC Pandora
+  audience:
+  - parent
+  features:
+  - monitoring
+  - spying
+  url: http://www.pcpandora.com/application/parental/
+- name: PeanutButterPC
+  audience:
+  - parent
+  cost: $25
+  platform:
+  - windows
+  url: http://www.peanutbuttersoftware.com/
+- name: Pearl Echo
+  audience:
+  - overlord
+  - parent
+  features:
+  - filtering
+  - monitoring
+  platform:
+  - windows
+  url: http://www.pearlsw.com/
+- name: pfSense
+  audience:
+  - overlord
+  features:
+  - opensource
+  platform:
+  - network
+  url: https://www.pfsense.org/
+- name: PicBlock
+  cost: free
+  description: PicBlock is one of the few filters that attempts to detect skin tones.  The
+    project was last updated in 2011.
+  features:
+  - hide
+  - pixelation
+  - smarts
+  platform:
+  - windows
+  url: http://www.cinchworks.com/index2.html
+- name: Picture Blocker
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/picture-blocker/
+- name: Pluckeye
+  audience:
+  - addict
+  cost: free
+  description: Customizable, but blocks all images from the internet by default.  Its
+    delayed-configuration system is designed for users who want to help themselves
+    quit porn.
+  features:
+  - changedelay
+  - filtering
+  - mimetypes
+  - monitoring
+  - opensource-contrib
+  - operatingsystem
+  - timer
+  icon: http://www.pluckeye.net/p64.svg
+  platform:
+  - linux
+  - macosx (partial)
+  - windows
+  url: http://pluckeye.net/
+- name: policeman
+  audience:
+  - general
+  cost: free
+  features:
+  - filtering
+  - mimetypes
+  platform:
+  - browser
+  url: https://www.mywot.com/
+- name: Porn Terminator
+  features:
+  - junk
+- name: Privoxy
+  audience:
+  - general
+  - parent
+  cost: free
+  description: Privoxy is a non-caching web proxy designed to enhance privacy, control
+    access, and remove ads.
+  features:
+  - proxy
+  platform:
+  - linux
+  - macosx
+  - windows
+  url: http://www.privoxy.org/
+- name: ProblemPoker
+  audience:
+  - addict
+  url: http://www.problempoker.com/
+- name: ProCon Latte Content Filter
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/procon-latte/
+- name: Profil Parental Filter 2
+- name: Public Fox
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/public-fox/
+- name: Public Fox
+  cost: free but prompts user to install AdBeaver adware
+  description: Public Fox can block downloads, prevent browser changes, lock down
+    addons, bookmarks, and more, block unwanted web sites.
+  features:
+  - filtering
+  - password
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/public-fox/
+- name: PureSight
+  audience:
+  - parent
+  features:
+  - filtering
+  - monitoring
+  - timer
+  platform:
+  - windows
+  url: http://www.puresight.com/
+- name: Qustodio
+  audience:
+  - parent
+  - overlord
+  - general
+  - addict
+  cost: free or $45/year
+  description: Qustodio appears to be a complete filtering/monitoring package.  Aimed
+    primarily at parents and schools, it boasts that its "smart internet filters scans
+    web content in real time".  There are some rumors it slows down the Internet experience.
+  features:
+  - filtering
+  - location tracking
+  - monitoring
+  - operatingsystem
+  - smarts
+  - spying
+  - timer
+  icon: http://www.qustodio.com/wp-content/pad/qustodio-icon.gif
+  platform:
+  - android
+  - ios
+  - macosx
+  - windows
+  url: http://www.qustodio.com/
+- name: Router Limits
+  audience:
+  - parent
+  cost: free to $20/month
+  features:
+  - filtering
+  - monitoring
+  platform:
+  - network
+  url: https://routerlimits.com/
+- name: Safe Access
+  platform:
+  - windows
+  url: http://www.safeaccess.com/
+- name: Safe Browser
+- name: Safe Chat
+  features:
+  - dead
+- name: Safe Eyes
+  audience:
+  - parent
+  - addict
+  - general
+  cost: $50 for 3 computers
+  description: Safe Eyes is a full-featured content filter focused on the family.  Here
+    is a <a href="http://www.internetsafety.com/internet-safety-product-videos.php">tune-tastic
+    video that demonstrates the product</a>.
+  features:
+  - filtering
+  - monitoring
+  - operatingsystem
+  - timer
+  icon: http://www.internetsafety.com/graphics/se/SE_RGB_Logo.jpg
+  platform:
+  - macosx
+  - windows
+  url: http://www.internetsafety.com/safe-eyes-parental-control-software.php
+- name: Safe Families We-Blocker 2.1
+  features:
+  - dead
+  url: http://www.safefamilies.org/download.php
+- name: SafeDNS
+  audience:
+  - parent
+  - overlord
+  cost: $20/year
+  features:
+  - filtering
+  platform:
+  - network
+  url: https://www.safedns.com/
+- name: SafeSquid
+  audience:
+  - overlord
+  cost: $10/user/year or $5/CPU hour
+  description: Designed for organizations, the minimum system requires for SafeSquid
+    are 2GB of ram and 2 CPU cores.
+  features:
+  - gateway
+  platform:
+  - linux
+  - macosx
+  - windows
+  url: http://www.safesquid.com/
+- name: Scieno Sitter
+  audience:
+  - overlord
+  description: Perfect for the scientologist overlord.  Merely amusing for all others.
+  features:
+  - dead
+- name: Secure Web SmartFilter EDU
+  features:
+  - dead
+- name: Security Shield
+- name: SelfControl for Linux
+  audience:
+  - general
+  description: The purpose of the program is to block access to certain web sites
+    (Blacklist) for a period of time with no easy way to unblock access.  It was last
+    updated in 2010.
+  features:
+  - abandoned
+  - filtering
+  - iptables
+  - opensource
+  - operatingsystem
+  - timer
+  platform:
+  - linux
+  url: http://svn.jklmnop.net/projects/SelfControl.html
+- name: SelfControl for Mac
+  audience:
+  - general
+  description: SelfControl is an open source project, the purpose of which is to allow
+    the user to block access to websites (or mail servers) for a predetermined period
+    of time.
+  features:
+  - filtering
+  - iptables
+  - opensource
+  - operatingsystem
+  - timer
+  icon: http://selfcontrolapp.com/img/logo.png
+  platform:
+  - macosx
+  url: http://selfcontrolapp.com/
+- name: SelfRestraint
+  audience:
+  - general
+  description: SelfRestraint is a cross platform application which blocks access to
+    websites for a predetermined period of time.  It was inspired by SelfControl.
+  features:
+  - filtering
+  - iptables
+  - operatingsystem
+  - timer
+  platform:
+  - linux
+  - windows
+  url: https://github.com/ParkerK/selfrestraint/
+- name: Silent Block
+  audience:
+  - general
+  description: Silent Block is a Firefox addon that uses url regular expression to
+    whitelist or blacklist sites.
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/silentblock/
+- name: Smobile Sentry
+  audience:
+  - parent
+  features:
+  - monitoring
+  platform:
+  - android
+  - ios
+  url: http://mobilesentry.net/
+- name: SniperSpy
+  features:
+  - monitoring
+  - spying
+  platform:
+  - macosx
+  - windows
+  url: http://www.sniperspy.com/
+- name: Spector 360
+  audience:
+  - overlord
+  cost: $100
+  description: Used for spying on employees.
+  features:
+  - monitoring
+  - operatingsystem
+  - spying
+  platform:
+  - android
+  - macosx
+  - windows
+  url: http://www.spectorsoft.com
+- name: SPIN Safe Browser
+  features:
+  - filtering
+  platform:
+  - android
+- name: SpyAgent
+  features:
+  - monitoring
+  - spying
+  platform:
+  - windows
+  url: http://www.spytech-web.com/
+- name: Spysure
+  audience:
+  - parent
+  cost: $49
+  features:
+  - filtering
+  - monitoring
+  - screenshots
+  - spying
+  url: http://www.kjbsecurity.com/products/detail/spysure-parental-control-software/383/
+- name: SquidGuard
+  audience:
+  - parent
+  - general
+  - overlord
+  cost: free
+  description: A URL redirector that supports large blacklists.  Has seen very little
+    modification in recent years.
+  features:
+  - abandoned
+  - biglist
+  - gateway
+  platform:
+  - linux
+  - macosx
+  - windows
+  url: http://www.squidguard.org/
+- name: StayFocused
+  audience:
+  - general
+  description: StayFocused is a Chrome plugin that can block "time wasting" websites.  It
+    only works in Chrome.
+  features:
+  - filtering
+  - timer
+  platform:
+  - browser
+  url: https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji
+- name: Stop P-O-R-N
+  cost: $40
+  features:
+  - accountability
+  - filtering
+  - hide
+  - monitoring
+  - timer
+  platform:
+  - windows
+  url: http://www.pbsoftware.org/id22.html
+- name: Stop-it
+  cost: free or donate
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/stop-it/
+- name: Surfgarten
+- name: SurfontheSafeside.com (SOS)
+  features:
+  - dead
+- name: SurfPass
+  audience:
+  - overlord
+  url: http://www.cogilab.com/en/default/
+- name: SurfWatch
+  features:
+  - dead
+  - historic
+- name: SurfWatch
+- name: SurveilStar
+  audience:
+  - overlord
+  url: http://www.surveilstar.com/
+- name: Telekom Kinderschutz Software
+- name: Temptation Blocker
+  features:
+  - dead
+  - junk
+  platform:
+  - windows
+  url: http://sourceforge.net/projects/temptblocker/
+- name: TFK Internetfilter Plus
+- name: the Web Blocker
+  features:
+  - filtering
+  - monitoring
+  platform:
+  - windows
+  url: http://www.thewebblocker.com/
+- name: thejnet
+  features:
+  - hide
+  - isp
+- name: Trend Micro
+  features:
+  - antivirus
+  url: http://www.trendmicro.com/us/indexnight.html
+- name: Trend Micro Kids Safety - PS3
+- name: Trend Micro Mobile Security
+- name: Trend Micro Online Guardian
+- name: Trustwave SecureBrowsing
+  cost: free
+  platform:
+  - browser
+  url: https://www.trustwave.com/Products/SecureBrowsing/
+- name: Trustwave Web Filtering
+  audience:
+  - overlord
+  url: https://www.trustwave.com/Products/Content-Security/Web-Filtering/
+- name: uBlock
+  audience:
+  - general
+  cost: free
+  features:
+  - biglist
+  - filtering
+  platform:
+  - browser
+  url: https://github.com/gorhill/uBlock
+- name: UserGate
+  audience:
+  - overlord
+  description: Provides an easy way to comply with the Children's Internet Proetection
+    Act (CIPA)
+  features:
+  - filtering
+  platform:
+  - network
+- name: Venishmartem Cloud Filter (VCF) Pro
+  cost: $13/month
+  url: http://venishmartem.com/vcf
+- name: Verity
+  audience:
+  - parent
+  cost: $70
+  features:
+  - screenshots
+  platform:
+  - windows
+  url: http://www.nchsoftware.com/childmonitoring/
+- name: Vise
+- name: Vocatech
+  features:
+  - hide
+  - isp
+  - network
+- name: WanSecure
+  audience:
+  - overlord
+  platform:
+  - network
+  url: http://www.wanbound.com/
+- name: Web Filter (from Lightspeed Systems)
+  audience:
+  - overlord
+  features:
+  - filtering
+  url: http://www.lightspeedsystems.com/resources/web-filtering/
+- name: Web Patrol
+  audience:
+  - parent
+  cost: $30
+  features:
+  - filtering
+  - monitoring
+  - screenshots
+  - spying
+  - timer
+  platform:
+  - windows
+  url: http://www.webwatcher.com/
+- name: Web Safety for Squid Proxy (qlproxy)
+  cost: 25 Euro per year
+  description: Like DansGuardian, but also works with https.  The project will target
+    the Raspberry PI as an installation platform.
+  features:
+  - gateway
+  - icap
+  - network
+  platform:
+  - linux
+  - macosx
+  - windows
+  url: http://quintolabs.com/
+- name: WebBlock
+  features:
+  - filtering
+  platform:
+  - windows
+  url: http://www.content-filter-software.com/
+- name: WebChaver
+  cost: $5 - $7/month
+  features:
+  - filtering
+  - monitoring
+  - timer
+  url: http://www.webchaver.com/
+- name: WebCleaner
+  audience:
+  - general
+  - parent
+  cost: free
+  description: A proxy-based project that appears to be abandoned.  It was last updated
+    in 2010.
+  features:
+  - abandoned
+  - opensource
+  - proxy
+  platform:
+  - linux
+  - macosx
+  - windows
+  url: http://webcleaner.sourceforge.net/
+- name: Webconverger
+  audience:
+  - general
+  features:
+  - opensource
+  platform:
+  - linux
+  url: https://webconverger.com/
+- name: WebFilter Pro
+  platform:
+  - browser
+  url: https://addons.mozilla.org/en-US/firefox/addon/webfilter/
+- name: WebMinder
+  audience:
+  - overlord
+  features:
+  - dead
+- name: Webroot
+  features:
+  - antivirus
+  url: http://www.webroot.com/us/en/
+- name: WebSafety
+  audience:
+  - parent
+  cost: free
+  features:
+  - monitoring
+  platform:
+  - android
+  - ios
+  url: https://www.websafety.com/
+- name: Websense
+  url: http://www.websense.com/content/Home.aspx
+- name: Website Blocker (Beta)
+  platform:
+  - browser
+  - chrome
+  url: https://chrome.google.com/webstore/detail/website-blocker-beta/hclgegipaehbigmbhdpfapmjadbaldib
+- name: WebTitan
+  audience:
+  - overlord
+  cost: $850/50 users/year
+  features:
+  - filtering
+  - monitoring
+  url: http://www.titanhq.com/webtitan
+- name: WebWatcher
+  features:
+  - monitoring
+  - spying
+  platform:
+  - windows
+  url: http://www.webwatcher.com/
+- name: Whitenet
+- name: Windows Family Safety
+  cost: free
+  platform:
+  - windows
+  url: http://familysafety.microsoft.com/
+- name: WOT
+  audience:
+  - general
+  cost: free
+  description: WOT is a browser plugin that displays a trust-level icon next to sites,
+    based on input from users from around the world.  It works in Firefox, Chrome,
+    Internet Explorer, and Opera.
+  features:
+  - biglist
+  - filtering
+  platform:
+  - browser
+  url: https://www.mywot.com/
+- name: X3watch
+  audience:
+  - addict
+  - parent
+  cost: free to $7/month
+  description: The free version of x3watch is an accountability-based monitoring software
+    package.  The user provides the email address of a buddy who will be emailed reports
+    summarizing the browsing history of the user.  The paid version offers filtering
+    as well as monitoring.
+  features:
+  - accountability
+  - filtering
+  - monitoring
+  - operatingsystem
+  icon: http://x3watch.com/wp-content/themes/x3watch/images/x3NewLogo.png
+  platform:
+  - android
+  - ios
+  - macosx
+  - windows
+  url: http://x3watch.com/
+- name: Xbox 360
+- name: Xooloo
+- name: Zone Alarm Security Suite
+- name: ZoneAlarm
+  audience:
+  - parent
+  features:
+  - antivirus
+  platform:
+  - windows
+  url: http://www.zonealarm.com
+- name: Zscaler
+  audience:
+  - overlord
+  platform:
+  - network
+  url: https://www.zscaler.com/
