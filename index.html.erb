@@ -9,6 +9,15 @@ filters.select! { |x| x["url"] }
 filters.reject! { |x| x["aliasfor"] }
 filters.reject! { |x| x["audience"] && x["audience"].include?("developer") }
 filters.reject! { |x| x["features"] && (x["features"] & toxic_features).any? }
+filters.sort! { |a,b|
+  if a["icon"] && !b["icon"]
+    -1
+  elsif b["icon"] && !a["icon"]
+    1
+  else
+    a["name"] <=> b["name"]
+  end
+}
 -%>
   <head>
     <title>List of Internet Filters | Pluckeye</title>
