@@ -4,4 +4,8 @@
     <loc>http://filters.pluckeye.net/</loc>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://filters.pluckeye.net/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
