@@ -18,6 +18,12 @@ filters.sort! { |a,b|
     a["name"] <=> b["name"]
   end
 }
+filters.each do |x|
+   basename = "iconcache/#{x['name'].gsub(/\s+/, '-')}"
+   Dir.glob("#{basename}.*") do |i|
+     x["icon"] = i
+   end
+end
 -%>
   <head>
     <title>List of Internet Filters | Pluckeye</title>
