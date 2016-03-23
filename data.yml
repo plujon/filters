@@ -26,7 +26,7 @@
   audience:
   - overlord
   - parent
-  cost: $99
+  cost: "$99"
   description: Activity Forensics is primarily spying software that logs computer
     use including keystrokes, screenshots, Internet activity, and other data.  It
     offers rudimentary filtering.
@@ -59,7 +59,7 @@
   - parent
   - addict
   - general
-  cost: $50 (free trial)
+  cost: "$50 (free trial)"
   features:
   - filtering
   - monitoring
@@ -83,7 +83,7 @@
   - windows
   url: http://www.avg.com/us-en/avg-family-safety
 - name: BitDefender Internet Security
-  cost: $70
+  cost: "$70"
   features:
   - antivirus
   platform:
@@ -109,7 +109,7 @@
   - parent
   - general
   - overlord
-  cost: $60 upfront + $30/year after 2 free years
+  cost: "$60 upfront + $30/year after 2 free years"
   description: The Blocksi router is a physical device intended to be installed as
     the network router at home for families.
   features:
@@ -122,7 +122,7 @@
   - network
   url: http://www.blocksi.net/parental-control.php
 - name: Boomerang Parental Control
-  cost: $12/year
+  cost: "$12/year"
   features:
   - filtering
   platform:
@@ -131,7 +131,7 @@
 - name: BrowseControl
   audience:
   - overlord
-  cost: $80
+  cost: "$80"
   features:
   - filtering
   - free trial
@@ -177,7 +177,7 @@
 - name: Child Control
   audience:
   - parent
-  cost: $30
+  cost: "$30"
   features:
   - filtering
   - monitoring
@@ -191,7 +191,7 @@
 - name: clearOS
   audience:
   - overlord
-  cost: $108/year to $588/year
+  cost: "$108/year to $588/year"
   description: Aimed at businesses, governments, and schools, ClearOS is designed
     to be installed on a router.  clearOS sells switches with ClearOS installed and
     calls them "appliances".  It is very similar to DansGuardian.
@@ -201,7 +201,7 @@
   - more
   - network
   platform:
-  - linux
+  - network
   url: http://www.clearcenter.com/
 - name: Cold Turkey
   audience:
@@ -230,14 +230,14 @@
   - timer
   url: http://www.softwaretime.com/computertime/
 - name: Content Cleaner
-  cost: $20
+  cost: "$20"
   features:
   - pixelation
   url: http://www.contentpurity.com/
 - name: Content Protect Pro
   audience:
   - overlord
-  cost: $40
+  cost: "$40"
   features:
   - filtering
   platform:
@@ -260,7 +260,7 @@
 - name: ContentProtect
   audience:
   - overlord
-  cost: $40/year
+  cost: "$40/year"
   description: ContentProtect is Net Nanny for businesses.
   platform:
   - android
@@ -270,7 +270,7 @@
   - addict
   - parent
   - general
-  cost: $9/month to $13/month
+  cost: "$9/month to $13/month"
   description: CovenantEyes has an beautiful website and probably an awesome product.  It
     seems to target porn addicts and concerned parents with roughly equal emphasis.
   features:
@@ -290,7 +290,7 @@
   audience:
   - overlord
   - parent
-  cost: $40/year
+  cost: "$40/year"
   features:
   - filtering
   - games
@@ -313,18 +313,17 @@
   - overlord
   - parent
   - general
-  cost: $80 for Simple DNS + $39/year
-  description: Designed to be used with the Simple DNS Plus DNS server, it is similar
-    in approach to OpenDns and NX Filter.
+  cost: "$80 for Simple DNS + $39/year"
+  description: Designed to be used with the Simple DNS Plus (a DNS server), it is
+    similar in approach to OpenDns and NX Filter.  The 5 CYBERsitter lists are adult,
+    malicious, k12, k12fun, and social networking.
   features:
   - biglist
   - filtering
   - gateway
   - monitoring
   platform:
-  - linux
-  - macosx
-  - windows
+  - network
   url: http://www.cybersitterlists.com/
 - name: Cyclope-Series
   audience:
@@ -334,19 +333,22 @@
   audience:
   - overlord
   cost: free
-  description: Unlike most filters listed here, DansGuardian is designed for installation
-    as a proxy. It seems to be targeted primarily toward filtering internet content
-    for organizations such as schools.  A guide to setting it up for personal use
-    can be found <a href="http://www.zephyrsoft.org/files/linux-filtering-monitoring-howto.pdf">here</a>.
+  description: DansGuardian is a content filtering proxy that works in conjunction
+    with another caching proxy such as Squid or Oops. It seems to be targeted primarily
+    toward filtering internet content for organizations such as schools.  A guide
+    to setting it up for personal use can be found <a href="http://www.zephyrsoft.org/files/linux-filtering-monitoring-howto.pdf">here</a>.
   features:
   - filtering
   - gateway
   - more
-  - network
+  - proxy
+  - ratings
+  - smarts
   icon: http://dansguardian.org/images/left.jpg
   platform:
   - linux
   - macosx
+  - network
   url: http://dansguardian.org/
 - name: Davide
 - name: Distractus
@@ -361,7 +363,7 @@
   - overlord
   - general
   - addict
-  cost: $8/month
+  cost: "$8/month"
   description: DNSthingy is for Canadians, users of Clear OS, or those willing to
     flash their home router.
   platform:
@@ -393,7 +395,7 @@
 - name: Familyloop Safeguard
   audience:
   - parent
-  cost: $5/month for 3 devices
+  cost: "$5/month for 3 devices"
   features:
   - filtering
   - monitoring
@@ -521,11 +523,12 @@
   - monitoring
   url: http://www.handyfilter.com/
 - name: HostsBlock
+  cost: free to $5
   platform:
-  - linux
   - windows
   url: http://www.wilderssecurity.com/threads/hosts-block.378901/
 - name: HostsMan
+  cost: free
   platform:
   - windows
   url: http://www.abelhadigital.com/hostsman
@@ -577,7 +580,7 @@
   audience:
   - parent
   - addict
-  cost: $25
+  cost: "$25"
   features:
   - accountability
   - filtering
@@ -692,7 +695,7 @@
 - name: Mac OS X Parental Controls
   audience:
   - parent
-  description: ! 'Mac OS X Parental Controls can operate in three modes: unrestricted,
+  description: 'Mac OS X Parental Controls can operate in three modes: unrestricted,
     automatic, and whitelist.'
   features:
   - filtering
@@ -723,7 +726,7 @@
   url: http://www.gomcgruff.com/
 - name: Meine Startseite.de
 - name: Meshimer
-  cost: $5-$15/month
+  cost: "$5-$15/month"
   description: ''
   features:
   - pixelation
@@ -775,7 +778,7 @@
   - android
   url: http://mobileminder.com/
 - name: ModemLockDown
-  cost: $10
+  cost: "$10"
   platform:
   - windows
   url: http://www.modemlockdown.com/
@@ -794,7 +797,7 @@
 - name: Net Nanny
   audience:
   - parent
-  cost: $13 to $40/year
+  cost: "$13 to $40/year"
   features:
   - accountability
   - biglist
@@ -814,7 +817,7 @@
 - name: NetDefend
   url: http://security.dlink.com.tw/netdefend_wcf.asp
 - name: NetDog Porn Filter
-  cost: $25
+  cost: "$25"
   platform:
   - windows
   url: http://www.netdogsoft.com/
@@ -850,7 +853,7 @@
   audience:
   - overlord
   - parent
-  cost: $75/month
+  cost: "$75/month"
   platform:
   - network
   url: http://www.netsentron.com/
@@ -893,9 +896,7 @@
   - filtering
   - monitoring
   platform:
-  - linux
-  - macosx
-  - windows
+  - network
   url: http://www.nxfilter.org/
 - name: opendium
   audience:
@@ -921,7 +922,7 @@
   audience:
   - parent
   - addict
-  cost: $40
+  cost: "$40"
   features:
   - filtering
   - monitoring
@@ -950,7 +951,7 @@
 - name: PeanutButterPC
   audience:
   - parent
-  cost: $25
+  cost: "$25"
   platform:
   - windows
   url: http://www.peanutbuttersoftware.com/
@@ -1023,6 +1024,7 @@
   - junk
 - name: Privoxy
   audience:
+  - hermit
   - general
   - parent
   cost: free
@@ -1033,6 +1035,7 @@
   platform:
   - linux
   - macosx
+  - network
   - windows
   url: http://www.privoxy.org/
 - name: ProblemPoker
@@ -1116,11 +1119,12 @@
   - parent
   - addict
   - general
-  cost: $50 for 3 computers
+  cost: "$50 for 3 computers"
   description: Safe Eyes is a full-featured content filter focused on the family.  Here
     is a <a href="http://www.internetsafety.com/internet-safety-product-videos.php">tune-tastic
     video that demonstrates the product</a>.
   features:
+  - ailing
   - filtering
   - monitoring
   - operatingsystem
@@ -1138,7 +1142,7 @@
   audience:
   - parent
   - overlord
-  cost: $20/year
+  cost: "$20/year"
   features:
   - filtering
   platform:
@@ -1147,15 +1151,13 @@
 - name: SafeSquid
   audience:
   - overlord
-  cost: $10/user/year or $5/CPU hour
+  cost: "$10/user/year or $5/CPU hour"
   description: Designed for organizations, the minimum system requires for SafeSquid
     are 2GB of ram and 2 CPU cores.
   features:
   - gateway
   platform:
-  - linux
-  - macosx
-  - windows
+  - network
   url: http://www.safesquid.com/
 - name: Scieno Sitter
   audience:
@@ -1211,6 +1213,7 @@
   - timer
   platform:
   - linux
+  - macosx
   - windows
   url: https://github.com/ParkerK/selfrestraint/
 - name: Silent Block
@@ -1241,7 +1244,7 @@
 - name: Spector 360
   audience:
   - overlord
-  cost: $100
+  cost: "$100"
   description: Used for spying on employees.
   features:
   - monitoring
@@ -1267,7 +1270,7 @@
 - name: Spysure
   audience:
   - parent
-  cost: $49
+  cost: "$49"
   features:
   - filtering
   - monitoring
@@ -1280,16 +1283,15 @@
   - general
   - overlord
   cost: free
-  description: A URL redirector that supports large blacklists.  Has seen very little
-    modification in recent years.
+  description: A URL redirector that can be used with the Squid proxy and that supports
+    large blacklists (altough DansGuardian claims to be significantly faster).  It
+    has seen very little modification in recent years.
   features:
   - abandoned
   - biglist
   - gateway
   platform:
-  - linux
-  - macosx
-  - windows
+  - network
   url: http://www.squidguard.org/
 - name: StayFocused
   audience:
@@ -1303,7 +1305,7 @@
   - browser
   url: https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji
 - name: Stop P-O-R-N
-  cost: $40
+  cost: "$40"
   features:
   - accountability
   - filtering
@@ -1391,12 +1393,12 @@
   platform:
   - network
 - name: Venishmartem Cloud Filter (VCF) Pro
-  cost: $13/month
+  cost: "$13/month"
   url: http://venishmartem.com/vcf
 - name: Verity
   audience:
   - parent
-  cost: $70
+  cost: "$70"
   features:
   - screenshots
   platform:
@@ -1423,7 +1425,7 @@
 - name: Web Patrol
   audience:
   - parent
-  cost: $30
+  cost: "$30"
   features:
   - filtering
   - monitoring
@@ -1453,7 +1455,7 @@
   - windows
   url: http://www.content-filter-software.com/
 - name: WebChaver
-  cost: $5 - $7/month
+  cost: "$5 - $7/month"
   features:
   - filtering
   - monitoring
@@ -1473,11 +1475,15 @@
   platform:
   - linux
   - macosx
+  - network
   - windows
   url: http://webcleaner.sourceforge.net/
 - name: Webconverger
   audience:
+  - overlord
   - general
+  description: Lock your computer to a Web application.  Converts an ordinary computer
+    to a kiosk.
   features:
   - opensource
   platform:
@@ -1516,7 +1522,7 @@
 - name: WebTitan
   audience:
   - overlord
-  cost: $850/50 users/year
+  cost: "$850/50 users/year"
   features:
   - filtering
   - monitoring
