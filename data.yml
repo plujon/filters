@@ -22,21 +22,6 @@
   - linux
   - windows
   url: http://www.accountabilitypal.org/
-- name: Activity Forensics
-  audience:
-  - overlord
-  - parent
-  cost: "$99"
-  description: Activity Forensics is primarily spying software that logs computer
-    use including keystrokes, screenshots, Internet activity, and other data.  It
-    offers rudimentary filtering.
-  features:
-  - filtering
-  - monitoring
-  - spying
-  platform:
-  - windows
-  url: http://activityforensics.com/
 - name: Adblock Plus
   platform:
   - browser
@@ -522,6 +507,21 @@
   - filtering
   - monitoring
   url: http://www.handyfilter.com/
+- name: HomeGuard
+  audience:
+  - overlord
+  - parent
+  cost: "$39-$49"
+  description: Activity Forensics is primarily spying software that logs computer
+    use including keystrokes, screenshots, Internet activity, and other data.  It
+    offers rudimentary filtering.
+  features:
+  - filtering
+  - monitoring
+  - spying
+  platform:
+  - windows
+  url: http://veridium.net/
 - name: HostsBlock
   cost: free to $5
   platform:
