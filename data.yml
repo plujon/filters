@@ -22,6 +22,21 @@
   - linux
   - windows
   url: http://www.accountabilitypal.org/
+- name: accountable2you
+  audience:
+  - addict
+  cost: "$5/month"
+  features:
+  - accountability
+  - monitoring
+  - timer
+  platform:
+  - android
+  - ios
+  - linux
+  - macosx
+  - windows
+  url: https://www.accountable2you.com/
 - name: Adblock Plus
   platform:
   - browser
@@ -1047,6 +1062,15 @@
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/procon-latte/
 - name: Profil Parental Filter 2
+- name: Protectr
+  audience:
+  - parents
+  features:
+  - filtering
+  - monitoring
+  platform:
+  - android
+  url: http://www.r3app.com/protectr
 - name: Public Fox
   platform:
   - browser
@@ -1383,6 +1407,17 @@
   platform:
   - browser
   url: https://github.com/gorhill/uBlock
+- name: URLFilterService
+  cost: free
+  description: URLFilterService works with Internet Explorer and Microsoft Edge.  It
+    categorizes sites using Shalla Secure Service and Université Toulouse 1 Capitole
+    url listings.  The installation video shows that one must disable default Windows
+    security in order to install it, and the FAQ says, "Use it at your own risk."  Indeed.
+  features:
+  - filtering
+  platform:
+  - windows
+  url: http://www.urlfilterservice.net/
 - name: UserGate
   audience:
   - overlord
