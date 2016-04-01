@@ -394,6 +394,14 @@
   features:
   - antivirus
   url: http://www.eset.com/
+- name: everACCOUNTABLE
+  cost: "$7/month"
+  features:
+  - monitoring
+  platform:
+  - android
+  - windows
+  url: http://www.everaccountable.com/
 - name: Familyloop Safeguard
   audience:
   - parent
