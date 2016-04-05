@@ -1140,6 +1140,21 @@
   platform:
   - network
   url: https://routerlimits.com/
+- name: R|Tribe
+  audience:
+  - addict
+  cost: free to $6/month
+  description: R|Tribe is an app for mobile devices that attempts to assist users
+    in "interrupting the addiction cycle."  Through in-app connections to friends
+    (i.e., reports), and self-tracking of recovery, the user gains knowledge about
+    their own addiction cycle and is assisted in finding ways to break it.
+  features:
+  - accountability
+  - monitoring
+  platform:
+  - android
+  - ios
+  url: http://www.rtribe.org/
 - name: Safe Access
   platform:
   - windows
