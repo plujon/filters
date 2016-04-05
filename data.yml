@@ -1082,10 +1082,6 @@
   - android
   url: http://www.r3app.com/protectr
 - name: Public Fox
-  platform:
-  - browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/public-fox/
-- name: Public Fox
   cost: free but prompts user to install AdBeaver adware
   description: Public Fox can block downloads, prevent browser changes, lock down
     addons, bookmarks, and more, block unwanted web sites.
