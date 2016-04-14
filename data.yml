@@ -1351,6 +1351,7 @@
   url: http://www.squidguard.org/
 - name: StayFocused
   audience:
+  - slacker
   - general
   description: StayFocused is a Chrome plugin that can block "time wasting" websites.  It
     only works in Chrome.
