@@ -445,6 +445,17 @@
 - name: FinFisher
   audience:
   - overlord
+- name: Focus
+  audience:
+  - slacker
+  - general
+  cost: "$20"
+  features:
+  - productivity
+  - timer
+  platform:
+  - macosx
+  url: https://heyfocus.com/
 - name: Fortify
   audience:
   - addict
