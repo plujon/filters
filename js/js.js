@@ -13,10 +13,15 @@ $(document).ready(
       // ?os=windows|macosx|linux|browser|network
       // ?platform=windows|macosx|linux|browser|network
       // ?audience=addict|parent
+      // ?feature=timer+monitoring
       var platforms = [ "browser", "linux", "macosx", "network", "windows" ];
       var audiences = [];
+      var features = [];
       $("#Audience_legend dt").each(function(){
         audiences.push($(this).text());
+      });
+      $("#feature_legend dt").each(function(){
+        features.push($(this).text());
       });
       var ary = window.location.search.substr(1).split("&");
       for (var i = 0; i < ary.length; ++i) {
@@ -26,6 +31,7 @@ $(document).ready(
         case "os":       if (arrayIncludes(platforms, x)) search.push(x); break;
         case "platform": if (arrayIncludes(platforms, x)) search.push(x); break;
         case "audience": if (arrayIncludes(audiences, x)) search.push(x); break;
+        case "feature":  if (arrayIncludes(features, x))  search.push(x); break;
         }
       }
     }
