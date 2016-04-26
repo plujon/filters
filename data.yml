@@ -216,7 +216,6 @@
   features:
   - dns
   - filtering
-  - operatingsystem
   - timer
   platform:
   - windows
@@ -279,7 +278,6 @@
   - accountability
   - filtering
   - monitoring
-  - operatingsystem
   - timer
   icon: http://pbs.twimg.com/profile_images/468823054357757953/jY1TV1Uu_400x400.png
   platform:
@@ -596,6 +594,9 @@
   - windows
   url: http://imview.com/
 - name: iNet Safety Bubble (Mobile)
+- name: iNetClean
+  cost: free to $10/year
+  url: https://inetclean.com/
 - name: Integard
   features:
   - dead
@@ -643,7 +644,6 @@
   - countermeasures
   - filtering
   - monitoring
-  - operatingsystem
   - timer
   icon: http://www1.k9webprotection.com/sites/default/files/k9_logo.png
   platform:
@@ -839,7 +839,6 @@
   - biglist
   - filtering
   - monitoring
-  - operatingsystem
   - social
   - timer
   platform:
@@ -879,7 +878,6 @@
   - accountability
   - monitoring
   - opensource
-  - operatingsystem
   icon: http://www.netresponsibility.com/img/soap2.png
   platform:
   - linux
@@ -911,7 +909,6 @@
   features:
   - accountability
   - monitoring
-  - operatingsystem
   icon: http://safeweb.norton.com/images/global/norton-icon.png
   platform:
   - android
@@ -1037,7 +1034,6 @@
   - mimetypes
   - monitoring
   - opensource-contrib
-  - operatingsystem
   - timer
   icon: http://www.pluckeye.net/p64.svg
   platform:
@@ -1079,8 +1075,23 @@
   - addict
   url: http://www.problempoker.com/
 - name: ProCon Latte Content Filter
+  audience:
+  - parent
+  - general
+  - addict
+  description: A Firefox extension, the ProCon Latte Content Filter blocks (usually
+    containing pornography) based on simple keyword lists.  It supports password protection,
+    and it can be configured to only allow whitelisted sites.
+  features:
+  - filtering
+  - keyword
+  - opensource
+  - password
+  - profanity
+  icon: https://addons.cdn.mozilla.net/user-media/addon_icons/1/1803-64.png?modified=1455250182
   platform:
   - browser
+  - firefox
   url: https://addons.mozilla.org/en-US/firefox/addon/procon-latte/
 - name: Profil Parental Filter 2
 - name: Protectr
@@ -1121,12 +1132,12 @@
   cost: free or $45/year
   description: Qustodio appears to be a complete filtering/monitoring package.  Aimed
     primarily at parents and schools, it boasts that its "smart internet filters scans
-    web content in real time".  There are some rumors it slows down the Internet experience.
+    web content in real time".  There are some rumors it hampers the Internet experience
+    of folks who have slow Internet connections.
   features:
   - filtering
   - location tracking
   - monitoring
-  - operatingsystem
   - smarts
   - spying
   - timer
@@ -1183,7 +1194,6 @@
   - ailing
   - filtering
   - monitoring
-  - operatingsystem
   - timer
   icon: http://www.internetsafety.com/graphics/se/SE_RGB_Logo.jpg
   platform:
@@ -1236,7 +1246,6 @@
   - filtering
   - iptables
   - opensource
-  - operatingsystem
   - timer
   platform:
   - linux
@@ -1251,7 +1260,6 @@
   - filtering
   - iptables
   - opensource
-  - operatingsystem
   - timer
   icon: http://selfcontrolapp.com/img/logo.png
   platform:
@@ -1265,7 +1273,6 @@
   features:
   - filtering
   - iptables
-  - operatingsystem
   - timer
   platform:
   - linux
@@ -1304,7 +1311,6 @@
   description: Used for spying on employees.
   features:
   - monitoring
-  - operatingsystem
   - spying
   platform:
   - android
@@ -1414,6 +1420,10 @@
   features:
   - hide
   - isp
+- name: tinyFilter
+  platform:
+  - browser
+  - chrome
 - name: Trend Micro
   features:
   - antivirus
@@ -1634,7 +1644,6 @@
   - accountability
   - filtering
   - monitoring
-  - operatingsystem
   icon: http://x3watch.com/wp-content/themes/x3watch/images/x3NewLogo.png
   platform:
   - android
