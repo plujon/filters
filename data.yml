@@ -92,12 +92,12 @@
   platform:
   - windows
   url: http://www.bitdefender.com/solutions/internet-security.html
-- name: Blocksi
+- name: Block.si
   audience:
   - parent
   - general
   - overlord
-  description: Blocksi is a Firefox and Chrome extension that blocks content according
+  description: Block.si is a Firefox and Chrome extension that blocks content according
     to categories that are controlled by the end-user, parent, or overlord depending
     on the device.
   features:
