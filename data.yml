@@ -40,6 +40,18 @@
   - macosx
   - windows
   url: https://www.accountable2you.com/
+- name: ActivTrak
+  audience:
+  - overlord
+  cost: free to $336 / month / 5 users
+  features:
+  - filtering
+  - monitoring
+  - screenshots
+  platform:
+  - macosx
+  - windows
+  url: http://activtrak.com/
 - name: Adblock Plus
   platform:
   - browser
