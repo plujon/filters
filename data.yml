@@ -986,6 +986,23 @@
   platform:
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/metacert/
+- name: Parenteeno
+  audience:
+  - parent
+  cost: "$25/year"
+  description: Parenteeno monitors what the user (i.e., child) does on the target
+    device and sends the data to the Parenteeno servers where reports are prepared
+    for parental review.  The product is created by 2 dads in Dublin and the product
+    page says it is all about protecting children from "cyberbullying, sexting, predators
+    and other menace."
+  features:
+  - monitoring
+  - screenshots
+  - social
+  platform:
+  - android
+  - windows
+  url: http://www.parenteeno.com/
 - name: PC Pandora
   audience:
   - parent
@@ -1108,7 +1125,7 @@
 - name: Profil Parental Filter 2
 - name: Protectr
   audience:
-  - parents
+  - parent
   features:
   - filtering
   - monitoring
