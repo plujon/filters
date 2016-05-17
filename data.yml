@@ -200,6 +200,16 @@
   platform:
   - windows
   url: http://salfeld.com/software/parentalcontrol/index.html
+- name: Clean Internet
+  audience:
+  - parent
+  - general
+  - addict
+  cost: "$3-$5/month"
+  platform:
+  - android
+  - windows
+  url: http://www.cleaninter.net/
 - name: Cleanfeed
   audience:
   - overlord
@@ -284,8 +294,9 @@
   - parent
   - general
   cost: "$9/month to $13/month"
-  description: CovenantEyes has an beautiful website and probably an awesome product.  It
-    seems to target porn addicts and concerned parents with roughly equal emphasis.
+  description: CovenantEyes has a beautiful website with a lot of articles about pornography.  The
+    site seems to target porn addicts and concerned parents with roughly equal emphasis.  The
+    focus (and strength) of the software is accountability rather than filtering.
   features:
   - accountability
   - filtering
@@ -298,6 +309,10 @@
   - macosx
   - windows
   url: http://www.covenanteyes.com/
+- name: CustomBlocker
+  description: CustomBlocker filters any element on any web site with any conditionwith
+    XPath and RegExp.
+  url: https://chrome.google.com/webstore/detail/elnfhbjabfcepfnaeoehffgmifcfjlha
 - name: CyberPatrol Parental Controls
   audience:
   - overlord
@@ -564,6 +579,7 @@
   features:
   - filtering
   - monitoring
+  - screenshots
   - spying
   platform:
   - windows
@@ -608,6 +624,9 @@
 - name: iNet Safety Bubble (Mobile)
 - name: iNetClean
   cost: free to $10/year
+  features:
+  - harvester
+  - scuzzy
   url: https://inetclean.com/
 - name: Integard
   features:
@@ -996,13 +1015,30 @@
     page says it is all about protecting children from "cyberbullying, sexting, predators
     and other menace."
   features:
+  - keystrokes
   - monitoring
   - screenshots
   - social
+  - spying
   platform:
   - android
   - windows
   url: http://www.parenteeno.com/
+- name: Partner Guard
+  audience:
+  - spouse
+  - addict
+  - parent
+  cost: "$60/year"
+  features:
+  - filtering
+  - monitoring
+  - screenshots
+  - scuzzy
+  - spying
+  platform:
+  - windows
+  url: http://www.partnerguard.com/
 - name: PC Pandora
   audience:
   - parent
