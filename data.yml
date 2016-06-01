@@ -1143,6 +1143,12 @@
   platform:
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/policeman/
+- name: Porn Blocker
+  platform:
+  - ios
+  - macosx
+  - safari
+  url: http://www.pornblocker-app.com/
 - name: Porn Terminator
   features:
   - junk
