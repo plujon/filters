@@ -53,6 +53,8 @@
   - windows
   url: http://activtrak.com/
 - name: Adblock Plus
+  audience:
+  - antiad
   platform:
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
@@ -1538,7 +1540,7 @@
   url: https://www.trustwave.com/Products/Content-Security/Web-Filtering/
 - name: uBlock
   audience:
-  - adavoider
+  - antiad
   - general
   cost: free
   features:
