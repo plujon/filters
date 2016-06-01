@@ -97,6 +97,7 @@
   platform:
   - windows
   url: http://www.avg.com/us-en/avg-family-safety
+- name: baconreader
 - name: BitDefender Internet Security
   cost: "$70"
   features:
@@ -231,6 +232,7 @@
 - name: Cold Turkey
   audience:
   - addicts
+  - slacker
   cost: free to $19
   description: Cold Turkey is a relatively simple opensource filter designed to support
     self-control by allowing the end-user to configure times of the week during which
@@ -378,6 +380,12 @@
   - network
   url: http://dansguardian.org/
 - name: Davide
+- name: Disconnect
+  audience:
+  - general
+  platform:
+  - chrome
+  url: https://disconnect.me
 - name: Distractus
   description: Distractus is a simple Firefox addon that allows the user to whitelist
     and blacklist sites using regular expression matching.
@@ -481,6 +489,11 @@
   platform:
   - macosx
   url: https://heyfocus.com/
+- name: Focus 45
+  audience:
+  - slacker
+  platform:
+  - chrome
 - name: Fortify
   audience:
   - addict
@@ -929,6 +942,7 @@
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/nofap-panic-button/
 - name: Norman
+- name: Norton Content Safe DNS Server
 - name: Norton Family
   audience:
   - parent
@@ -995,6 +1009,9 @@
   platform:
   - windows
   url: http://www.optenetpc.com/
+- name: Override DNS
+  cost: "$2"
+  url: https://play.google.com/store/apps/details?id=net.mx17.overridedns
 - name: Panda
   url: http://www.pandasecurity.com/usa/homeusers/solutions/internet-security/
 - name: Parental Controls and Web Filter from MetaCert
@@ -1063,6 +1080,13 @@
   platform:
   - windows
   url: http://www.pearlsw.com/
+- name: Personal Blocklist
+  audience:
+  - general
+  - slacker
+  platform:
+  - chrome
+  url: https://chrome.google.com/webstore/detail/personal-blocklist-by-goo/nolijncfnkgaikbjbdaogikpmpbdcdef
 - name: pfSense
   audience:
   - overlord
@@ -1109,13 +1133,14 @@
 - name: policeman
   audience:
   - general
+  - hermit
   cost: free
   features:
   - filtering
   - mimetypes
   platform:
   - browser
-  url: https://www.mywot.com/
+  url: https://addons.mozilla.org/en-US/firefox/addon/policeman/
 - name: Porn Terminator
   features:
   - junk
@@ -1303,6 +1328,7 @@
 - name: SelfControl for Linux
   audience:
   - general
+  - slacker
   description: The purpose of the program is to block access to certain web sites
     (Blacklist) for a period of time with no easy way to unblock access.  It was last
     updated in 2010.
@@ -1318,6 +1344,7 @@
 - name: SelfControl for Mac
   audience:
   - general
+  - slacker
   description: SelfControl is an open source project, the purpose of which is to allow
     the user to block access to websites (or mail servers) for a predetermined period
     of time.
@@ -1333,6 +1360,7 @@
 - name: SelfRestraint
   audience:
   - general
+  - slacker
   description: SelfRestraint is a cross platform application which blocks access to
     websites for a predetermined period of time.  It was inspired by SelfControl.
   features:
@@ -1448,6 +1476,9 @@
   platform:
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/stop-it/
+- name: Strict Workflow
+  platform:
+  - chrome
 - name: Surfgarten
 - name: SurfontheSafeside.com (SOS)
   features:
@@ -1507,6 +1538,7 @@
   url: https://www.trustwave.com/Products/Content-Security/Web-Filtering/
 - name: uBlock
   audience:
+  - adavoider
   - general
   cost: free
   features:
@@ -1559,6 +1591,12 @@
   platform:
   - network
   url: http://www.wanbound.com/
+- name: WasteNoTime
+  audience:
+  - slacker
+  platform:
+  - chrome
+  url: https://chrome.google.com/webstore/detail/wastenotime/enebomhlllfaccbelnjhfgblnalofhch
 - name: Web Filter (from Lightspeed Systems)
   audience:
   - overlord
