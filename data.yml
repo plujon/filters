@@ -981,6 +981,7 @@
     capability for user-specific rules.
   features:
   - biglist
+  - dns
   - filtering
   - monitoring
   platform:
@@ -997,6 +998,7 @@
   cost: free to $20/year
   description: Free for home use, OpenDNS is both easy-to-use and popular.
   features:
+  - dns
   - filtering
   - monitoring
   platform:
@@ -1004,6 +1006,7 @@
   - ios
   - linux
   - macosx
+  - network
   - windows
   url: http://www.opendns.com/
 - name: Optenet
@@ -1120,6 +1123,17 @@
   platform:
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/picture-blocker/
+- name: Play This 2 Play That
+  audience:
+  - parent
+  description: Requires user play a certain amount of educational games to unlock
+    other apps.
+  features:
+  - games
+  - timer
+  platform:
+  - android
+  url: https://play.google.com/store/apps/details?id=com.playthis2playthatdemo
 - name: Pluckeye
   audience:
   - addict
@@ -1348,6 +1362,15 @@
   description: Perfect for the scientologist overlord.  Merely amusing for all others.
   features:
   - dead
+- name: Screen Time
+  audience:
+  - parent
+  features:
+  - monitoring
+  - timer
+  platform:
+  - android
+  url: https://play.google.com/store/apps/details?id=com.screentime
 - name: Secure Web SmartFilter EDU
   features:
   - dead
