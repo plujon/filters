@@ -437,6 +437,13 @@
   - android
   - windows
   url: http://www.everaccountable.com/
+- name: eVision
+  description: Launched in 2001 and last updated in September 2001, this appears to
+    be a dead project.
+  features:
+  - dead
+  - skin
+  url: http://www.evisionglobal.com/
 - name: Familyloop Safeguard
   audience:
   - parent
@@ -1379,6 +1386,11 @@
   - macosx
   - windows
   url: https://github.com/ParkerK/selfrestraint/
+- name: SightSim
+  features:
+  - dead
+  - skin
+  url: http://www.sightsim.com/visual_content_filter.html
 - name: Silent Block
   audience:
   - general
@@ -1543,6 +1555,17 @@
   audience:
   - overlord
   url: https://www.trustwave.com/Products/Content-Security/Web-Filtering/
+- name: UBhind
+  description: With UBhind, you can once and for all curb your smartphone overuse
+    and regain control of your productivities!
+  features:
+  - applock
+  - monitoring
+  - timer
+  platform:
+  - android
+  - ios
+  url: http://www.rinasoftglobal.com/
 - name: uBlock
   audience:
   - antiad
@@ -1681,6 +1704,14 @@
   platform:
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/webfilter/
+- name: WebGuard
+  description: A 2005 article by PhD students Mohamed Hammami of Ecole Centrale de
+    Lyon in France and Liming Chen of Ecole Centrale de Lyon in France.  The company
+    that published the article is http://www.idea-group.com/ and in 2016 offers SEO
+    services.  It must not work.
+  features:
+  - dead
+  - skin
 - name: WebMinder
   audience:
   - overlord
