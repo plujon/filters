@@ -11,10 +11,10 @@ $(document).ready(
     var search = [];
     if (window.location.search) {
       // ?os=windows|macosx|linux|browser|network
-      // ?platform=windows|macosx|linux|browser|network
+      // ?platform=windows|macosx|linux|browser|network|android|ios|chrome|firefox
       // ?audience=addict|parent
       // ?feature=timer+monitoring
-      var platforms = [ "browser", "linux", "macosx", "network", "windows" ];
+      var platforms = [ "android", "browser", "chrome", "firefox", "ios", "linux", "macosx", "network", "windows" ];
       var audiences = [];
       var features = [];
       $("#Audience_legend dt").each(function(){
