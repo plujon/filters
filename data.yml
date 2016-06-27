@@ -84,6 +84,7 @@
   - macosx
   - windows
   url: http://aobo.cc/aobo-filter.html
+- name: AppLock
 - name: Archangel
   cost: free
   features:
@@ -1122,7 +1123,7 @@
 - name: Pluckeye
   audience:
   - addict
-  cost: free
+  cost: free or pay what you want
   description: Customizable, but blocks all images from the internet by default.  Its
     delayed-configuration system is designed to bolster self-control on the Internet.
   features:
@@ -1329,6 +1330,18 @@
   platform:
   - network
   url: http://www.safesquid.com/
+- name: Safesurfer
+  audience:
+  - parent
+  cost: free with registration or pay what you want
+  description: A DNS service for families with children.  The service is pay what
+    you want with registration.
+  features:
+  - dns
+  - filtering
+  platform:
+  - network
+  url: http://www.safesurfer.co.nz/
 - name: Scieno Sitter
   audience:
   - overlord
