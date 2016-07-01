@@ -41,8 +41,9 @@ $(document).ready(
         search.push(_osfamily);
       };
     }
-    options.search = { "search": search.join(" ") };
+    options.search = { "search": " " + search.join(" ") };
     $('#thetable').dataTable(options);
+    $("#thetable_filter input").focus();
     // TODO: Linkify to feature_legend (or add mouseovers).
     // TODO: Linkify to audience_legend (or add mouseovers).
   });
