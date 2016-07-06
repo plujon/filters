@@ -655,6 +655,9 @@
   features:
   - dead
 - name: Intego IS Barrier X6 (Mac)
+- name: Integrity Buddy
+  cost: "$5/month"
+  url: https://integritybuddy.com/
 - name: Integrity Online
   url: http://www.integrity.com/
 - name: Internet 4 Families
