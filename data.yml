@@ -40,6 +40,10 @@
   - macosx
   - windows
   url: https://www.accountable2you.com/
+- name: ActivityLogger
+  audience:
+  - overlord
+  url: http://www.softactivity.com/
 - name: ActivTrak
   audience:
   - overlord
@@ -445,6 +449,10 @@
   - dead
   - skin
   url: http://www.evisionglobal.com/
+- name: Family Cyber Alert
+  features:
+  - monitoring
+  url: http://www.itcompany.com/fca
 - name: Familyloop Safeguard
   audience:
   - parent
@@ -923,6 +931,7 @@
   - network
   url: http://www.netgenie.net/global/
 - name: Netintelligence
+  url: http://www.netintelligence.com/
 - name: netresponsibility
   audience:
   - addict
@@ -948,6 +957,8 @@
   platform:
   - network
   url: http://www.netsentron.com/
+- name: Netsweeper
+  url: https://www.netsweeper.com/
 - name: NoFap Panic Button
   features:
   - motivate
@@ -1030,6 +1041,8 @@
   url: https://play.google.com/store/apps/details?id=net.mx17.overridedns
 - name: Panda
   url: http://www.pandasecurity.com/usa/homeusers/solutions/internet-security/
+- name: Parental Control Bar
+  url: http://www.wraac.org/
 - name: Parental Controls and Web Filter from MetaCert
   cost: free or donate
   features:
@@ -1079,6 +1092,11 @@
   - monitoring
   - spying
   url: http://www.pcpandora.com/application/parental/
+- name: PC Tattletale
+  audience:
+  - overlord
+  - parent
+  url: https://www.pctattletale.com/
 - name: PeanutButterPC
   audience:
   - parent
@@ -1374,6 +1392,10 @@
   platform:
   - android
   url: https://play.google.com/store/apps/details?id=com.screentime
+- name: ScreenRetriever
+  audience:
+  - parent
+  url: http://www.screenretriever.com/
 - name: Secure Web SmartFilter EDU
   features:
   - dead
@@ -1639,6 +1661,10 @@
 - name: Venishmartem Cloud Filter (VCF) Pro
   cost: "$13/month"
   url: http://venishmartem.com/vcf
+- name: Veriato 360
+  audience:
+  - overlord
+  url: http://www.veriato.com/products/veriato-recon
 - name: Verity
   audience:
   - parent
