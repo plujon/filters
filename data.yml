@@ -33,6 +33,7 @@
   - accountability
   - monitoring
   - timer
+  icon: https://lh6.googleusercontent.com/-BhjARoRU0Xc/VHzImGaZwfI/AAAAAAAAABc/cwaNFOypo9c/w962-h962/AU2%2BLOGO_WHITE_2.png
   platform:
   - android
   - ios
@@ -208,6 +209,10 @@
   platform:
   - windows
   url: http://salfeld.com/software/parentalcontrol/index.html
+- name: Circle
+  platform:
+  - network
+  url: https://meetcircle.com/
 - name: Clean Internet
   audience:
   - parent
@@ -1288,6 +1293,12 @@
   - macosx
   - windows
   url: http://www.qustodio.com/
+- name: recoveryBox
+  description: Designed for accountability, recoveryBox, the iOS Mobile App for Addiction
+    Recovery, is an iOS app toolset that facilitates tracking of daily life activities
+    and gaining insight into why you do what you do.  Similar to R|Tribe.
+  platform:
+  - ios
 - name: Router Limits
   audience:
   - parent
@@ -1818,6 +1829,13 @@
   platform:
   - windows
   url: http://www.webwatcher.com/
+- name: Whitelist Ninja
+  description: Parental Control by a whitelist of sites, admin is by password. We
+    use this for young children to keep them on the sites we have pre approved. You
+    can add new sites with the click of a button.
+  platform:
+  - firefox
+  url: https://addons.mozilla.org/en-US/firefox/addon/white-list-ninja/
 - name: Whitenet
 - name: Windows Family Safety
   cost: free
