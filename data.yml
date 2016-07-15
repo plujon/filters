@@ -1567,6 +1567,11 @@
   platform:
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/stop-it/
+- name: Streaks
+  description: A to-do app that helps the user form good habits.
+  platform:
+  - ios
+  url: http://streaksapp.com/
 - name: Strict Workflow
   platform:
   - chrome
