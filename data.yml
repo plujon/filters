@@ -113,6 +113,12 @@
   platform:
   - windows
   url: http://www.bitdefender.com/solutions/internet-security.html
+- name: Blacklist
+  audience:
+  - slacker
+  platform:
+  - ios
+  url: https://itunes.apple.com/en/app/blacklist-website-blocker/id1081580076?mt=8
 - name: Block.si
   audience:
   - parent
@@ -417,6 +423,10 @@
   - network
   url: https://www.dnsthingy.com/
 - name: Dolphin Secure
+- name: emypeople.net
+  description: A very small ISP with a mishmash of filtering services for the very
+    conservative.  The SafeSentryPro platform does html filtering.
+  url: http://www.emypeople.net/
 - name: Enologic Net Filter
 - name: ENUFF PC
   audience:
@@ -501,6 +511,10 @@
 - name: FinFisher
   audience:
   - overlord
+- name: FlashStart
+  audience:
+  - overlord
+  url: http://www.flashstart.com/
 - name: Focus
   audience:
   - slacker
@@ -1118,7 +1132,7 @@
   - monitoring
   platform:
   - windows
-  url: http://www.pearlsw.com/
+  url: http://www.pearlsoftware.com/
 - name: Personal Blocklist
   audience:
   - general
@@ -1616,6 +1630,8 @@
   platform:
   - browser
   - chrome
+- name: Totalnetguard
+  url: http://totalnetguard.com/index.asp
 - name: Trend Micro
   features:
   - antivirus
