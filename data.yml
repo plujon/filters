@@ -76,6 +76,16 @@
   platform:
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/apm/
+- name: Anti-Social Pro
+  cost: "$15"
+  features:
+  - filtering
+  - timer
+  platform:
+  - ios
+  - macosx
+  - windows
+  url: https://freedom.to/
 - name: Aobo
   audience:
   - parent
@@ -690,6 +700,13 @@
 - name: Internet 4 Families
   features:
   - dead
+- name: InternetOff
+  cost: free
+  features:
+  - timer
+  platform:
+  - windows
+  url: http://crystalrich.com/internetoff/
 - name: iOS Parental Controls (Mobile)
 - name: iProtectYou
   features:
