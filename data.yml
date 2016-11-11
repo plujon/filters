@@ -433,6 +433,23 @@
   - network
   url: https://www.dnsthingy.com/
 - name: Dolphin Secure
+- name: E2guardian Web filtering
+  audience:
+  - overlord
+  - parent
+  description: e2guardian is a fork and continuation of DansGuardian.  It is an open
+    source web content filter that filters based on many methods including phrase
+    matching, request header, URL filtering, etc.  Unlike DansGuardian, e2guardian
+    has some support for https filtering, if the necessary authoritative certificates
+    are installed in the browser.
+  features:
+  - filtering
+  - gateway
+  - more
+  - proxy
+  - ratings
+  - smarts
+  url: http://e2guardian.org/cms/
 - name: emypeople.net
   description: A very small ISP with a mishmash of filtering services for the very
     conservative.  The SafeSentryPro platform does html filtering.
@@ -931,6 +948,19 @@
   - android
   - ios
   url: http://www.emobilesecurity.com/MyKidIsSafe.html
+- name: Net Angel
+  audience:
+  - parent
+  - spouse
+  - addict
+  cost: free to $15/month
+  description: Net Angel sells home routers that have e2guardian pre-installed.  Whenever
+    a website is blocked, a text message is sent to a phone phone number.  As of 2016-11-11,
+    the company also has beta-quality iOS and Android apps that will feature similar
+    techniques.
+  platform:
+  - network
+  url: https://www.netangel.com/
 - name: Net Nanny
   audience:
   - parent
@@ -1867,6 +1897,15 @@
   platform:
   - windows
   url: http://www.webwatcher.com/
+- name: Wefisy
+  audience:
+  - parent
+  cost: free with advertizements
+  features:
+  - filtering
+  - timer
+  platform:
+  - windows
 - name: Whitelist Ninja
   description: Parental Control by a whitelist of sites, admin is by password. We
     use this for young children to keep them on the sites we have pre approved. You
