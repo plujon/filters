@@ -1686,6 +1686,19 @@
 - name: Trend Micro Kids Safety - PS3
 - name: Trend Micro Mobile Security
 - name: Trend Micro Online Guardian
+- name: True Vine Online
+  audience:
+  - parent
+  cost: "$8-$10/month"
+  description: Originally founded as a dial up ISP back in the late 90s, True Vine
+    now offers the TVO Blockit kit to filter the Internet from a "Christian perspective."  The
+    company formerly used FilterPak.
+  platform:
+  - android
+  - ios
+  - macosx
+  - windows
+  url: http://www.truevine.net/
 - name: Trustwave SecureBrowsing
   cost: free
   platform:
