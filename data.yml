@@ -107,6 +107,15 @@
   - icap
   url: https://code.google.com/p/archangel/
 - name: Astaro - Parental Control for Wii
+- name: Atlas Web Browser
+  audience:
+  - antiad
+  - hermit
+  description: Can optionally use AdBlockPlus filters and optional low bandwidth (no-image
+    and no-javascript) mode.
+  platform:
+  - android
+  url: https://play.google.com/store/apps/details?id=nextapp.atlas
 - name: AVG Family Safety
   audience:
   - parent
@@ -191,7 +200,6 @@
   features:
   - dead
 - name: Buddy Browser
-- name: Buddy Browser
   audience:
   - parent
   features:
@@ -204,6 +212,12 @@
   features:
   - antivirus
   url: https://www.bullguard.com/
+- name: ButterFly Browser
+  audience:
+  - antiad
+  description: A minimalist browser that uses few system resources and that blocks
+    ads.
+  url: https://play.google.com/store/apps/details?id=acr.browser.butterfly
 - name: CA Security Suite
 - name: Care4teen
   audience:
@@ -837,6 +851,22 @@
   platform:
   - browser
   url: http://www.proginosko.com/leechblock.html
+- name: Lightning Web Browser
+  audience:
+  - antiad
+  - hermit
+  cost: "$1"
+  description: An Android browser with built-in ad-blocking.
+  platform:
+  - android
+  url: https://play.google.com/store/apps/details?id=acr.browser.lightning
+- name: Little Web Browser
+  description: Little Browser reduces data utilization by displaying only readable
+    content from webpages and by not downloading extraneous contents like scripts
+    and images.
+  platform:
+  - android
+  url: https://play.google.com/store/apps/details?id=com.weejim.app.lynx
 - name: livigent
   features:
   - filtering
@@ -948,6 +978,15 @@
   - android
   - ios
   url: http://www.emobilesecurity.com/MyKidIsSafe.html
+- name: Naked Browser
+  audience:
+  - hermit
+  cost: free
+  description: A browser that uses a privacy-conserving configuration, Naked Browser
+    seems to have been written for the author's own use and then shared with the world.
+  platform:
+  - android
+  url: https://play.google.com/store/apps/details?id=com.fevdev.nakedbrowser
 - name: Net Angel
   audience:
   - parent
@@ -1549,6 +1588,8 @@
   - macosx
   - windows
   url: http://www.sniperspy.com/
+- name: Soft Eyes
+  url: http://www.softeyes.com/
 - name: Spector 360
   audience:
   - overlord
@@ -1661,6 +1702,18 @@
   platform:
   - windows
   url: http://sourceforge.net/projects/temptblocker/
+- name: TextBrowser
+  cost: free
+  platform:
+  - android
+  url: https://play.google.com/store/apps/details?id=net.fro9.android.app.textbrowserfree
+- name: TextOnly Reader Pro
+  cost: "$1"
+  description: A browser that reduces data usage by displaying only readable content
+    from web pages.  Ads, images, and scripts are not loaded.
+  platform:
+  - android
+  url: https://play.google.com/store/apps/details?id=com.spacenext.textonly.reader.pro
 - name: TFK Internetfilter Plus
 - name: the Web Blocker
   features:
