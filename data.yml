@@ -1704,6 +1704,9 @@
   url: http://sourceforge.net/projects/temptblocker/
 - name: TextBrowser
   cost: free
+  description: A very small text-only browser for Android.  It reminds one of lynx.
+  features:
+  - textonly
   platform:
   - android
   url: https://play.google.com/store/apps/details?id=net.fro9.android.app.textbrowserfree
