@@ -25,7 +25,7 @@
 - name: Accountable2You
   audience:
   - addict
-  cost: "$2 - $5/month"
+  cost: "$7/month"
   description: Accountable2You originated as a personal replacement for other, slower,
     accountability software and has since blossomed into a product in its own right.  The
     product site and product interface are quite nice.
@@ -345,6 +345,7 @@
   - accountability
   - filtering
   - monitoring
+  - spying
   - timer
   icon: http://pbs.twimg.com/profile_images/468823054357757953/jY1TV1Uu_400x400.png
   platform:
