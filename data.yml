@@ -239,6 +239,13 @@
   platform:
   - windows
   url: http://salfeld.com/software/parentalcontrol/index.html
+- name: Chrome supervised profile
+  audience:
+  - parent
+  cost: free
+  platform:
+  - chrome
+  url: https://support.google.com/chrome/answer/3463947
 - name: Circle
   platform:
   - network
@@ -271,6 +278,11 @@
   platform:
   - network
   url: http://www.clearcenter.com/
+- name: ClearPlay
+  description: ClearPlay is a service that filters out violence and sexual content
+    from content purchased or rented on GooglePlay, or from special Blu-ray or DVD
+    players.
+  url: https://www.clearplay.com/
 - name: Cold Turkey
   audience:
   - addicts
@@ -650,6 +662,14 @@
   features:
   - other
   url: http://guardyoureyes.com/
+- name: Habatica
+  description: A to-do app that helps the user form good habits.  Its tagline is 'gamify
+    your life'
+  features:
+  - accountability
+  platform:
+  - ios
+  url: https://habitica.com/
 - name: Handy Filter
   audience:
   - overlord
@@ -1642,17 +1662,18 @@
   platform:
   - network
   url: http://www.squidguard.org/
-- name: StayFocused
+- name: StayFocusd
   audience:
   - slacker
   - general
-  description: StayFocused is a Chrome plugin that can block "time wasting" websites.  It
+  description: StayFocusd is a Chrome plugin that can block "time wasting" websites.  It
     only works in Chrome.
   features:
   - filtering
   - timer
   platform:
   - browser
+  - chrome
   url: https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji
 - name: Stop P-O-R-N
   cost: "$40"
@@ -1786,6 +1807,8 @@
   - filtering
   platform:
   - browser
+  - chrome
+  - firefox
   url: https://github.com/gorhill/uBlock
 - name: URLFilterService
   cost: free
@@ -1917,6 +1940,7 @@
 - name: WebFilter Pro
   platform:
   - browser
+  - firefox
   url: https://addons.mozilla.org/en-US/firefox/addon/webfilter/
 - name: WebGuard
   description: A 2005 article by PhD students Mohamed Hammami of Ecole Centrale de
