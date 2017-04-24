@@ -399,7 +399,7 @@
   - general
   cost: "$80 for Simple DNS + $39/year"
   description: Designed to be used with the Simple DNS Plus (a DNS server), it is
-    similar in approach to OpenDns and NX Filter.  The 5 CYBERsitter lists are adult,
+    similar in approach to OpenDNS and NX Filter.  The 5 CYBERsitter lists are adult,
     malicious, k12, k12fun, and social networking.
   features:
   - biglist
@@ -652,6 +652,9 @@
   audience:
   - overlord
   url: https://www.goguardian.com/
+- name: Google Play Store
+  description: Go to Play Store Settings. Select Content Filtering. Choose the maturity
+    level as per you choice. -- http://www.lifehack.org/articles/technology/20-google-play-store-tips-and-tricks-you-cant-miss.html
 - name: Green Dam Youth Escort (Mainland Chinese Government mandated software)
 - name: Guard Your Eyes
   audience:
@@ -1008,6 +1011,8 @@
   platform:
   - android
   url: https://play.google.com/store/apps/details?id=com.fevdev.nakedbrowser
+- name: Nativ
+  description: Kosher Internet, uses Seimen technologies
 - name: Net Angel
   audience:
   - parent
@@ -1092,7 +1097,10 @@
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/nofap-panic-button/
 - name: Norman
-- name: Norton Content Safe DNS Server
+- name: Norton ConnectSafe DNS Server
+  platform:
+  - network
+  url: https://dns.norton.com/
 - name: Norton Family
   audience:
   - parent
