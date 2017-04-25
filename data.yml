@@ -1619,19 +1619,6 @@
   url: http://www.sniperspy.com/
 - name: Soft Eyes
   url: http://www.softeyes.com/
-- name: Spector 360
-  audience:
-  - overlord
-  cost: "$100"
-  description: Used for spying on employees.
-  features:
-  - monitoring
-  - spying
-  platform:
-  - android
-  - macosx
-  - windows
-  url: http://www.spectorsoft.com
 - name: SPIN Safe Browser
   features:
   - filtering
@@ -1838,6 +1825,19 @@
   - filtering
   platform:
   - network
+- name: Variato
+  audience:
+  - overlord
+  cost: "$100"
+  description: Used for spying on employees.
+  features:
+  - monitoring
+  - spying
+  platform:
+  - android
+  - macosx
+  - windows
+  url: http://www.veriato.com/
 - name: Venishmartem Cloud Filter (VCF) Pro
   cost: "$13/month"
   url: http://venishmartem.com/vcf
