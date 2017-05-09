@@ -214,6 +214,21 @@
   audience:
   - parent
   url: http://www.care4teen.com/
+- name: Cedar Creek Filtering
+  audience:
+  - overlord
+  - parent
+  cost: "$15/month"
+  description: The product is a physical router that "plugs in between your WiFi Router
+    and your internet provider's modem".
+  features:
+  - biglist
+  - dns
+  - filtering
+  - gateway
+  - hardware
+  - network
+  url: https://www.cedarcreek.co/filtering/personal
 - name: CensureBlock
   platform:
   - browser
@@ -1831,11 +1846,12 @@
   url: https://github.com/gorhill/uBlock
 - name: URLFilterService
   cost: free
-  description: URLFilterService works with Internet Explorer and Microsoft Edge.  It
-    categorizes sites using Shalla Secure Service and Université Toulouse 1 Capitole
-    url listings.  The installation video shows that one must disable default Windows
-    security in order to install it, and the FAQ says, "Use it at your own risk."  Indeed.
+  description: URLFilterService works categorizes sites using Shalla Secure Service
+    and Université Toulouse 1 Capitole url listings.  The installation video shows
+    that one must disable default Windows security in order to install it, and the
+    FAQ says, "Use it at your own risk."  Indeed.
   features:
+  - dns
   - filtering
   platform:
   - windows
@@ -1878,6 +1894,17 @@
   platform:
   - windows
   url: http://www.nchsoftware.com/childmonitoring/
+- name: Victory App
+  audience:
+  - addict
+  description: The Victory App is a combination electronic journal, calendar, and
+    book intended to help the user quit porn.
+  features:
+  - journal
+  platform:
+  - android
+  - ios
+  url: http://thevictoryapp.com/
 - name: Vise
 - name: Vocatech
   features:
