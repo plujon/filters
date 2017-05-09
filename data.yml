@@ -76,16 +76,6 @@
   platform:
   - browser
   url: https://addons.mozilla.org/en-US/firefox/addon/apm/
-- name: Anti-Social Pro
-  cost: "$15"
-  features:
-  - filtering
-  - timer
-  platform:
-  - ios
-  - macosx
-  - windows
-  url: https://freedom.to/
 - name: Aobo
   audience:
   - parent
@@ -176,6 +166,7 @@
   - filtering
   platform:
   - android
+  url: http://nationaledtech.com/
 - name: Brightfilter Parental Control
 - name: BrowseControl
   audience:
@@ -477,6 +468,13 @@
   - ratings
   - smarts
   url: http://e2guardian.org/cms/
+- name: Emergency Browser
+  description: A text-only, no-image browser with javascript support, Emergency Browser
+    allows one to use the Internet without images.  It has no built-in app-locking,
+    but it could be paired with a standard app-locking program.
+  platform:
+  - android
+  url: https://play.google.com/store/apps/details?id=it.blogspot.fedeveloper
 - name: emypeople.net
   description: A very small ISP with a mishmash of filtering services for the very
     conservative.  The SafeSentryPro platform does html filtering.
@@ -617,6 +615,16 @@
   - browser
   url: http://addons.mozilla.org/en-US/firefox/addon/foxfilter/
 - name: Fragfinn.de
+- name: Freedom
+  cost: "$15"
+  features:
+  - filtering
+  - timer
+  platform:
+  - ios
+  - macosx
+  - windows
+  url: https://freedom.to/
 - name: FSecure
   audience:
   - general
@@ -966,12 +974,18 @@
   - social
   url: http://www.minormonitor.com/
 - name: MobiCIP
+  cost: free to $40/year
   features:
   - filtering
   - monitoring
   platform:
   - android
+  - chromeos
   - ios
+  - kindle
+  - macosx
+  - nook
+  - windows
   url: http://www.mobicip.com/
 - name: Mobiflock
 - name: Mobile Parental Filter
@@ -1515,6 +1529,7 @@
   - dns
   - filtering
   platform:
+  - android
   - network
   url: http://www.safesurfer.co.nz/
 - name: Scieno Sitter
@@ -1620,10 +1635,13 @@
 - name: Soft Eyes
   url: http://www.softeyes.com/
 - name: SPIN Safe Browser
+  description: SPIN is a browser with built-in filtering.  It has 4.2 stars in the
+    Android store.
   features:
   - filtering
   platform:
   - android
+  url: http://nationaledtech.com/
 - name: SpyAgent
   features:
   - monitoring
@@ -1706,7 +1724,6 @@
   features:
   - dead
   - historic
-- name: SurfWatch
 - name: SurveilStar
   audience:
   - overlord
