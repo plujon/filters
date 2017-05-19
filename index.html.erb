@@ -4,7 +4,7 @@
 require 'yaml'
 filters = YAML::load_file("data.yml")
 hidden_features = ['dns', 'etchosts', 'iptables']
-toxic_features = ['beta', 'dead', 'hide', 'junk', 'scuzzy']
+toxic_features = ['beta', 'dead', 'hide', 'junk', 'scuzzy', 'vapor']
 filters.select! { |x| x["url"] }
 filters.reject! { |x| x["aliasfor"] }
 filters.reject! { |x| x["audience"] && x["audience"].include?("developer") }
