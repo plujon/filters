@@ -671,6 +671,10 @@
   audience:
   - overlord
   url: http://www.gaggle.net/
+- name: Geringo
+  features:
+  - vapor
+  url: https://www.geringo.com/
 - name: Gnome nanny
   features:
   - dead
