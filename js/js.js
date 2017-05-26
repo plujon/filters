@@ -42,6 +42,8 @@ $(document).ready(
       };
     }
     options.search = { "search": " " + search.join(" ") };
+    options.lengthMenu = [ [10, 25, 50, -1], [10, 25, 50, "All"] ];
+    options.pageLength = 50;
     $('#thetable').dataTable(options);
     // TODO: Linkify to feature_legend (or add mouseovers).
     // TODO: Linkify to audience_legend (or add mouseovers).
