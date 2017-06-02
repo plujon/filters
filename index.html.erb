@@ -2,6 +2,7 @@
 <html lang="en">
 <%-
 require 'yaml'
+require_relative 'helpers'
 filters = YAML::load_file("data.yml")
 hidden_features = ['dns', 'etchosts', 'iptables']
 toxic_features = ['beta', 'dead', 'hide', 'junk', 'scuzzy', 'vapor']
@@ -39,6 +40,7 @@ end
     <script src="js/js.js"></script>
   </head>
 <body>
+  <%= partial("navbar") %>
   <div class="container">
     <div class="page-header text-center">
       <h2>Internet Filters and Monitors
