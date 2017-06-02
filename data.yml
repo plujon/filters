@@ -1082,6 +1082,23 @@
   - macosx
   - windows
   url: http://www.netnanny.com/
+- name: Net Responsibility
+  audience:
+  - addict
+  cost: free
+  description: Net Responsibility monitors Internet usage and sends e-mail reports
+    to accountability partners.  Must be compiled from source on Mac OS X and Ubuntu
+    14.10 or above (see <a href="http://forum.netresponsibility.com/discussion/159/can-t-install-on-ubuntu-14-10">this
+    thread</a>).  A build script can be found <a href="http://www.pluckeye.net/net-responsibility/build.sh">here</a>.
+  features:
+  - accountability
+  - monitoring
+  - opensource
+  icon: http://www.netresponsibility.com/img/soap2.png
+  platform:
+  - linux
+  - macosx
+  url: http://www.netresponsibility.com/
 - name: NETBLOX
   platform:
   - network
@@ -1103,23 +1120,6 @@
   url: http://www.netgenie.net/global/
 - name: Netintelligence
   url: http://www.netintelligence.com/
-- name: netresponsibility
-  audience:
-  - addict
-  cost: free
-  description: Net Responsibility monitors Internet usage and sends e-mail reports
-    to accountability partners.  Must be compiled from source on Mac OS X and Ubuntu
-    14.10 or above (see <a href="http://forum.netresponsibility.com/discussion/159/can-t-install-on-ubuntu-14-10">this
-    thread</a>).  A build script can be found <a href="http://www.pluckeye.net/net-responsibility/build.sh">here</a>.
-  features:
-  - accountability
-  - monitoring
-  - opensource
-  icon: http://www.netresponsibility.com/img/soap2.png
-  platform:
-  - linux
-  - macosx
-  url: http://www.netresponsibility.com/
 - name: netsentron
   audience:
   - overlord
