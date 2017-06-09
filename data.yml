@@ -610,7 +610,7 @@
   - addict
   cost: free for youth, $39 for adults
   description: Fortify is not a filter, but it is similar enough to warrant inclusion
-    here.  Instead filtering or monitoring, it aims to educate and support a porn
+    here.  Instead of filtering or monitoring, it aims to educate and support a porn
     user as he/she moves toward that goal.
   features:
   - other
@@ -638,7 +638,9 @@
   url: http://addons.mozilla.org/en-US/firefox/addon/foxfilter/
 - name: Fragfinn.de
 - name: Freedom
-  cost: "$15"
+  cost: "$2/month to $7/month"
+  description: Formerly called Anti-Social Pro, the software is marketed towareds
+    those seeking to avoid the distractions of the Internet.
   features:
   - filtering
   - timer
@@ -671,6 +673,19 @@
   audience:
   - overlord
   url: http://www.gaggle.net/
+- name: GenTech
+  cost: "$100/year to $125/year"
+  description: Supposedly designed with the "frum" community in mind.  Yet, it was
+    built in Romania and seems to be sold to employers.
+  features:
+  - filter
+  - image-recognition
+  - scuzzy
+  - smarts
+  platform:
+  - android
+  - ios
+  url: https://gentechsolution.com/
 - name: Geringo
   features:
   - vapor
@@ -1051,8 +1066,17 @@
   platform:
   - android
   url: https://play.google.com/store/apps/details?id=com.fevdev.nakedbrowser
-- name: Nativ
+- name: NativUSA
+  cost: "$10/month to $14/month"
   description: Kosher Internet, uses Seimen technologies
+  features:
+  - filter
+  - scuzzy
+  - skin-shading
+  - smarts
+  platform:
+  - windows
+  url: http://www.usanativ.com/
 - name: Net Angel
   audience:
   - parent
@@ -1882,9 +1906,6 @@
   - macosx
   - windows
   url: http://www.veriato.com/
-- name: Venishmartem Cloud Filter (VCF) Pro
-  cost: "$13/month"
-  url: http://venishmartem.com/vcf
 - name: Veriato 360
   audience:
   - overlord
@@ -2034,6 +2055,22 @@
   url: https://www.websafety.com/
 - name: Websense
   url: http://www.websense.com/content/Home.aspx
+- name: Webshadow
+  audience:
+  - parent
+  cost: free with email-based registration
+  description: The software tracks browsing so that parents can see what their children
+    are doing online.  The stated goal of the product is to provide an incentive for
+    children to behave online when they know that what they are doing will be seen
+    by their parents.  To get the product, you need to give your full name and email
+    address.
+  features:
+  - monitoring
+  platform:
+  - android
+  - ios
+  - windows
+  url: http://webshadow.org/
 - name: Website Blocker (Beta)
   platform:
   - browser
