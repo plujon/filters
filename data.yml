@@ -1709,6 +1709,12 @@
   - screenshots
   - spying
   url: http://www.kjbsecurity.com/products/detail/spysure-parental-control-software/383/
+- name: Squidblacklist.org
+  description: Squidblacklist (SBL) is a publisher of blacklists for web filtering
+    platforms.
+  features:
+  - biglist
+  url: http://squidblacklist.org/
 - name: SquidGuard
   audience:
   - parent
