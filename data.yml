@@ -546,7 +546,7 @@
   features:
   - antivirus
   url: http://www.eset.com/
-- name: everACCOUNTABLE
+- name: EverAccountable
   cost: "$7/month"
   features:
   - monitoring
@@ -947,6 +947,12 @@
   platform:
   - browser
   url: http://www.proginosko.com/leechblock.html
+- name: LG Gate
+  audience:
+  - overlord
+  platform:
+  - android
+  url: http://www.lg.com/us/business/enterprise-mobility
 - name: Lightning Web Browser
   audience:
   - antiad
@@ -1037,6 +1043,11 @@
   features:
   - social
   url: http://www.minormonitor.com/
+- name: MMGuardian
+  platform:
+  - android
+  - ios
+  url: http://www.mmguardian.com/
 - name: MobiCIP
   cost: free to $40/year
   features:
@@ -1381,7 +1392,8 @@
   - addict
   cost: free or pay what you want
   description: Customizable, but blocks all images from the internet by default.  Its
-    delayed-configuration system is designed to bolster self-control on the Internet.
+    delayed-configuration system is designed to bolster self-control on the Internet.  Pluckeye
+    on Android is a text-only browser with fewer features than desktop Pluckeye.
   features:
   - changedelay
   - filtering
@@ -1391,6 +1403,7 @@
   - timer
   icon: http://www.pluckeye.net/p64.svg
   platform:
+  - android
   - linux
   - macosx
   - windows
@@ -1605,6 +1618,12 @@
   - android
   - network
   url: http://www.safesurfer.co.nz/
+- name: Samsung Knox
+  audience:
+  - overlord
+  platform:
+  - android
+  url: https://www.samsungknox.com/
 - name: Scieno Sitter
   audience:
   - overlord
@@ -1791,6 +1810,10 @@
 - name: Strict Workflow
   platform:
   - chrome
+- name: SureLock
+  platform:
+  - android
+  url: https://www.42gears.com/blog/lock-safe-mode-android-devices/
 - name: Surfgarten
 - name: SurfontheSafeside.com (SOS)
   features:
