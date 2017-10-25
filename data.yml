@@ -2153,7 +2153,7 @@
   audience:
   - addict
   - parent
-  cost: free to $7/month
+  cost: "$2 to $7/month"
   description: The free version of x3watch is an accountability-based monitoring software
     package.  The user provides the email address of a buddy who will be emailed reports
     summarizing the browsing history of the user.  The paid version offers filtering
