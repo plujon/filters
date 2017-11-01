@@ -810,6 +810,14 @@
   url: https://integritybuddy.com/
 - name: Integrity Online
   url: http://www.integrity.com/
+- name: Intent
+  audience:
+  - general
+  features:
+  - timetracking
+  platform:
+  - chrome
+  url: https://browsewithintent.com/
 - name: Internet 4 Families
   features:
   - dead
@@ -978,6 +986,16 @@
   - macosx
   url: https://support.apple.com/en-us/HT201813
 - name: Magic Desktop
+- name: ManicTime
+  cost: free to $67
+  features:
+  - timetracking
+  platform:
+  - android
+  - linux
+  - mac
+  - windows
+  url: https://www.manictime.com/
 - name: McAfee All Access
 - name: McAfee Family Protection
   features:
@@ -1514,6 +1532,17 @@
     and gaining insight into why you do what you do.  Similar to R|Tribe.
   platform:
   - ios
+- name: Rescuetime
+  cost: free to $9 / month
+  features:
+  - filtering
+  - timetracking
+  platform:
+  - android
+  - linux
+  - macosx
+  - windows
+  url: https://www.rescuetime.com/
 - name: Router Limits
   audience:
   - parent
