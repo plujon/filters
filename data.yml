@@ -647,6 +647,8 @@
   url: http://addons.mozilla.org/en-US/firefox/addon/foxfilter/
 - name: Fragfinn.de
 - name: Freedom
+  audience:
+  - slacker
   cost: "$2/month to $7/month"
   description: Formerly called Anti-Social Pro, the software is marketed towareds
     those seeking to avoid the distractions of the Internet.
@@ -812,7 +814,7 @@
   url: http://www.integrity.com/
 - name: Intent
   audience:
-  - general
+  - slacker
   features:
   - timetracking
   platform:
@@ -987,6 +989,8 @@
   url: https://support.apple.com/en-us/HT201813
 - name: Magic Desktop
 - name: ManicTime
+  audience:
+  - slacker
   cost: free to $67
   features:
   - timetracking
@@ -1533,6 +1537,8 @@
   platform:
   - ios
 - name: Rescuetime
+  audience:
+  - slacker
   cost: free to $9 / month
   features:
   - filtering
@@ -1790,8 +1796,8 @@
   url: http://www.squidguard.org/
 - name: StayFocusd
   audience:
-  - slacker
   - general
+  - slacker
   description: StayFocusd is a Chrome plugin that can block "time wasting" websites.  It
     only works in Chrome.
   features:
