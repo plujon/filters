@@ -1241,6 +1241,13 @@
   platform:
   - network
   url: http://www.nxfilter.org/
+- name: offtime
+  cost: free to more
+  features:
+  - games
+  - monitoring
+  - timetracking
+  url: https://offtime.co/
 - name: opendium
   audience:
   - overlord
