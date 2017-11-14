@@ -1039,6 +1039,7 @@
 - name: Microsoft Parental Controls
   audience:
   - parent
+  cost: free
   features:
   - filtering
   - games
