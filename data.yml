@@ -446,11 +446,13 @@
   audience:
   - overlord
   cost: free
-  description: DansGuardian is a content filtering proxy that works in conjunction
+  description: DansGuardian is/was a content filtering proxy that works in conjunction
     with another caching proxy such as Squid or Oops. It seems to be targeted primarily
     toward filtering internet content for organizations such as schools.  A guide
-    to setting it up for personal use can be found <a href="http://www.zephyrsoft.org/files/linux-filtering-monitoring-howto.pdf">here</a>.
+    to setting it up for personal use can be found <a href="http://www.zephyrsoft.org/files/linux-filtering-monitoring-howto.pdf">here</a>.  The
+    last release was in 2013.  See E2guardian.
   features:
+  - abandoned
   - filtering
   - gateway
   - more
@@ -858,11 +860,11 @@
   - general
   - addict
   cost: free for personal use
-  description: Sold to companies for overlord-style filtering, Blue Coat allows free
-    use of the filter for individuals looking to protect themselves or their family.  It
-    is configured using an administrative password.  The k9 administrator can view
-    all previous internet activity in addition to changing which categories to block
-    and which features to enable.
+  description: Sold to companies for overlord-style filtering, Blue Coat (now part
+    of Symantec) allows free use of the filter for individuals looking to protect
+    themselves or their family.  It is configured using an administrative password.  The
+    k9 administrator can view all previous internet activity in addition to changing
+    which categories to block and which features to enable.
   features:
   - biglist
   - countermeasures
@@ -2192,13 +2194,16 @@
   platform:
   - browser
   url: https://www.mywot.com/
-- name: X3watch
+- name: X3Watch
   audience:
   - addict
   - parent
-  cost: "$70 to $99/year"
+  cost: free to $99/year
+  description: Development of X3Watch seems to have ceased in 2017, and customers
+    given the chance to transfer membership to EverAccountable.
   features:
-  - accountability
+  - abandoned
+  - ailing
   - filtering
   - monitoring
   icon: http://x3watch.com/wp-content/themes/x3watch/images/x3NewLogo.png
