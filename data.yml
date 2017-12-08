@@ -1,8 +1,4 @@
 ---
-- name: AccessPatrol (CurrentWare)
-  audience:
-  - overlord
-  url: http://www.currentware.com/
 - name: accountabilitypal
   audience:
   - addict
@@ -13,6 +9,7 @@
   features:
   - abandoned
   - accountability
+  - dead
   - gateway
   - incomplete
   - monitoring
@@ -202,14 +199,6 @@
   platform:
   - windows
   url: http://www.browsecontrol.com/
-- name: BrowseControl (CurrentWare)
-  audience:
-  - overlord
-  url: http://www.currentware.com/
-- name: BrowseReporter (CurrentWare)
-  audience:
-  - overlord
-  url: http://www.currentware.com/
 - name: BSecure
   features:
   - dead
@@ -395,6 +384,17 @@
   - macosx
   - windows
   url: http://www.covenanteyes.com/
+- name: CurrentWare Suite
+  audience:
+  - overlord
+  cost: "$500 for 5 computers, variable"
+  description: The suite includes Includes AccessPatrol, BrowseControl, BrowseReporter,
+    and enPowerManager.  The products are sold to employers who want to control and
+    monitor employees.
+  features:
+  - biglist
+  - filtering
+  url: http://www.currentware.com/
 - name: CustomBlocker
   description: CustomBlocker filters any element on any web site with any conditionwith
     XPath and RegExp.
@@ -455,6 +455,7 @@
   - abandoned
   - filtering
   - gateway
+  - historic
   - more
   - proxy
   - ratings
@@ -1599,12 +1600,13 @@
   - addict
   - general
   cost: "$50 for 3 computers"
-  description: Safe Eyes is a full-featured content filter focused on the family.  Here
-    is a <a href="http://www.internetsafety.com/internet-safety-product-videos.php">tune-tastic
-    video that demonstrates the product</a>.
+  description: <a href="http://www.covenanteyes.com/2013/01/15/tribute-to-safe-eyes-support/">Dead
+    as of 2013</a>.
   features:
   - ailing
+  - dead
   - filtering
+  - historic
   - monitoring
   - timer
   icon: http://www.internetsafety.com/graphics/se/SE_RGB_Logo.jpg
