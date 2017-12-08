@@ -1160,6 +1160,7 @@
     14.10 or above (see <a href="http://forum.netresponsibility.com/discussion/159/can-t-install-on-ubuntu-14-10">this
     thread</a>).  A build script can be found <a href="http://www.pluckeye.net/net-responsibility/build.sh">here</a>.
   features:
+  - abandoned
   - accountability
   - monitoring
   - opensource
