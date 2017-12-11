@@ -303,7 +303,7 @@
   url: https://www.clearplay.com/
 - name: Cold Turkey
   audience:
-  - addicts
+  - addict
   - slacker
   cost: free to $19
   description: Cold Turkey is a relatively simple opensource filter designed to support
@@ -457,6 +457,7 @@
   - gateway
   - historic
   - more
+  - password
   - proxy
   - ratings
   - smarts
@@ -871,6 +872,7 @@
   - countermeasures
   - filtering
   - monitoring
+  - password
   - timer
   icon: http://www1.k9webprotection.com/sites/default/files/k9_logo.png
   platform:
@@ -1680,6 +1682,19 @@
 - name: Secure Web SmartFilter EDU
   features:
   - dead
+- name: SecureTeen
+  audience:
+  - parent
+  cost: "$40 / year"
+  features:
+  - filtering
+  - games
+  - monitoring
+  platform:
+  - android
+  - ios
+  - windows
+  url: https://www.secureteen.com/
 - name: Security Shield
 - name: SelfControl for Linux
   audience:
@@ -1705,6 +1720,7 @@
     the user to block access to websites (or mail servers) for a predetermined period
     of time.
   features:
+  - ailing
   - filtering
   - iptables
   - opensource
@@ -2209,6 +2225,7 @@
   - ailing
   - filtering
   - monitoring
+  - password
   icon: http://x3watch.com/wp-content/themes/x3watch/images/x3NewLogo.png
   platform:
   - android
