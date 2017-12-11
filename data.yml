@@ -136,7 +136,7 @@
   platform:
   - ios
   url: https://itunes.apple.com/en/app/blacklist-website-blocker/id1081580076?mt=8
-- name: Block site (1,000,000+ users)
+- name: Block site
   audience:
   - general
   - parent
@@ -1487,7 +1487,7 @@
   icon: https://addons.cdn.mozilla.net/user-media/addon_icons/1/1803-64.png?modified=1455250182
   platform:
   - browser
-  - firefox
+  - firefox-56
   url: https://addons.mozilla.org/en-US/firefox/addon/procon-latte/
 - name: Profil Parental Filter 2
 - name: Protectr
@@ -1957,7 +1957,8 @@
   platform:
   - browser
   - chrome
-  - firefox
+  - firefox-52
+  - firefox-56
   url: https://github.com/gorhill/uBlock
 - name: URLFilterService
   cost: free
@@ -2111,7 +2112,7 @@
 - name: WebFilter Pro
   platform:
   - browser
-  - firefox
+  - firefox-56
   url: https://addons.mozilla.org/en-US/firefox/addon/webfilter/
 - name: WebGuard
   description: A 2005 article by PhD students Mohamed Hammami of Ecole Centrale de
@@ -2192,7 +2193,7 @@
     use this for young children to keep them on the sites we have pre approved. You
     can add new sites with the click of a button.
   platform:
-  - firefox
+  - firefox-56
   url: https://addons.mozilla.org/en-US/firefox/addon/white-list-ninja/
 - name: Whitenet
 - name: Windows Family Safety
