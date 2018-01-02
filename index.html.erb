@@ -4,16 +4,20 @@
 require 'yaml'
 require_relative 'helpers'
 filters = YAML::load_file("data.yml")
+filters.each do |x|
+  %w(audience features platform).each do |w|
+    x[w] = x[w].split(/\s+/) if x[w]
+  end
+end
 hidden_features = ['dns', 'etchosts', 'iptables']
 toxic_features = ['beta', 'dead', 'hide', 'junk', 'scuzzy', 'vapor']
-filters.select! { |x| x["url"] }
-filters.reject! { |x| x["aliasfor"] }
+filters.select! { |x| !x["url"].to_s.empty? }
 filters.reject! { |x| x["audience"] && x["audience"].include?("developer") }
 filters.reject! { |x| x["features"] && (x["features"] & toxic_features).any? }
 filters.sort! { |a,b|
-  if a["icon"] && !b["icon"]
+  if !a["icon"].to_s.empty? && b["icon"].to_s.empty?
     -1
-  elsif b["icon"] && !a["icon"]
+  elsif !b["icon"].to_s.empty? && a["icon"].to_s.empty?
     1
   else
     a["name"] <=> b["name"]
@@ -73,7 +77,7 @@ end
             <%- filter["features"].reject! { |x| hidden_features.include?(x) } if filter["features"] -%>
             <tr>
               <td><a href="<%= filter["url"] %>" title="<%= filter["name"]%>">
-                  <%- if filter["icon"] -%>
+                  <%- if !filter["icon"].to_s.empty? -%>
                   <img height="40" src="<%= filter["icon"] %>" alt="<%= filter["name"]%>" /><br>
                   <%- end -%>
                   <%= filter["name"] %>
