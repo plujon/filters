@@ -1,2581 +1,2590 @@
 ---
 - name: accountabilitypal
+  url: http://www.accountabilitypal.org/
+  platform: linux windows
   audience: addict
   cost: free
+  features: abandoned accountability dead gateway incomplete monitoring network opensource
+  icon: ''
   description: Accountability Pal monitors Internet usage and sends e-mail reports
     to accountability partners.  It is designed to be run on a server.  It is incomplete,
     and was last updated in 2005.
-  features: abandoned accountability dead gateway incomplete monitoring network opensource
-  icon: ''
-  platform: linux windows
-  url: http://www.accountabilitypal.org/
 - name: Accountable2You
+  url: https://www.accountable2you.com/
+  platform: android ios linux macosx windows
   audience: addict
   cost: "$7/month"
+  features: accountability monitoring timer
+  icon: https://lh6.googleusercontent.com/-BhjARoRU0Xc/VHzImGaZwfI/AAAAAAAAABc/cwaNFOypo9c/w962-h962/AU2%2BLOGO_WHITE_2.png
   description: Accountable2You originated as a personal replacement for other, slower,
     accountability software and has since blossomed into a product in its own right.  The
     product site and product interface are quite nice.
-  features: accountability monitoring timer
-  icon: https://lh6.googleusercontent.com/-BhjARoRU0Xc/VHzImGaZwfI/AAAAAAAAABc/cwaNFOypo9c/w962-h962/AU2%2BLOGO_WHITE_2.png
-  platform: android ios linux macosx windows
-  url: https://www.accountable2you.com/
 - name: ActivityLogger
+  url: http://www.softactivity.com/
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.softactivity.com/
+  description: ''
 - name: ActivTrak
+  url: http://activtrak.com/
+  platform: macosx windows
   audience: overlord
   cost: free to $336 / month / 5 users
-  description: ''
   features: filtering monitoring screenshots
   icon: ''
-  platform: macosx windows
-  url: http://activtrak.com/
+  description: ''
 - name: Adblock Plus
+  url: https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
+  platform: browser
   audience: antiad
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
+  description: ''
 - name: Adult Blocker
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: browser
   url: https://addons.mozilla.org/en-US/firefox/addon/adult-blocker/
+  platform: browser
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: AhnLab SiteGuard
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: ''
   url: ''
+  platform: ''
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: Anti-Porn Pro
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: browser
   url: https://addons.mozilla.org/en-US/firefox/addon/cloudacl-anti-porn-pro/
-- name: Anti-Porn Warning
+  platform: browser
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: browser
+  description: ''
+- name: Anti-Porn Warning
   url: https://addons.mozilla.org/en-US/firefox/addon/apm/
+  platform: browser
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: Aobo
+  url: http://aobo.cc/aobo-filter.html
+  platform: macosx windows
   audience: parent addict general
   cost: "$50 (free trial)"
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: macosx windows
-  url: http://aobo.cc/aobo-filter.html
+  description: ''
 - name: AppLock
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Archangel
+  url: https://code.google.com/p/archangel/
+  platform: ''
   audience: ''
   cost: free
-  description: ''
   features: beta icap
   icon: ''
-  platform: ''
-  url: https://code.google.com/p/archangel/
+  description: ''
 - name: Astaro - Parental Control for Wii
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Atlas Web Browser
+  url: https://play.google.com/store/apps/details?id=nextapp.atlas
+  platform: android
   audience: antiad hermit
   cost: ''
+  features: ''
+  icon: ''
   description: Can optionally use AdBlockPlus filters and optional low bandwidth (no-image
     and no-javascript) mode.
-  features: ''
-  icon: ''
-  platform: android
-  url: https://play.google.com/store/apps/details?id=nextapp.atlas
 - name: AVG Family Safety
+  url: http://www.avg.com/us-en/avg-family-safety
+  platform: windows
   audience: parent
   cost: ''
-  description: ''
   features: antivirus
   icon: ''
-  platform: windows
-  url: http://www.avg.com/us-en/avg-family-safety
+  description: ''
 - name: baconreader
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: bark
+  url: https://www.bark.us/
+  platform: android ios
   audience: parent
   cost: "$9/month"
-  description: ''
   features: monitoring social
   icon: ''
-  platform: android ios
-  url: https://www.bark.us/
+  description: ''
 - name: BitDefender Internet Security
+  url: http://www.bitdefender.com/solutions/internet-security.html
+  platform: windows
   audience: ''
   cost: "$70"
-  description: ''
   features: antivirus
   icon: ''
-  platform: windows
-  url: http://www.bitdefender.com/solutions/internet-security.html
+  description: ''
 - name: Blacklist
+  url: https://itunes.apple.com/en/app/blacklist-website-blocker/id1081580076?mt=8
+  platform: ios
   audience: slacker
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ios
-  url: https://itunes.apple.com/en/app/blacklist-website-blocker/id1081580076?mt=8
+  description: ''
 - name: Block site
+  url: https://chrome.google.com/webstore/detail/block-site/eiimnmioipafcokbfikbljfdeojpcgbh/
+  platform: chrome
   audience: general parent
   cost: ''
-  description: ''
   features: blacklist keyword password whitelist
   icon: ''
-  platform: chrome
-  url: https://chrome.google.com/webstore/detail/block-site/eiimnmioipafcokbfikbljfdeojpcgbh/
+  description: ''
 - name: Block.si
+  url: https://addons.mozilla.org/en-US/firefox/addon/blocksi/
+  platform: browser
   audience: parent general overlord
   cost: ''
+  features: biglist cloud filtering
+  icon: ''
   description: Block.si is a Firefox and Chrome extension that blocks content according
     to categories that are controlled by the end-user, parent, or overlord depending
     on the device.
-  features: biglist cloud filtering
-  icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/blocksi/
 - name: Blocksi Router
+  url: http://www.blocksi.net/parental-control.php
+  platform: network
   audience: parent general overlord
   cost: "$60 upfront + $30/year after 2 free years"
-  description: The Blocksi router is a physical device intended to be installed as
-    the network router at home for families.
   features: biglist cloud filtering hardware monitoring
   icon: ''
-  platform: network
-  url: http://www.blocksi.net/parental-control.php
+  description: The Blocksi router is a physical device intended to be installed as
+    the network router at home for families.
 - name: Boomerang Parental Control
+  url: http://nationaledtech.com/
+  platform: android
   audience: ''
   cost: "$12/year"
-  description: ''
   features: filtering
   icon: ''
-  platform: android
-  url: http://nationaledtech.com/
+  description: ''
 - name: Brightfilter Parental Control
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: BrowseControl
+  url: http://www.browsecontrol.com/
+  platform: windows
   audience: overlord
   cost: "$80"
-  description: ''
   features: filtering free monitoring trial
   icon: ''
-  platform: windows
-  url: http://www.browsecontrol.com/
+  description: ''
 - name: BSecure
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Buddy Browser
+  url: http://www.buddybrowser.com/Free-Parental-Controls.cfm
+  platform: macosx windows
   audience: parent
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: macosx windows
-  url: http://www.buddybrowser.com/Free-Parental-Controls.cfm
+  description: ''
 - name: BullGuard Internet Security
+  url: https://www.bullguard.com/
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: antivirus
   icon: ''
-  platform: ''
-  url: https://www.bullguard.com/
+  description: ''
 - name: ButterFly Browser
+  url: https://play.google.com/store/apps/details?id=acr.browser.butterfly
+  platform: ''
   audience: antiad
   cost: ''
+  features: ''
+  icon: ''
   description: A minimalist browser that uses few system resources and that blocks
     ads.
-  features: ''
-  icon: ''
-  platform: ''
-  url: https://play.google.com/store/apps/details?id=acr.browser.butterfly
 - name: CA Security Suite
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Care4teen
+  url: http://www.care4teen.com/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.care4teen.com/
+  description: ''
 - name: Cedar Creek Filtering
+  url: https://www.cedarcreek.co/filtering/personal
+  platform: ''
   audience: overlord parent
   cost: "$15/month"
-  description: The product is a physical router that "plugs in between your WiFi Router
-    and your internet provider's modem".
   features: biglist dns filtering gateway hardware network
   icon: ''
-  platform: ''
-  url: https://www.cedarcreek.co/filtering/personal
+  description: The product is a physical router that "plugs in between your WiFi Router
+    and your internet provider's modem".
 - name: CensureBlock
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: browser
   url: https://addons.mozilla.org/en-US/firefox/addon/censureblock/
-- name: Cenzor
+  platform: browser
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
+  description: ''
+- name: Cenzor
   url: ''
+  platform: ''
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: Child Control
+  url: http://salfeld.com/software/parentalcontrol/index.html
+  platform: windows
   audience: parent
   cost: "$30"
-  description: ''
   features: filtering monitoring timer
   icon: ''
-  platform: windows
-  url: http://salfeld.com/software/parentalcontrol/index.html
+  description: ''
 - name: Chrome supervised profile
+  url: https://support.google.com/chrome/answer/3463947
+  platform: chrome
   audience: parent
   cost: free
-  description: ''
   features: ''
   icon: ''
-  platform: chrome
-  url: https://support.google.com/chrome/answer/3463947
+  description: ''
 - name: Circle
+  url: https://meetcircle.com/
+  platform: network
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: network
-  url: https://meetcircle.com/
+  description: ''
 - name: Clean Internet
+  url: http://www.cleaninter.net/
+  platform: android windows
   audience: parent general addict
   cost: "$3-$5/month"
-  description: ''
   features: ''
   icon: ''
-  platform: android windows
-  url: http://www.cleaninter.net/
+  description: ''
 - name: Cleanfeed
+  url: ''
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: clearOS
+  url: http://www.clearcenter.com/
+  platform: network
   audience: overlord
   cost: "$108/year to $588/year"
+  features: filtering gateway more network
+  icon: ''
   description: Aimed at businesses, governments, and schools, ClearOS is designed
     to be installed on a router.  clearOS sells switches with ClearOS installed and
     calls them "appliances".  It is very similar to DansGuardian.
-  features: filtering gateway more network
-  icon: ''
-  platform: network
-  url: http://www.clearcenter.com/
 - name: ClearPlay
+  url: https://www.clearplay.com/
+  platform: ''
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: ClearPlay is a service that filters out violence and sexual content
     from content purchased or rented on GooglePlay, or from special Blu-ray or DVD
     players.
-  features: ''
-  icon: ''
-  platform: ''
-  url: https://www.clearplay.com/
 - name: Cold Turkey
+  url: http://getcoldturkey.com/
+  platform: windows
   audience: addict slacker
   cost: free to $19
+  features: dns filtering timer
+  icon: ''
   description: Cold Turkey is a relatively simple opensource filter designed to support
     self-control by allowing the end-user to configure times of the week during which
     to block access to certain websites.
-  features: dns filtering timer
-  icon: ''
-  platform: windows
-  url: http://getcoldturkey.com/
 - name: Computer Cop
+  url: http://www.computercop.com/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.computercop.com/
+  description: ''
 - name: ComputerTime
+  url: http://www.softwaretime.com/computertime/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: timer
   icon: ''
-  platform: ''
-  url: http://www.softwaretime.com/computertime/
+  description: ''
 - name: Content Cleaner
+  url: http://www.contentpurity.com/
+  platform: ''
   audience: ''
   cost: "$20"
-  description: ''
   features: pixelation
   icon: ''
-  platform: ''
-  url: http://www.contentpurity.com/
+  description: ''
 - name: Content Protect Pro
+  url: https://www.contentwatch.com/products/contentprotect_pro
+  platform: android macosx network windows
   audience: overlord
   cost: "$40"
-  description: ''
   features: filtering
   icon: ''
-  platform: android macosx network windows
-  url: https://www.contentwatch.com/products/contentprotect_pro
+  description: ''
 - name: ContentBarrier
+  url: http://www.intego.com/manuals/en/cb/1-welcome-to-contentbarrier.html
+  platform: macosx
   audience: parent general
   cost: ''
-  description: ''
   features: filtering monitoring spying
   icon: ''
-  platform: macosx
-  url: http://www.intego.com/manuals/en/cb/1-welcome-to-contentbarrier.html
+  description: ''
 - name: ContentProtect
+  url: ''
+  platform: android windows
   audience: overlord
   cost: "$40/year"
-  description: ContentProtect is Net Nanny for businesses.
   features: ''
   icon: ''
-  platform: android windows
-  url: ''
+  description: ContentProtect is Net Nanny for businesses.
 - name: CovenantEyes
+  url: http://www.covenanteyes.com/
+  platform: android ios macosx windows
   audience: addict parent general
   cost: "$11/month to $15/month"
+  features: accountability filtering monitoring spying timer
+  icon: http://pbs.twimg.com/profile_images/468823054357757953/jY1TV1Uu_400x400.png
   description: CovenantEyes has a beautiful website with a lot of articles about pornography.  The
     site seems to target porn addicts and concerned parents with roughly equal emphasis.  The
     focus (and strength) of the software is accountability rather than filtering.
-  features: accountability filtering monitoring spying timer
-  icon: http://pbs.twimg.com/profile_images/468823054357757953/jY1TV1Uu_400x400.png
-  platform: android ios macosx windows
-  url: http://www.covenanteyes.com/
 - name: CurrentWare Suite
+  url: http://www.currentware.com/
+  platform: ''
   audience: overlord
   cost: "$500 for 5 computers, variable"
+  features: biglist filtering
+  icon: ''
   description: The suite includes Includes AccessPatrol, BrowseControl, BrowseReporter,
     and enPowerManager.  The products are sold to employers who want to control and
     monitor employees.
-  features: biglist filtering
-  icon: ''
-  platform: ''
-  url: http://www.currentware.com/
 - name: CustomBlocker
+  url: https://chrome.google.com/webstore/detail/elnfhbjabfcepfnaeoehffgmifcfjlha
+  platform: ''
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: CustomBlocker filters any element on any web site with any conditionwith
     XPath and RegExp.
-  features: ''
-  icon: ''
-  platform: ''
-  url: https://chrome.google.com/webstore/detail/elnfhbjabfcepfnaeoehffgmifcfjlha
 - name: CyberPatrol Parental Controls
+  url: https://www.cyberpatrol.com/home/
+  platform: windows
   audience: overlord parent
   cost: "$40/year"
-  description: ''
   features: filtering games monitoring timer
   icon: ''
-  platform: windows
-  url: https://www.cyberpatrol.com/home/
+  description: ''
 - name: CyberSentinel
+  url: http://www.cybersentinel.com/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.cybersentinel.com/
+  description: ''
 - name: Cybersieve
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: CyberSitter
+  url: http://www.cybersitter.com/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.cybersitter.com/
+  description: ''
 - name: Cybersitterlists
+  url: http://www.cybersitterlists.com/
+  platform: network
   audience: overlord parent general
   cost: "$80 for Simple DNS + $39/year"
+  features: biglist filtering gateway monitoring
+  icon: ''
   description: Designed to be used with the Simple DNS Plus (a DNS server), it is
     similar in approach to OpenDNS and NX Filter.  The 5 CYBERsitter lists are adult,
     malicious, k12, k12fun, and social networking.
-  features: biglist filtering gateway monitoring
-  icon: ''
-  platform: network
-  url: http://www.cybersitterlists.com/
 - name: Cyclope-Series
+  url: http://www.cyclope-series.com/
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.cyclope-series.com/
+  description: ''
 - name: DansGuardian
+  url: http://dansguardian.org/
+  platform: linux macosx network
   audience: overlord
   cost: free
+  features: abandoned filtering gateway historic more password proxy ratings smarts
+  icon: http://dansguardian.org/images/left.jpg
   description: DansGuardian is/was a content filtering proxy that works in conjunction
     with another caching proxy such as Squid or Oops. It seems to be targeted primarily
     toward filtering internet content for organizations such as schools.  A guide
     to setting it up for personal use can be found <a href="http://www.zephyrsoft.org/files/linux-filtering-monitoring-howto.pdf">here</a>.  The
     last release was in 2013.  See E2guardian.
-  features: abandoned filtering gateway historic more password proxy ratings smarts
-  icon: http://dansguardian.org/images/left.jpg
-  platform: linux macosx network
-  url: http://dansguardian.org/
 - name: Davide
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Disconnect
+  url: https://disconnect.me
+  platform: chrome
   audience: general
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: chrome
-  url: https://disconnect.me
+  description: ''
 - name: Distractus
+  url: https://addons.mozilla.org/en-US/firefox/addon/distractus/
+  platform: browser
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: Distractus is a simple Firefox addon that allows the user to whitelist
     and blacklist sites using regular expression matching.
-  features: ''
-  icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/distractus/
 - name: DNSthingy
+  url: https://www.dnsthingy.com/
+  platform: network
   audience: parent overlord general addict
   cost: "$8/month"
+  features: ''
+  icon: ''
   description: DNSthingy is for Canadians, users of Clear OS, or those willing to
     flash their home router.
-  features: ''
-  icon: ''
-  platform: network
-  url: https://www.dnsthingy.com/
 - name: Dolphin Secure
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: E2guardian Web filtering
+  url: http://e2guardian.org/cms/
+  platform: ''
   audience: overlord parent
   cost: ''
+  features: filtering gateway more proxy ratings smarts
+  icon: ''
   description: e2guardian is a fork and continuation of DansGuardian.  It is an open
     source web content filter that filters based on many methods including phrase
     matching, request header, URL filtering, etc.  Unlike DansGuardian, e2guardian
     has some support for https filtering, if the necessary authoritative certificates
     are installed in the browser.
-  features: filtering gateway more proxy ratings smarts
-  icon: ''
-  platform: ''
-  url: http://e2guardian.org/cms/
 - name: emypeople.net
+  url: http://www.emypeople.net/
+  platform: ''
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: A very small ISP with a mishmash of filtering services for the very
     conservative.  The SafeSentryPro platform does html filtering.
-  features: ''
-  icon: ''
-  platform: ''
-  url: http://www.emypeople.net/
 - name: Enologic Net Filter
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: ENUFF PC
+  url: http://www.akrontech.com/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: dead timer
   icon: ''
-  platform: ''
-  url: http://www.akrontech.com/
+  description: ''
 - name: eSafely (netspark)
+  url: http://esafely.com
+  platform: browser
   audience: parent
   cost: free
-  description: ''
   features: dead
   icon: ''
-  platform: browser
-  url: http://esafely.com
+  description: ''
 - name: eScan
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: ESET Smart Security
+  url: http://www.eset.com/
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: antivirus
   icon: ''
-  platform: ''
-  url: http://www.eset.com/
+  description: ''
 - name: EverAccountable
+  url: http://www.everaccountable.com/
+  platform: android windows
   audience: ''
   cost: "$7/month"
-  description: ''
   features: monitoring
   icon: ''
-  platform: android windows
-  url: http://www.everaccountable.com/
+  description: ''
 - name: eVision
+  url: http://www.evisionglobal.com/
+  platform: ''
   audience: ''
   cost: ''
-  description: Launched in 2001 and last updated in September 2001, this appears to
-    be a dead project.
   features: dead skin
   icon: ''
-  platform: ''
-  url: http://www.evisionglobal.com/
+  description: Launched in 2001 and last updated in September 2001, this appears to
+    be a dead project.
 - name: Family Cyber Alert
+  url: http://www.itcompany.com/fca
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: monitoring
   icon: ''
-  platform: ''
-  url: http://www.itcompany.com/fca
+  description: ''
 - name: Familyloop Safeguard
+  url: https://www.familoop.com/
+  platform: ''
   audience: parent
   cost: "$5/month for 3 devices"
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: ''
-  url: https://www.familoop.com/
+  description: ''
 - name: FB Limiter
+  url: http://www.facebooklimiter.com/
+  platform: windows
   audience: ''
   cost: free to $15
-  description: ''
   features: ''
   icon: ''
-  platform: windows
-  url: http://www.facebooklimiter.com/
+  description: ''
 - name: Fiddler
+  url: http://www.telerik.com/fiddler
+  platform: ''
   audience: developer
   cost: ''
+  features: ''
+  icon: ''
   description: A free web debugging proxy, this product is aimed at web developers,
     not general Internet consumers. Fiddler sets itself up as a WinINET Proxy [see
     http://msdn.microsoft.com/en-us/library/windows/desktop/aa384075(v=vs.85).aspx
     ], so it intercepts traffic from all applications that use WinINET (IE, Office).  It
     is more useful for developing a web application and web server; it is not a consumer-oriented
     filter.
-  features: ''
-  icon: ''
-  platform: ''
-  url: http://www.telerik.com/fiddler
 - name: Filter Pak
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: FilterGate
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: FilterPak
+  url: http://www.s4f.com/products/filterpak
+  platform: windows
   audience: parent addict
   cost: unknown
-  description: ''
   features: accountability biglist filtering monitoring
   icon: ''
-  platform: windows
-  url: http://www.s4f.com/products/filterpak
+  description: ''
 - name: FinFisher
-  audience: overlord
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: ''
   url: ''
-- name: FlashStart
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
+  description: ''
+- name: FlashStart
   url: http://www.flashstart.com/
+  platform: ''
+  audience: overlord
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: Focus
+  url: https://heyfocus.com/
+  platform: macosx
   audience: slacker general
   cost: "$20"
-  description: ''
   features: productivity timer
   icon: ''
-  platform: macosx
-  url: https://heyfocus.com/
+  description: ''
 - name: Focus 45
+  url: ''
+  platform: chrome
   audience: slacker
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: chrome
-  url: ''
+  description: ''
 - name: Fortify
+  url: http://fortifyprogram.org/
+  platform: android ios macosx windows
   audience: addict
   cost: free for youth, $39 for adults
+  features: other
+  icon: http://fortifyprogram.org/assets/images/fortify-logo.svg
   description: Fortify is not a filter, but it is similar enough to warrant inclusion
     here.  Instead of filtering or monitoring, it aims to educate and support a porn
     user as he/she moves toward that goal.
-  features: other
-  icon: http://fortifyprogram.org/assets/images/fortify-logo.svg
-  platform: android ios macosx windows
-  url: http://fortifyprogram.org/
 - name: FoxFilter
+  url: http://addons.mozilla.org/en-US/firefox/addon/foxfilter/
+  platform: browser
   audience: parent general overlord
   cost: free to $15/year
+  features: filtering keyword
+  icon: ''
   description: FoxFilter is an add-on to Firefox and Chrome designed to "protect children
     and teens from inappropriate content on the Web."  It only works in Firefox and
     Chrome.
-  features: filtering keyword
-  icon: ''
-  platform: browser
-  url: http://addons.mozilla.org/en-US/firefox/addon/foxfilter/
 - name: Fragfinn.de
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Freedom
+  url: https://freedom.to/
+  platform: ios macosx windows
   audience: slacker
   cost: "$2/month to $7/month"
-  description: Formerly called Anti-Social Pro, the software is marketed towareds
-    those seeking to avoid the distractions of the Internet.
   features: filtering timer
   icon: ''
-  platform: ios macosx windows
-  url: https://freedom.to/
+  description: Formerly called Anti-Social Pro, the software is marketed towareds
+    those seeking to avoid the distractions of the Internet.
 - name: FSecure
+  url: http://www.f-secure.com/en/web/home_global/home
+  platform: windows
   audience: general parent
   cost: ''
-  description: ''
   features: antivirus
   icon: ''
-  platform: windows
-  url: http://www.f-secure.com/en/web/home_global/home
+  description: ''
 - name: Funamo
+  url: https://www.funamo.com/
+  platform: android
   audience: parent
   cost: ''
-  description: ''
   features: filtering games monitoring timer
   icon: ''
-  platform: android
-  url: https://www.funamo.com/
+  description: ''
 - name: Gaggle
+  url: http://www.gaggle.net/
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.gaggle.net/
+  description: ''
 - name: GenTech
+  url: https://gentechsolution.com/
+  platform: android ios
   audience: ''
   cost: "$100/year to $125/year"
-  description: Supposedly designed with the "frum" community in mind.  Yet, it was
-    built in Romania and seems to be sold to employers.
   features: filter image-recognition scuzzy smarts
   icon: ''
-  platform: android ios
-  url: https://gentechsolution.com/
+  description: Supposedly designed with the "frum" community in mind.  Yet, it was
+    built in Romania and seems to be sold to employers.
 - name: Geringo
+  url: https://www.geringo.com/
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: vapor
   icon: ''
-  platform: ''
-  url: https://www.geringo.com/
+  description: ''
 - name: Gnome nanny
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: GodSaves.tk Anti-Porn
+  url: https://addons.mozilla.org/en-US/firefox/addon/godsavestk-anti-pornography/
+  platform: browser
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/godsavestk-anti-pornography/
+  description: ''
 - name: goguardian
+  url: https://www.goguardian.com/
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: https://www.goguardian.com/
+  description: ''
 - name: Google Play Store
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: Go to Play Store Settings. Select Content Filtering. Choose the maturity
     level as per you choice. -- http://www.lifehack.org/articles/technology/20-google-play-store-tips-and-tricks-you-cant-miss.html
-  features: ''
-  icon: ''
-  platform: ''
-  url: ''
 - name: Green Dam Youth Escort (Mainland Chinese Government mandated software)
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Guard Your Eyes
+  url: http://guardyoureyes.com/
+  platform: ''
   audience: addict
   cost: free, but fines if you view porn
-  description: Guard your eyes is an online program, not a true filter.  Users pay
-    fines every time they view porn.
   features: other
   icon: ''
-  platform: ''
-  url: http://guardyoureyes.com/
+  description: Guard your eyes is an online program, not a true filter.  Users pay
+    fines every time they view porn.
 - name: Habatica
+  url: https://habitica.com/
+  platform: ios
   audience: ''
   cost: ''
-  description: A to-do app that helps the user form good habits.  Its tagline is 'gamify
-    your life'
   features: accountability
   icon: ''
-  platform: ios
-  url: https://habitica.com/
+  description: A to-do app that helps the user form good habits.  Its tagline is 'gamify
+    your life'
 - name: Handy Filter
+  url: http://www.handyfilter.com/
+  platform: ''
   audience: overlord general
   cost: free
-  description: Originally developed for Internet Cafes in Turkey.
   features: filtering monitoring
   icon: ''
-  platform: ''
-  url: http://www.handyfilter.com/
+  description: Originally developed for Internet Cafes in Turkey.
 - name: HomeGuard
+  url: http://veridium.net/
+  platform: windows
   audience: overlord parent
   cost: "$39-$49"
+  features: filtering monitoring screenshots spying
+  icon: ''
   description: Activity Forensics is primarily spying software that logs computer
     use including keystrokes, screenshots, Internet activity, and other data.  It
     offers rudimentary filtering.
-  features: filtering monitoring screenshots spying
-  icon: ''
-  platform: windows
-  url: http://veridium.net/
 - name: HostsBlock
+  url: http://www.wilderssecurity.com/threads/hosts-block.378901/
+  platform: windows
   audience: ''
   cost: free to $5
-  description: ''
   features: ''
   icon: ''
-  platform: windows
-  url: http://www.wilderssecurity.com/threads/hosts-block.378901/
+  description: ''
 - name: HostsMan
+  url: http://www.abelhadigital.com/hostsman
+  platform: windows
   audience: ''
   cost: free
-  description: ''
   features: ''
   icon: ''
-  platform: windows
-  url: http://www.abelhadigital.com/hostsman
+  description: ''
 - name: IamBigBrother
-  audience: ''
-  cost: ''
-  description: ''
-  features: monitoring spying
-  icon: ''
-  platform: windows
   url: http://www.iambigbrother.com/
-- name: iBoss Home Parental Control Router
+  platform: windows
   audience: ''
   cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: network
-  url: ''
-- name: Image and Flash Block
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/image-and-flash-blocker/
-- name: Image Block
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/image-block/
-- name: IMView
-  audience: ''
-  cost: ''
-  description: ''
   features: monitoring spying
   icon: ''
-  platform: ios macosx windows
-  url: http://imview.com/
-- name: iNet Safety Bubble (Mobile)
+  description: ''
+- name: iBoss Home Parental Control Router
+  url: ''
+  platform: network
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
+  description: ''
+- name: Image and Flash Block
+  url: https://addons.mozilla.org/en-US/firefox/addon/image-and-flash-blocker/
+  platform: browser
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
+- name: Image Block
+  url: https://addons.mozilla.org/en-US/firefox/addon/image-block/
+  platform: browser
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
+- name: IMView
+  url: http://imview.com/
+  platform: ios macosx windows
+  audience: ''
+  cost: ''
+  features: monitoring spying
+  icon: ''
+  description: ''
+- name: iNet Safety Bubble (Mobile)
   url: ''
+  platform: ''
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: iNetClean
+  url: https://inetclean.com/
+  platform: ''
   audience: ''
   cost: free to $10/year
-  description: ''
   features: abandoned dead harvester scuzzy
   icon: ''
-  platform: ''
-  url: https://inetclean.com/
+  description: ''
 - name: Integard
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Intego IS Barrier X6 (Mac)
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Integrity Buddy
+  url: https://integritybuddy.com/
+  platform: ''
   audience: ''
   cost: "$5/month"
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: https://integritybuddy.com/
+  description: ''
 - name: Integrity Online
+  url: http://www.integrity.com/
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.integrity.com/
+  description: ''
 - name: Intent
+  url: https://browsewithintent.com/
+  platform: chrome
   audience: slacker
   cost: ''
-  description: ''
   features: timetracking
   icon: ''
-  platform: chrome
-  url: https://browsewithintent.com/
+  description: ''
 - name: Internet 4 Families
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: InternetOff
+  url: http://crystalrich.com/internetoff/
+  platform: windows
   audience: ''
   cost: free
-  description: ''
   features: timer
   icon: ''
-  platform: windows
-  url: http://crystalrich.com/internetoff/
+  description: ''
 - name: iOS Parental Controls (Mobile)
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: iProtectYou
+  url: http://www.softforyou.com/ip-index.html
+  platform: windows
   audience: ''
   cost: ''
-  description: ''
   features: filtering
   icon: ''
-  platform: windows
-  url: http://www.softforyou.com/ip-index.html
+  description: ''
 - name: iShield
+  url: http://www.guardwareinc.com/ishield.php
+  platform: windows
   audience: parent addict
   cost: "$25"
-  description: ''
   features: accountability filtering monitoring smarts
   icon: ''
-  platform: windows
-  url: http://www.guardwareinc.com/ishield.php
+  description: ''
 - name: Jusprog
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: K9 Web Protection
+  url: http://www1.k9webprotection.com
+  platform: android ios macosx windows
   audience: overlord parent general addict
   cost: free for personal use
+  features: biglist countermeasures filtering monitoring password timer
+  icon: http://www1.k9webprotection.com/sites/default/files/k9_logo.png
   description: Sold to companies for overlord-style filtering, Blue Coat (now part
     of Symantec) allows free use of the filter for individuals looking to protect
     themselves or their family.  It is configured using an administrative password.  The
     k9 administrator can view all previous internet activity in addition to changing
     which categories to block and which features to enable.
-  features: biglist countermeasures filtering monitoring password timer
-  icon: http://www1.k9webprotection.com/sites/default/files/k9_logo.png
-  platform: android ios macosx windows
-  url: http://www1.k9webprotection.com
 - name: Kapersky Internet Security
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: antivirus
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Kapersky Safe Kids
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Kaspersky
+  url: http://usa.kaspersky.com
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: antivirus
   icon: ''
-  platform: ''
-  url: http://usa.kaspersky.com
+  description: ''
 - name: Kaspersky Pure
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: KaZipster
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: KidoZ
+  url: http://kidoz.net/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://kidoz.net/
+  description: ''
 - name: kidrex
+  url: http://www.kidrex.org/
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: hide
   icon: ''
-  platform: ''
-  url: http://www.kidrex.org/
+  description: ''
 - name: KidRocket
+  url: http://kidrocket.en.softonic.com/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: browser
   icon: ''
-  platform: ''
-  url: http://kidrocket.en.softonic.com/
+  description: ''
 - name: Kids Place
+  url: https://play.google.com/store/apps/details?id=com.kiddoware.kidsplace
+  platform: android
   audience: parent addict general
   cost: ''
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: android
-  url: https://play.google.com/store/apps/details?id=com.kiddoware.kidsplace
+  description: ''
 - name: KidsWatch
+  url: http://www.kidswatch.com/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.kidswatch.com/
+  description: ''
 - name: KidZui
+  url: http://www.kidzui.com/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: ''
-  url: http://www.kidzui.com/
+  description: ''
 - name: Kinderserver
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Knas Based Accountability
+  url: http://venishmartem.com/exclusives/kba
+  platform: macosx windows
   audience: ''
   cost: free
-  description: ''
   features: accountability monitoring
   icon: ''
-  platform: macosx windows
-  url: http://venishmartem.com/exclusives/kba
+  description: ''
 - name: Kurupira
+  url: http://kurupira.net/
+  platform: ''
   audience: ''
   cost: ''
-  description: Project seems to have died in 2011
   features: abandoned hide
   icon: ''
-  platform: ''
-  url: http://kurupira.net/
+  description: Project seems to have died in 2011
 - name: LeeckBlock
+  url: http://www.proginosko.com/leechblock.html
+  platform: browser
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: browser
-  url: http://www.proginosko.com/leechblock.html
+  description: ''
 - name: LG Gate
+  url: http://www.lg.com/us/business/enterprise-mobility
+  platform: android
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: android
-  url: http://www.lg.com/us/business/enterprise-mobility
+  description: ''
 - name: Lightning Web Browser
+  url: https://play.google.com/store/apps/details?id=acr.browser.lightning
+  platform: android
   audience: antiad hermit
   cost: "$1"
-  description: An Android browser with built-in ad-blocking.
   features: ''
   icon: ''
-  platform: android
-  url: https://play.google.com/store/apps/details?id=acr.browser.lightning
+  description: An Android browser with built-in ad-blocking.
 - name: Little Web Browser
+  url: https://play.google.com/store/apps/details?id=com.weejim.app.lynx
+  platform: android
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: Little Browser reduces data utilization by displaying only readable
     content from webpages and by not downloading extraneous contents like scripts
     and images.
-  features: ''
-  icon: ''
-  platform: android
-  url: https://play.google.com/store/apps/details?id=com.weejim.app.lynx
 - name: livigent
+  url: http://www.livigent.com/
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: filtering hardware mimetypes network smarts timer
   icon: ''
-  platform: ''
-  url: http://www.livigent.com/
+  description: ''
 - name: Mac OS X Parental Controls
+  url: https://support.apple.com/en-us/HT201813
+  platform: macosx
   audience: parent
   cost: ''
-  description: 'Mac OS X Parental Controls can operate in three modes: unrestricted,
-    automatic, and whitelist.'
   features: filtering monitoring ratings smarts
   icon: ''
-  platform: macosx
-  url: https://support.apple.com/en-us/HT201813
+  description: 'Mac OS X Parental Controls can operate in three modes: unrestricted,
+    automatic, and whitelist.'
 - name: Magic Desktop
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: ManicTime
+  url: https://www.manictime.com/
+  platform: android linux mac windows
   audience: slacker
   cost: free to $67
-  description: ''
   features: timetracking
   icon: ''
-  platform: android linux mac windows
-  url: https://www.manictime.com/
+  description: ''
 - name: McAfee All Access
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: McAfee Family Protection
+  url: http://home.mcafee.com/store/family-protection
+  platform: windows
   audience: ''
   cost: ''
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: windows
-  url: http://home.mcafee.com/store/family-protection
+  description: ''
 - name: McAfee IS
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: McGruff SafeGuard
+  url: http://www.gomcgruff.com/
+  platform: windows
   audience: parent
   cost: ''
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: windows
-  url: http://www.gomcgruff.com/
+  description: ''
 - name: Meine Startseite.de
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Meshimer
+  url: https://www.meshimer.com/
+  platform: Windows
   audience: ''
   cost: "$5-$15/month"
-  description: ''
   features: pixelation scuzzy
   icon: ''
-  platform: Windows
-  url: https://www.meshimer.com/
+  description: ''
 - name: Microsoft Forefront Threat Management Gateway
+  url: ''
+  platform: network
   audience: ''
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: network
-  url: ''
+  description: ''
 - name: Microsoft Parental Controls
+  url: http://windows.microsoft.com/en-us/windows/set-parental-controls
+  platform: windows
   audience: parent
   cost: free
-  description: ''
   features: filtering games timer
   icon: ''
-  platform: windows
-  url: http://windows.microsoft.com/en-us/windows/set-parental-controls
+  description: ''
 - name: MinorMonitor
+  url: http://www.minormonitor.com/
+  platform: ''
   audience: ''
   cost: free
-  description: ''
   features: social
   icon: ''
-  platform: ''
-  url: http://www.minormonitor.com/
+  description: ''
 - name: MMGuardian
+  url: http://www.mmguardian.com/
+  platform: android ios
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: android ios
-  url: http://www.mmguardian.com/
+  description: ''
 - name: MobiCIP
+  url: http://www.mobicip.com/
+  platform: android chromeos ios kindle macosx nook windows
   audience: ''
   cost: free to $40/year
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: android chromeos ios kindle macosx nook windows
-  url: http://www.mobicip.com/
+  description: ''
 - name: Mobiflock
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Mobile Parental Filter
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: MobileMinder
+  url: http://mobileminder.com/
+  platform: android
   audience: parent
   cost: ''
-  description: ''
   features: games monitoring timer
   icon: ''
-  platform: android
-  url: http://mobileminder.com/
+  description: ''
 - name: ModemLockDown
+  url: http://www.modemlockdown.com/
+  platform: windows
   audience: ''
   cost: "$10"
-  description: ''
   features: ''
   icon: ''
-  platform: windows
-  url: http://www.modemlockdown.com/
+  description: ''
 - name: Mybee.nl
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: MyKidisSafe
+  url: http://www.emobilesecurity.com/MyKidIsSafe.html
+  platform: android ios
   audience: parent
   cost: ''
-  description: ''
   features: filtering monitoring spying
   icon: ''
-  platform: android ios
-  url: http://www.emobilesecurity.com/MyKidIsSafe.html
+  description: ''
 - name: Naked Browser
+  url: https://play.google.com/store/apps/details?id=com.fevdev.nakedbrowser
+  platform: android
   audience: hermit
   cost: free
-  description: A browser that uses a privacy-conserving configuration, Naked Browser
-    seems to have been written for the author's own use and then shared with the world.
   features: ''
   icon: ''
-  platform: android
-  url: https://play.google.com/store/apps/details?id=com.fevdev.nakedbrowser
+  description: A browser that uses a privacy-conserving configuration, Naked Browser
+    seems to have been written for the author's own use and then shared with the world.
 - name: NativUSA
+  url: http://www.usanativ.com/
+  platform: windows
   audience: ''
   cost: "$10/month to $14/month"
-  description: Kosher Internet, uses Seimen technologies
   features: filter scuzzy skin-shading smarts
   icon: ''
-  platform: windows
-  url: http://www.usanativ.com/
+  description: Kosher Internet, uses Seimen technologies
 - name: Net Angel
+  url: https://www.netangel.com/
+  platform: network
   audience: parent spouse addict
   cost: free to $15/month
+  features: ''
+  icon: ''
   description: Net Angel sells home routers that have e2guardian pre-installed.  Whenever
     a website is blocked, a text message is sent to a phone number.  As of 2016-11-11,
     the company also has beta-quality iOS and Android apps that will feature similar
     techniques.
-  features: ''
-  icon: ''
-  platform: network
-  url: https://www.netangel.com/
 - name: Net Nanny
+  url: http://www.netnanny.com/
+  platform: android macosx windows
   audience: parent
   cost: "$13 to $40/year"
-  description: ''
   features: accountability biglist filtering monitoring social timer
   icon: ''
-  platform: android macosx windows
-  url: http://www.netnanny.com/
+  description: ''
 - name: Net Responsibility
+  url: http://www.netresponsibility.com/
+  platform: linux macosx
   audience: addict
   cost: free
+  features: abandoned accountability monitoring opensource
+  icon: http://www.netresponsibility.com/img/soap2.png
   description: Net Responsibility monitors Internet usage and sends e-mail reports
     to accountability partners.  Must be compiled from source on Mac OS X and Ubuntu
     14.10 or above (see <a href="http://forum.netresponsibility.com/discussion/159/can-t-install-on-ubuntu-14-10">this
     thread</a>).  A build script can be found <a href="http://www.pluckeye.net/net-responsibility/build.sh">here</a>.
-  features: abandoned accountability monitoring opensource
-  icon: http://www.netresponsibility.com/img/soap2.png
-  platform: linux macosx
-  url: http://www.netresponsibility.com/
 - name: NETBLOX
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: network
   url: ''
-- name: NetDefend
+  platform: network
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
+  description: ''
+- name: NetDefend
   url: http://security.dlink.com.tw/netdefend_wcf.asp
+  platform: ''
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: NetDog Porn Filter
+  url: http://www.netdogsoft.com/
+  platform: windows
   audience: ''
   cost: "$25"
-  description: ''
   features: ''
   icon: ''
-  platform: windows
-  url: http://www.netdogsoft.com/
+  description: ''
 - name: Netgear Live Parental Controls
+  url: ''
+  platform: network
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: network
-  url: ''
+  description: ''
 - name: NetGenie
+  url: http://www.netgenie.net/global/
+  platform: network
   audience: parent
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: network
-  url: http://www.netgenie.net/global/
+  description: ''
 - name: Netintelligence
+  url: http://www.netintelligence.com/
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.netintelligence.com/
+  description: ''
 - name: netsentron
+  url: http://www.netsentron.com/
+  platform: network
   audience: overlord parent
   cost: "$75/month"
-  description: ''
   features: ''
   icon: ''
-  platform: network
-  url: http://www.netsentron.com/
+  description: ''
 - name: Netsweeper
+  url: https://www.netsweeper.com/
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: https://www.netsweeper.com/
+  description: ''
 - name: NoFap Panic Button
+  url: https://addons.mozilla.org/en-US/firefox/addon/nofap-panic-button/
+  platform: browser
   audience: ''
   cost: ''
-  description: ''
   features: motivate
   icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/nofap-panic-button/
+  description: ''
 - name: Norman
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: ''
   url: ''
-- name: Norton ConnectSafe DNS Server
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: network
+  description: ''
+- name: Norton ConnectSafe DNS Server
   url: https://dns.norton.com/
+  platform: network
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: Norton Family
+  url: http://onlinefamily.norton.com/
+  platform: android ios macosx windows
   audience: parent general addict
   cost: free to $50
-  description: Norton Family has free and paid offerings, both of which are aimed
-    at parents who want to know what their children are doing online.
   features: accountability monitoring
   icon: http://safeweb.norton.com/images/global/norton-icon.png
-  platform: android ios macosx windows
-  url: http://onlinefamily.norton.com/
+  description: Norton Family has free and paid offerings, both of which are aimed
+    at parents who want to know what their children are doing online.
 - name: NX Filter
+  url: http://www.nxfilter.org/
+  platform: network
   audience: overlord general parent
   cost: free to $$
-  description: A DNS-based filter and monitor, similar to OpenDNS, but with user-authentication
-    capability for user-specific rules.
   features: biglist dns filtering monitoring
   icon: ''
-  platform: network
-  url: http://www.nxfilter.org/
+  description: A DNS-based filter and monitor, similar to OpenDNS, but with user-authentication
+    capability for user-specific rules.
 - name: offtime
+  url: https://offtime.co/
+  platform: ''
   audience: ''
   cost: free to more
-  description: ''
   features: games monitoring timetracking
   icon: ''
-  platform: ''
-  url: https://offtime.co/
+  description: ''
 - name: opendium
+  url: http://www.opendium.com/
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.opendium.com/
+  description: ''
 - name: OpenDNS
+  url: http://www.opendns.com/
+  platform: android ios linux macosx network windows
   audience: general parent
   cost: free to $20/year
-  description: Free for home use, OpenDNS is both easy-to-use and popular.
   features: dns filtering monitoring
   icon: ''
-  platform: android ios linux macosx network windows
-  url: http://www.opendns.com/
+  description: Free for home use, OpenDNS is both easy-to-use and popular.
 - name: Optenet
+  url: http://www.optenetpc.com/
+  platform: windows
   audience: parent addict
   cost: "$40"
-  description: ''
   features: filtering monitoring smarts timer
   icon: ''
-  platform: windows
-  url: http://www.optenetpc.com/
+  description: ''
 - name: Override DNS
+  url: https://play.google.com/store/apps/details?id=net.mx17.overridedns
+  platform: ''
   audience: ''
   cost: "$2"
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: https://play.google.com/store/apps/details?id=net.mx17.overridedns
+  description: ''
 - name: Panda
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: ''
   url: http://www.pandasecurity.com/usa/homeusers/solutions/internet-security/
-- name: Parental Control Bar
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
+  description: ''
+- name: Parental Control Bar
   url: http://www.wraac.org/
+  platform: ''
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: Parental Controls and Web Filter from MetaCert
+  url: https://addons.mozilla.org/en-US/firefox/addon/metacert/
+  platform: browser
   audience: ''
   cost: free or donate
-  description: ''
   features: filtering password
   icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/metacert/
+  description: ''
 - name: Parenteeno
+  url: http://www.parenteeno.com/
+  platform: android windows
   audience: parent
   cost: "$25/year"
+  features: keystrokes monitoring screenshots social spying
+  icon: ''
   description: Parenteeno monitors what the user (i.e., child) does on the target
     device and sends the data to the Parenteeno servers where reports are prepared
     for parental review.  The product is created by 2 dads in Dublin and the product
     page says it is all about protecting children from "cyberbullying, sexting, predators
     and other menace."
-  features: keystrokes monitoring screenshots social spying
-  icon: ''
-  platform: android windows
-  url: http://www.parenteeno.com/
 - name: Partner Guard
+  url: http://www.partnerguard.com/
+  platform: windows
   audience: spouse addict parent
   cost: "$60/year"
-  description: ''
   features: abandoned dead filtering mia monitoring screenshots scuzzy spying
   icon: ''
-  platform: windows
-  url: http://www.partnerguard.com/
+  description: ''
 - name: PC Pandora
+  url: http://www.pcpandora.com/application/parental/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: abandoned dead mia monitoring spying
   icon: ''
-  platform: ''
-  url: http://www.pcpandora.com/application/parental/
+  description: ''
 - name: PC Tattletale
+  url: https://www.pctattletale.com/
+  platform: ''
   audience: overlord parent
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: https://www.pctattletale.com/
+  description: ''
 - name: PeanutButterPC
+  url: http://www.peanutbuttersoftware.com/
+  platform: windows
   audience: parent
   cost: "$25"
-  description: ''
   features: ''
   icon: ''
-  platform: windows
-  url: http://www.peanutbuttersoftware.com/
+  description: ''
 - name: Pearl Echo
+  url: http://www.pearlsoftware.com/
+  platform: windows
   audience: overlord
   cost: "$30"
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: windows
-  url: http://www.pearlsoftware.com/
+  description: ''
 - name: Personal Blocklist
+  url: https://chrome.google.com/webstore/detail/personal-blocklist-by-goo/nolijncfnkgaikbjbdaogikpmpbdcdef
+  platform: chrome
   audience: general slacker
   cost: free
-  description: ''
   features: ''
   icon: ''
-  platform: chrome
-  url: https://chrome.google.com/webstore/detail/personal-blocklist-by-goo/nolijncfnkgaikbjbdaogikpmpbdcdef
+  description: ''
 - name: pfSense
+  url: https://www.pfsense.org/
+  platform: network
   audience: overlord
   cost: ''
-  description: ''
   features: opensource
   icon: ''
-  platform: network
-  url: https://www.pfsense.org/
+  description: ''
 - name: PicBlock
+  url: http://picblock.software.informer.com/download/
+  platform: windows
   audience: parent
   cost: free
-  description: PicBlock is one of the few filters that attempts to detect skin tones.  The
-    project was last updated in 2011.
   features: abandoned hide pixelation smarts
   icon: ''
-  platform: windows
-  url: http://picblock.software.informer.com/download/
+  description: PicBlock is one of the few filters that attempts to detect skin tones.  The
+    project was last updated in 2011.
 - name: Picture Blocker
+  url: https://addons.mozilla.org/en-US/firefox/addon/picture-blocker/
+  platform: Firefox
   audience: parent
   cost: free
-  description: ''
   features: abandoned
   icon: ''
-  platform: Firefox
-  url: https://addons.mozilla.org/en-US/firefox/addon/picture-blocker/
+  description: ''
 - name: Play This 2 Play That
+  url: https://play.google.com/store/apps/details?id=com.playthis2playthatdemo
+  platform: android
   audience: parent
   cost: "$1"
-  description: Requires user play a certain amount of educational games to unlock
-    other apps.
   features: games timer
   icon: ''
-  platform: android
-  url: https://play.google.com/store/apps/details?id=com.playthis2playthatdemo
+  description: Requires user play a certain amount of educational games to unlock
+    other apps.
 - name: Pluckeye
+  url: http://pluckeye.net/
+  platform: android linux macosx windows
   audience: addict
   cost: free to $15 / month
+  features: changedelay filtering mimetypes monitoring opensource-contrib timer
+  icon: http://www.pluckeye.net/p64.svg
   description: Customizable, but blocks all images from the internet by default.  Its
     delayed-configuration system is designed to bolster self-control on the Internet.  Pluckeye
     on Android is a text-only browser with fewer features than desktop Pluckeye.
-  features: changedelay filtering mimetypes monitoring opensource-contrib timer
-  icon: http://www.pluckeye.net/p64.svg
-  platform: android linux macosx windows
-  url: http://pluckeye.net/
 - name: policeman
+  url: https://addons.mozilla.org/en-US/firefox/addon/policeman/
+  platform: browser
   audience: general hermit
   cost: free
-  description: ''
   features: filtering mimetypes
   icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/policeman/
+  description: ''
 - name: Porn Blocker
+  url: http://www.pornblocker-app.com/
+  platform: ios macosx safari
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ios macosx safari
-  url: http://www.pornblocker-app.com/
+  description: ''
 - name: Porn Terminator
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: junk
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Privoxy
+  url: http://www.privoxy.org/
+  platform: linux macosx network windows
   audience: hermit general parent
   cost: free
-  description: Privoxy is a non-caching web proxy designed to enhance privacy, control
-    access, and remove ads.
   features: proxy
   icon: ''
-  platform: linux macosx network windows
-  url: http://www.privoxy.org/
+  description: Privoxy is a non-caching web proxy designed to enhance privacy, control
+    access, and remove ads.
 - name: ProblemPoker
+  url: http://www.problempoker.com/
+  platform: ''
   audience: addict
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.problempoker.com/
+  description: ''
 - name: ProCon Latte Content Filter
+  url: https://addons.mozilla.org/en-US/firefox/addon/procon-latte/
+  platform: browser firefox-56
   audience: parent general addict
   cost: ''
+  features: filtering keyword opensource password profanity
+  icon: https://addons.cdn.mozilla.net/user-media/addon_icons/1/1803-64.png?modified=1455250182
   description: A Firefox extension, the ProCon Latte Content Filter blocks (usually
     containing pornography) based on simple keyword lists.  It supports password protection,
     and it can be configured to only allow whitelisted sites.
-  features: filtering keyword opensource password profanity
-  icon: https://addons.cdn.mozilla.net/user-media/addon_icons/1/1803-64.png?modified=1455250182
-  platform: browser firefox-56
-  url: https://addons.mozilla.org/en-US/firefox/addon/procon-latte/
 - name: Profil Parental Filter 2
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Protectr
+  url: http://www.r3app.com/protectr
+  platform: android
   audience: parent
   cost: ''
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: android
-  url: http://www.r3app.com/protectr
+  description: ''
 - name: Public Fox
+  url: https://addons.mozilla.org/en-US/firefox/addon/public-fox/
+  platform: browser
   audience: ''
   cost: free but prompts user to install AdBeaver adware
-  description: Public Fox can block downloads, prevent browser changes, lock down
-    addons, bookmarks, and more, block unwanted web sites.
   features: filtering password
   icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/public-fox/
+  description: Public Fox can block downloads, prevent browser changes, lock down
+    addons, bookmarks, and more, block unwanted web sites.
 - name: PureSight
+  url: http://www.puresight.com/
+  platform: windows
   audience: parent
   cost: ''
-  description: ''
   features: filtering monitoring timer
   icon: ''
-  platform: windows
-  url: http://www.puresight.com/
+  description: ''
 - name: Qustodio
+  url: http://www.qustodio.com/
+  platform: android ios macosx windows
   audience: parent overlord general addict
   cost: free or $45/year
+  features: filtering locationtracking monitoring smarts spying timer
+  icon: http://www.qustodio.com/wp-content/pad/qustodio-icon.gif
   description: Qustodio appears to be a complete filtering/monitoring package.  Aimed
     primarily at parents and schools, it boasts that its "smart internet filters scans
     web content in real time".  There are some rumors it hampers the Internet experience
     of folks who have slow Internet connections.
-  features: filtering locationtracking monitoring smarts spying timer
-  icon: http://www.qustodio.com/wp-content/pad/qustodio-icon.gif
-  platform: android ios macosx windows
-  url: http://www.qustodio.com/
 - name: recoveryBox
+  url: ''
+  platform: ios
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: Designed for accountability, recoveryBox, the iOS Mobile App for Addiction
     Recovery, is an iOS app toolset that facilitates tracking of daily life activities
     and gaining insight into why you do what you do.  Similar to R|Tribe.
-  features: ''
-  icon: ''
-  platform: ios
-  url: ''
 - name: Rescuetime
+  url: https://www.rescuetime.com/
+  platform: android linux macosx windows
   audience: slacker
   cost: free to $9 / month
-  description: ''
   features: filtering timetracking
   icon: ''
-  platform: android linux macosx windows
-  url: https://www.rescuetime.com/
+  description: ''
 - name: Router Limits
+  url: https://routerlimits.com/
+  platform: network
   audience: parent
   cost: free to $20/month
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: network
-  url: https://routerlimits.com/
+  description: ''
 - name: R|Tribe
+  url: http://www.rtribe.org/
+  platform: android ios
   audience: addict
   cost: free to $6/month
+  features: accountability monitoring
+  icon: ''
   description: R|Tribe is an app for mobile devices that attempts to assist users
     in "interrupting the addiction cycle."  Through in-app connections to friends
     (i.e., reports), and self-tracking of recovery, the user gains knowledge about
     their own addiction cycle and is assisted in finding ways to break it.
-  features: accountability monitoring
-  icon: ''
-  platform: android ios
-  url: http://www.rtribe.org/
 - name: Safe Access
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: windows
   url: http://www.safeaccess.com/
-- name: Safe Browser
+  platform: windows
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
+  description: ''
+- name: Safe Browser
   url: ''
-- name: Safe Chat
+  platform: ''
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: ''
+- name: Safe Chat
+  url: ''
+  platform: ''
+  audience: ''
+  cost: ''
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Safe Eyes
+  url: http://www.internetsafety.com/safe-eyes-parental-control-software.php
+  platform: macosx windows
   audience: parent addict general
   cost: "$50 for 3 computers"
-  description: <a href="http://www.covenanteyes.com/2013/01/15/tribute-to-safe-eyes-support/">Dead
-    as of 2013</a>.
   features: ailing dead filtering historic monitoring timer
   icon: http://www.internetsafety.com/graphics/se/SE_RGB_Logo.jpg
-  platform: macosx windows
-  url: http://www.internetsafety.com/safe-eyes-parental-control-software.php
+  description: <a href="http://www.covenanteyes.com/2013/01/15/tribute-to-safe-eyes-support/">Dead
+    as of 2013</a>.
 - name: Safe Families We-Blocker 2.1
+  url: http://www.safefamilies.org/download.php
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: ''
-  url: http://www.safefamilies.org/download.php
+  description: ''
 - name: SafeDNS
+  url: https://www.safedns.com/
+  platform: network
   audience: parent overlord
   cost: "$20/year"
-  description: ''
   features: filtering
   icon: ''
-  platform: network
-  url: https://www.safedns.com/
+  description: ''
 - name: SafeSquid
+  url: http://www.safesquid.com/
+  platform: network
   audience: overlord
   cost: "$10/user/year or $5/CPU hour"
-  description: Designed for organizations, the minimum system requires for SafeSquid
-    are 2GB of ram and 2 CPU cores.
   features: gateway
   icon: ''
-  platform: network
-  url: http://www.safesquid.com/
+  description: Designed for organizations, the minimum system requires for SafeSquid
+    are 2GB of ram and 2 CPU cores.
 - name: Safesurfer
+  url: http://www.safesurfer.co.nz/
+  platform: android network
   audience: parent
   cost: free with registration or pay what you want
-  description: A DNS service for families with children.  The service is pay what
-    you want with registration.
   features: dns filtering
   icon: ''
-  platform: android network
-  url: http://www.safesurfer.co.nz/
+  description: A DNS service for families with children.  The service is pay what
+    you want with registration.
 - name: Samsung Knox
+  url: https://www.samsungknox.com/
+  platform: android
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: android
-  url: https://www.samsungknox.com/
+  description: ''
 - name: Scieno Sitter
+  url: ''
+  platform: ''
   audience: overlord
   cost: ''
-  description: Perfect for the scientologist overlord.  Merely amusing for all others.
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: Perfect for the scientologist overlord.  Merely amusing for all others.
 - name: Screen Time
+  url: https://play.google.com/store/apps/details?id=com.screentime
+  platform: android
   audience: parent
   cost: ''
-  description: ''
   features: monitoring timer
   icon: ''
-  platform: android
-  url: https://play.google.com/store/apps/details?id=com.screentime
+  description: ''
 - name: ScreenRetriever
+  url: http://www.screenretriever.com/
+  platform: ''
   audience: parent
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.screenretriever.com/
+  description: ''
 - name: Secure Web SmartFilter EDU
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: SecureTeen
+  url: https://www.secureteen.com/
+  platform: android ios windows
   audience: parent
   cost: "$40 / year"
-  description: ''
   features: filtering games monitoring
   icon: ''
-  platform: android ios windows
-  url: https://www.secureteen.com/
+  description: ''
 - name: Security Shield
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: SelfControl for Linux
+  url: http://svn.jklmnop.net/projects/SelfControl.html
+  platform: linux
   audience: general slacker
   cost: ''
+  features: abandoned filtering iptables opensource timer
+  icon: ''
   description: The purpose of the program is to block access to certain web sites
     (Blacklist) for a period of time with no easy way to unblock access.  It was last
     updated in 2010.
-  features: abandoned filtering iptables opensource timer
-  icon: ''
-  platform: linux
-  url: http://svn.jklmnop.net/projects/SelfControl.html
 - name: SelfControl for Mac
+  url: http://selfcontrolapp.com/
+  platform: macosx
   audience: general slacker
   cost: ''
+  features: ailing filtering iptables opensource timer
+  icon: http://selfcontrolapp.com/img/logo.png
   description: SelfControl is an open source project, the purpose of which is to allow
     the user to block access to websites (or mail servers) for a predetermined period
     of time.
-  features: ailing filtering iptables opensource timer
-  icon: http://selfcontrolapp.com/img/logo.png
-  platform: macosx
-  url: http://selfcontrolapp.com/
 - name: SelfRestraint
+  url: https://github.com/ParkerK/selfrestraint/
+  platform: linux macosx windows
   audience: general slacker
   cost: ''
-  description: SelfRestraint is a cross platform application which blocks access to
-    websites for a predetermined period of time.  It was inspired by SelfControl.
   features: filtering iptables timer
   icon: ''
-  platform: linux macosx windows
-  url: https://github.com/ParkerK/selfrestraint/
+  description: SelfRestraint is a cross platform application which blocks access to
+    websites for a predetermined period of time.  It was inspired by SelfControl.
 - name: SightSim
+  url: http://www.sightsim.com/visual_content_filter.html
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: dead skin
   icon: ''
-  platform: ''
-  url: http://www.sightsim.com/visual_content_filter.html
+  description: ''
 - name: Silent Block
+  url: https://addons.mozilla.org/en-US/firefox/addon/silentblock/
+  platform: browser
   audience: general
   cost: ''
+  features: ''
+  icon: ''
   description: Silent Block is a Firefox addon that uses url regular expression to
     whitelist or blacklist sites.
-  features: ''
-  icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/silentblock/
 - name: Smobile Sentry
+  url: http://mobilesentry.net/
+  platform: android ios
   audience: parent
   cost: ''
-  description: ''
   features: monitoring
   icon: ''
-  platform: android ios
-  url: http://mobilesentry.net/
+  description: ''
 - name: SniperSpy
+  url: http://www.sniperspy.com/
+  platform: macosx windows
   audience: ''
   cost: ''
-  description: ''
   features: monitoring spying
   icon: ''
-  platform: macosx windows
-  url: http://www.sniperspy.com/
+  description: ''
 - name: Soft Eyes
+  url: http://www.softeyes.com/
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.softeyes.com/
+  description: ''
 - name: SPIN Safe Browser
+  url: http://nationaledtech.com/
+  platform: android
   audience: ''
   cost: ''
-  description: SPIN is a browser with built-in filtering.  It has 4.2 stars in the
-    Android store.
   features: filtering
   icon: ''
-  platform: android
-  url: http://nationaledtech.com/
+  description: SPIN is a browser with built-in filtering.  It has 4.2 stars in the
+    Android store.
 - name: SpyAgent
+  url: http://www.spytech-web.com/
+  platform: windows
   audience: ''
   cost: ''
-  description: ''
   features: monitoring spying
   icon: ''
-  platform: windows
-  url: http://www.spytech-web.com/
+  description: ''
 - name: Spysure
+  url: http://www.kjbsecurity.com/products/detail/spysure-parental-control-software/383/
+  platform: ''
   audience: parent
   cost: "$49"
-  description: ''
   features: filtering monitoring screenshots spying
   icon: ''
-  platform: ''
-  url: http://www.kjbsecurity.com/products/detail/spysure-parental-control-software/383/
+  description: ''
 - name: Squidblacklist.org
+  url: http://squidblacklist.org/
+  platform: ''
   audience: ''
   cost: ''
-  description: Squidblacklist (SBL) is a publisher of blacklists for web filtering
-    platforms.
   features: biglist
   icon: ''
-  platform: ''
-  url: http://squidblacklist.org/
+  description: Squidblacklist (SBL) is a publisher of blacklists for web filtering
+    platforms.
 - name: SquidGuard
+  url: http://www.squidguard.org/
+  platform: network
   audience: parent general overlord
   cost: free
+  features: abandoned biglist gateway
+  icon: ''
   description: A URL redirector that can be used with the Squid proxy and that supports
     large blacklists (altough DansGuardian claims to be significantly faster).  It
     has seen very little modification in recent years.
-  features: abandoned biglist gateway
-  icon: ''
-  platform: network
-  url: http://www.squidguard.org/
 - name: StayFocusd
+  url: https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji
+  platform: browser chrome
   audience: general slacker
   cost: ''
-  description: StayFocusd is a Chrome plugin that can block "time wasting" websites.  It
-    only works in Chrome.
   features: filtering timer
   icon: ''
-  platform: browser chrome
-  url: https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji
+  description: StayFocusd is a Chrome plugin that can block "time wasting" websites.  It
+    only works in Chrome.
 - name: Stop P-O-R-N
+  url: http://www.pbsoftware.org/id22.html
+  platform: windows
   audience: ''
   cost: "$40"
-  description: ''
   features: accountability filtering hide monitoring timer
   icon: ''
-  platform: windows
-  url: http://www.pbsoftware.org/id22.html
+  description: ''
 - name: Stop-it
+  url: https://addons.mozilla.org/en-US/firefox/addon/stop-it/
+  platform: browser
   audience: ''
   cost: free or donate
-  description: ''
   features: ''
   icon: ''
-  platform: browser
-  url: https://addons.mozilla.org/en-US/firefox/addon/stop-it/
+  description: ''
 - name: Streaks
-  audience: ''
-  cost: ''
-  description: A to-do app that helps the user form good habits.
-  features: ''
-  icon: ''
-  platform: ios
   url: http://streaksapp.com/
+  platform: ios
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: A to-do app that helps the user form good habits.
 - name: Strict Workflow
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
+  url: ''
   platform: chrome
-  url: ''
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: SureLock
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: android
   url: https://www.42gears.com/blog/lock-safe-mode-android-devices/
-- name: Surfgarten
+  platform: android
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
+  description: ''
+- name: Surfgarten
   url: ''
-- name: SurfontheSafeside.com (SOS)
+  platform: ''
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: ''
+- name: SurfontheSafeside.com (SOS)
+  url: ''
+  platform: ''
+  audience: ''
+  cost: ''
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: SurfPass
+  url: http://www.cogilab.com/en/default/
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.cogilab.com/en/default/
+  description: ''
 - name: SurfWatch
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: dead historic
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: SurveilStar
+  url: http://www.surveilstar.com/
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.surveilstar.com/
+  description: ''
 - name: Telekom Kinderschutz Software
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Temptation Blocker
+  url: http://sourceforge.net/projects/temptblocker/
+  platform: windows
   audience: ''
   cost: ''
-  description: ''
   features: dead junk
   icon: ''
-  platform: windows
-  url: http://sourceforge.net/projects/temptblocker/
+  description: ''
+- name: TextBrowser
+  url: https://play.google.com/store/apps/details?id=net.fro9.android.app.textbrowserfree
+  platform: android
+  audience: general addict
+  cost: free
+  features: imageless
+  icon: ''
+  description: A very small text-only browser for Android.  It is reminiscent of lynx.  When
+    paired with an app-locker, it can contrain a device to text-only browsing.
 - name: TFK Internetfilter Plus
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: the Web Blocker
+  url: http://www.thewebblocker.com/
+  platform: windows
   audience: ''
   cost: ''
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: windows
-  url: http://www.thewebblocker.com/
+  description: ''
 - name: thejnet
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: hide isp
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: tinyFilter
-  audience: ''
-  cost: ''
-  description: ''
-  features: ''
-  icon: ''
-  platform: browser chrome
   url: ''
-- name: Totalnetguard
+  platform: browser chrome
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
+  description: ''
+- name: Totalnetguard
   url: http://totalnetguard.com/index.asp
-- name: Trend Micro
+  platform: ''
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: ''
+- name: Trend Micro
+  url: http://www.trendmicro.com/us/indexnight.html
+  platform: ''
+  audience: ''
+  cost: ''
   features: antivirus
   icon: ''
-  platform: ''
-  url: http://www.trendmicro.com/us/indexnight.html
+  description: ''
 - name: Trend Micro Kids Safety - PS3
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Trend Micro Mobile Security
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Trend Micro Online Guardian
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: True Vine Online
+  url: http://www.truevine.net/
+  platform: android ios macosx windows
   audience: parent
   cost: "$8-$10/month"
+  features: ''
+  icon: ''
   description: Originally founded as a dial up ISP back in the late 90s, True Vine
     now offers the TVO Blockit kit to filter the Internet from a "Christian perspective."  The
     company formerly used FilterPak.
-  features: ''
-  icon: ''
-  platform: android ios macosx windows
-  url: http://www.truevine.net/
 - name: Trustwave SecureBrowsing
+  url: https://www.trustwave.com/Products/SecureBrowsing/
+  platform: browser
   audience: ''
   cost: free
-  description: ''
   features: ''
   icon: ''
-  platform: browser
-  url: https://www.trustwave.com/Products/SecureBrowsing/
+  description: ''
 - name: Trustwave Web Filtering
+  url: https://www.trustwave.com/Products/Content-Security/Web-Filtering/
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: https://www.trustwave.com/Products/Content-Security/Web-Filtering/
+  description: ''
 - name: UBhind
+  url: http://www.rinasoftglobal.com/
+  platform: android ios
   audience: ''
   cost: ''
-  description: With UBhind, you can once and for all curb your smartphone overuse
-    and regain control of your productivities!
   features: applock monitoring timer
   icon: ''
-  platform: android ios
-  url: http://www.rinasoftglobal.com/
+  description: With UBhind, you can once and for all curb your smartphone overuse
+    and regain control of your productivities!
 - name: uBlock
+  url: https://github.com/gorhill/uBlock
+  platform: browser chrome firefox-52 firefox-56
   audience: antiad general
   cost: free
-  description: ''
   features: biglist filtering
   icon: ''
-  platform: browser chrome firefox-52 firefox-56
-  url: https://github.com/gorhill/uBlock
+  description: ''
 - name: URLFilterService
+  url: http://www.urlfilterservice.net/
+  platform: windows
   audience: ''
   cost: free
+  features: dns filtering
+  icon: ''
   description: URLFilterService works categorizes sites using Shalla Secure Service
     and Université Toulouse 1 Capitole url listings.  The installation video shows
     that one must disable default Windows security in order to install it, and the
     FAQ says, "Use it at your own risk."  Indeed.
-  features: dns filtering
-  icon: ''
-  platform: windows
-  url: http://www.urlfilterservice.net/
 - name: UserGate
+  url: ''
+  platform: network
   audience: overlord
   cost: ''
+  features: filtering
+  icon: ''
   description: Provides an easy way to comply with the Children's Internet Proetection
     Act (CIPA)
-  features: filtering
-  icon: ''
-  platform: network
-  url: ''
 - name: Variato
+  url: http://www.veriato.com/
+  platform: android macosx windows
   audience: overlord
   cost: "$100"
-  description: Used for spying on employees.
   features: monitoring spying
   icon: ''
-  platform: android macosx windows
-  url: http://www.veriato.com/
+  description: Used for spying on employees.
 - name: Veriato 360
+  url: http://www.veriato.com/products/veriato-recon
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.veriato.com/products/veriato-recon
+  description: ''
 - name: Verity
+  url: http://www.nchsoftware.com/childmonitoring/
+  platform: windows
   audience: parent
   cost: "$70"
-  description: ''
   features: screenshots
   icon: ''
-  platform: windows
-  url: http://www.nchsoftware.com/childmonitoring/
+  description: ''
 - name: Victory App
+  url: http://thevictoryapp.com/
+  platform: android ios
   audience: addict
   cost: ''
-  description: The Victory App is a combination electronic journal, calendar, and
-    book intended to help the user quit porn.
   features: journal
   icon: ''
-  platform: android ios
-  url: http://thevictoryapp.com/
+  description: The Victory App is a combination electronic journal, calendar, and
+    book intended to help the user quit porn.
 - name: Vise
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Vocatech
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: hide isp network
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: WanSecure
+  url: http://www.wanbound.com/
+  platform: network
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: network
-  url: http://www.wanbound.com/
+  description: ''
 - name: WasteNoTime
+  url: https://chrome.google.com/webstore/detail/wastenotime/enebomhlllfaccbelnjhfgblnalofhch
+  platform: chrome
   audience: slacker
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: chrome
-  url: https://chrome.google.com/webstore/detail/wastenotime/enebomhlllfaccbelnjhfgblnalofhch
+  description: ''
 - name: Web Filter (from Lightspeed Systems)
+  url: http://www.lightspeedsystems.com/resources/web-filtering/
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: filtering
   icon: ''
-  platform: ''
-  url: http://www.lightspeedsystems.com/resources/web-filtering/
+  description: ''
 - name: Web Patrol
+  url: http://www.webwatcher.com/
+  platform: windows
   audience: parent
   cost: "$30"
-  description: ''
   features: filtering monitoring screenshots spying timer
   icon: ''
-  platform: windows
-  url: http://www.webwatcher.com/
+  description: ''
 - name: Web Safety for Squid Proxy (qlproxy)
+  url: http://quintolabs.com/
+  platform: linux macosx windows
   audience: ''
   cost: 25 Euro per year
-  description: Like DansGuardian, but also works with https.  The project will target
-    the Raspberry PI as an installation platform.
   features: gateway icap network
   icon: ''
-  platform: linux macosx windows
-  url: http://quintolabs.com/
+  description: Like DansGuardian, but also works with https.  The project will target
+    the Raspberry PI as an installation platform.
 - name: WebBlock
+  url: http://www.content-filter-software.com/
+  platform: windows
   audience: ''
   cost: ''
-  description: ''
   features: filtering
   icon: ''
-  platform: windows
-  url: http://www.content-filter-software.com/
+  description: ''
 - name: WebChaver
+  url: http://www.webchaver.com/
+  platform: ''
   audience: ''
   cost: "$5 - $7/month"
-  description: ''
   features: filtering monitoring timer
   icon: ''
-  platform: ''
-  url: http://www.webchaver.com/
+  description: ''
 - name: WebCleaner
+  url: http://webcleaner.sourceforge.net/
+  platform: linux macosx network windows
   audience: general parent
   cost: free
-  description: A proxy-based project that appears to be abandoned.  It was last updated
-    in 2010.
   features: abandoned opensource proxy
   icon: ''
-  platform: linux macosx network windows
-  url: http://webcleaner.sourceforge.net/
+  description: A proxy-based project that appears to be abandoned.  It was last updated
+    in 2010.
 - name: Webconverger
+  url: https://webconverger.com/
+  platform: linux
   audience: overlord general
   cost: ''
-  description: Lock your computer to a Web application.  Converts an ordinary computer
-    to a kiosk.
   features: opensource
   icon: ''
-  platform: linux
-  url: https://webconverger.com/
+  description: Lock your computer to a Web application.  Converts an ordinary computer
+    to a kiosk.
 - name: WebFilter Pro
+  url: https://addons.mozilla.org/en-US/firefox/addon/webfilter/
+  platform: browser firefox-56
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: browser firefox-56
-  url: https://addons.mozilla.org/en-US/firefox/addon/webfilter/
+  description: ''
 - name: WebGuard
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
+  features: dead skin
+  icon: ''
   description: A 2005 article by PhD students Mohamed Hammami of Ecole Centrale de
     Lyon in France and Liming Chen of Ecole Centrale de Lyon in France.  The company
     that published the article is http://www.idea-group.com/ and in 2016 offers SEO
     services.  It must not work.
-  features: dead skin
-  icon: ''
-  platform: ''
-  url: ''
 - name: WebMinder
+  url: ''
+  platform: ''
   audience: overlord
   cost: ''
-  description: ''
   features: dead
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Webroot
+  url: http://www.webroot.com/us/en/
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: antivirus
   icon: ''
-  platform: ''
-  url: http://www.webroot.com/us/en/
+  description: ''
 - name: WebSafety
+  url: https://www.websafety.com/
+  platform: android ios
   audience: parent
   cost: free
-  description: ''
   features: monitoring
   icon: ''
-  platform: android ios
-  url: https://www.websafety.com/
+  description: ''
 - name: Websense
+  url: http://www.websense.com/content/Home.aspx
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: http://www.websense.com/content/Home.aspx
+  description: ''
 - name: Webshadow
+  url: http://webshadow.org/
+  platform: android ios windows
   audience: parent
   cost: free with email-based registration
+  features: monitoring
+  icon: ''
   description: The software tracks browsing so that parents can see what their children
     are doing online.  The stated goal of the product is to provide an incentive for
     children to behave online when they know that what they are doing will be seen
     by their parents.  To get the product, you need to give your full name and email
     address.
-  features: monitoring
-  icon: ''
-  platform: android ios windows
-  url: http://webshadow.org/
 - name: Website Blocker (Beta)
+  url: https://chrome.google.com/webstore/detail/website-blocker-beta/hclgegipaehbigmbhdpfapmjadbaldib
+  platform: browser chrome
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: browser chrome
-  url: https://chrome.google.com/webstore/detail/website-blocker-beta/hclgegipaehbigmbhdpfapmjadbaldib
+  description: ''
 - name: WebTitan
+  url: http://www.titanhq.com/webtitan
+  platform: ''
   audience: overlord
   cost: "$850/50 users/year"
-  description: ''
   features: filtering monitoring
   icon: ''
-  platform: ''
-  url: http://www.titanhq.com/webtitan
+  description: ''
 - name: WebWatcher
+  url: http://www.webwatcher.com/
+  platform: windows
   audience: ''
   cost: ''
-  description: ''
   features: monitoring spying
   icon: ''
-  platform: windows
-  url: http://www.webwatcher.com/
+  description: ''
 - name: Wefisy
+  url: ''
+  platform: windows
   audience: parent
   cost: free with advertizements
-  description: ''
   features: filtering timer
   icon: ''
-  platform: windows
-  url: ''
+  description: ''
 - name: Whitelist Ninja
+  url: https://addons.mozilla.org/en-US/firefox/addon/white-list-ninja/
+  platform: firefox-56
   audience: ''
   cost: ''
+  features: ''
+  icon: ''
   description: Parental Control by a whitelist of sites, admin is by password. We
     use this for young children to keep them on the sites we have pre approved. You
     can add new sites with the click of a button.
-  features: ''
-  icon: ''
-  platform: firefox-56
-  url: https://addons.mozilla.org/en-US/firefox/addon/white-list-ninja/
 - name: Whitenet
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Windows Family Safety
+  url: http://familysafety.microsoft.com/
+  platform: windows
   audience: ''
   cost: free
-  description: ''
   features: ''
   icon: ''
-  platform: windows
-  url: http://familysafety.microsoft.com/
+  description: ''
 - name: WOT
+  url: https://www.mywot.com/
+  platform: browser
   audience: general
   cost: free
+  features: biglist filtering
+  icon: ''
   description: WOT is a browser plugin that displays a trust-level icon next to sites,
     based on input from users from around the world.  It works in Firefox, Chrome,
     Internet Explorer, and Opera.
-  features: biglist filtering
-  icon: ''
-  platform: browser
-  url: https://www.mywot.com/
 - name: X3Watch
+  url: http://x3watch.com/
+  platform: android ios macosx windows
   audience: addict parent
   cost: free to $99/year
-  description: Development of X3Watch seems to have ceased in 2017, and customers
-    given the chance to transfer membership to EverAccountable.
   features: abandoned ailing filtering monitoring password
   icon: http://x3watch.com/wp-content/themes/x3watch/images/x3NewLogo.png
-  platform: android ios macosx windows
-  url: http://x3watch.com/
+  description: Development of X3Watch seems to have ceased in 2017, and customers
+    given the chance to transfer membership to EverAccountable.
 - name: Xbox 360
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Xooloo
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: Zone Alarm Security Suite
+  url: ''
+  platform: ''
   audience: ''
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: ''
-  url: ''
+  description: ''
 - name: ZoneAlarm
+  url: http://www.zonealarm.com
+  platform: windows
   audience: parent
   cost: ''
-  description: ''
   features: antivirus
   icon: ''
-  platform: windows
-  url: http://www.zonealarm.com
+  description: ''
 - name: Zscaler
+  url: https://www.zscaler.com/
+  platform: network
   audience: overlord
   cost: ''
-  description: ''
   features: ''
   icon: ''
-  platform: network
-  url: https://www.zscaler.com/
+  description: ''
