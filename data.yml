@@ -1873,6 +1873,14 @@
   features: ''
   icon: ''
   description: ''
+- name: Samsung Marshmallow
+  url: https://play.google.com/store/apps/details?id=com.samsung.android.familyctrl
+  platform: android
+  audience: parent
+  cost: 
+  features: dead
+  icon: 
+  description: 
 - name: Scieno Sitter
   url: ''
   platform: ''
