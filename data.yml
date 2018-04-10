@@ -1002,14 +1002,17 @@
   features: timer
   icon: ''
   description: ''
-- name: iOS Parental Controls (Mobile)
-  url: ''
-  platform: ''
-  audience: ''
-  cost: ''
-  features: ''
+- name: iOS Parental Controls
+  url: https://support.apple.com/en-us/HT201304
+  platform: ios
+  audience: parent general
+  cost: free
+  features: filtering monitoring
   icon: ''
-  description: ''
+  description: Also known as Restrictions, iOS Parental Controls allow parents to
+    limit what can be done on iOS devices.  Similar to Mac OS X Parental Controls,
+    the website filter can operate in unrestricted, automatic (no adult content),
+    and whitelist-only modes.
 - name: iProtectYou
   url: http://www.softforyou.com/ip-index.html
   platform: windows
