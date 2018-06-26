@@ -300,7 +300,7 @@
 - name: Circle
   url: https://meetcircle.com/
   platform: network
-  audience: ''
+  audience: parent
   cost: ''
   features: ''
   icon: ''
@@ -1503,7 +1503,7 @@
 - name: Norton ConnectSafe DNS Server
   url: https://dns.norton.com/
   platform: network
-  audience: ''
+  audience: parent
   cost: ''
   features: ''
   icon: ''
