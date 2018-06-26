@@ -313,15 +313,6 @@
   features: ''
   icon: ''
   description: ''
-- name: CleanBrowsing
-  url: https://cleanbrowsing.org/
-  platform: android ios linux macosx network windows
-  audience: parent general
-  cost: free
-  features: dns filtering
-  icon: https://cleanbrowsing.org/images/CleanBrowsing-logo-small.png
-  description: Similar to the more well known OpenDNS, CleanBrowsing says their filters
-    are more strict and better for kids.
 - name: Cleanfeed
   url: ''
   platform: ''
@@ -633,7 +624,7 @@
   audience: parent
   cost: free
   features: monitoring timer
-  icon: ''
+  icon: 
   description: Made by Google.  Works on Android Nougat 7.0 or higher.
 - name: Familyloop Safeguard
   url: https://www.familoop.com/
@@ -723,11 +714,11 @@
 - name: Forest
   url: https://www.forestapp.cc/en/
   platform: android browser ios windows
-  audience: ''
-  cost: ''
-  features: ''
-  icon: ''
-  description: ''
+  audience: 
+  cost: 
+  features: 
+  icon: 
+  description: 
 - name: Fortify
   url: http://fortifyprogram.org/
   platform: android ios macosx windows
@@ -1905,10 +1896,10 @@
   url: https://play.google.com/store/apps/details?id=com.samsung.android.familyctrl
   platform: android
   audience: parent
-  cost: ''
+  cost: 
   features: dead
-  icon: ''
-  description: ''
+  icon: 
+  description: 
 - name: Scieno Sitter
   url: ''
   platform: ''
@@ -2270,10 +2261,10 @@
 - name: Truple
   url: https://truple.io/
   platform: android
-  audience: ''
+  audience: 
   cost: "$5 / month"
   features: accountability screenshots
-  icon: ''
+  icon: 
   description: Truple captures screenshots at random times.
 - name: Trustwave SecureBrowsing
   url: https://www.trustwave.com/Products/SecureBrowsing/
