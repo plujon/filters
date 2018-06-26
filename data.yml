@@ -313,6 +313,15 @@
   features: ''
   icon: ''
   description: ''
+- name: Clean Router
+  url: https://cleanrouter.com/features/
+  platform: network
+  audience: parent general
+  cost: "$10-$15/month"
+  features: dns filtering hardware monitoring smarts timer
+  icon: https://cleanrouter.com/purchase/logo-clean-router.png
+  description: Similar to the more well known OpenDNS, CleanBrowsing says their filters
+    are more strict and better for kids.
 - name: CleanBrowsing
   url: https://cleanbrowsing.org/
   platform: android ios linux macosx network windows
