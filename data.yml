@@ -12,7 +12,7 @@
 - name: Accountable2You
   url: https://www.accountable2you.com/
   platform: android ios linux macosx windows
-  audience: addict
+  audience: addict parent
   cost: "$7/month"
   features: accountability monitoring timer
   icon: https://lh6.googleusercontent.com/-BhjARoRU0Xc/VHzImGaZwfI/AAAAAAAAABc/cwaNFOypo9c/w962-h962/AU2%2BLOGO_WHITE_2.png
