@@ -1701,8 +1701,7 @@
   features: changedelay filtering mimetypes monitoring opensource-contrib timer
   icon: http://www.pluckeye.net/p64.svg
   description: Customizable, but blocks all images from the internet by default.  Its
-    delayed-configuration system is designed to bolster self-control on the Internet.  Pluckeye
-    on Android is a text-only browser with fewer features than desktop Pluckeye.
+    delayed-configuration system is designed to bolster self-control on the Internet.
 - name: policeman
   url: https://addons.mozilla.org/en-US/firefox/addon/policeman/
   platform: browser
