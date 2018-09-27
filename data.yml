@@ -366,9 +366,9 @@
   cost: free to $19
   features: dns filtering timer
   icon: ''
-  description: Cold Turkey is a relatively simple opensource filter designed to support
-    self-control by allowing the end-user to configure times of the week during which
-    to block access to certain websites.
+  description: Cold Turkey is a relatively simple filter designed to support self-control
+    by allowing the end-user to configure times of the week during which to block
+    access to certain websites.
 - name: Computer Cop
   url: http://www.computercop.com/
   platform: ''
