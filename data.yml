@@ -742,7 +742,7 @@
   platform: android ios macosx windows
   audience: addict
   cost: free for youth, $39 for adults
-  features: other
+  features: mind
   icon: http://fortifyprogram.org/assets/images/fortify-logo.svg
   description: Fortify is not a filter, but it is similar enough to warrant inclusion
     here.  Instead of filtering or monitoring, it aims to educate and support a porn
@@ -1828,7 +1828,7 @@
   platform: android ios
   audience: addict
   cost: free to $6/month
-  features: accountability monitoring
+  features: accountability mind monitoring
   icon: ''
   description: R|Tribe is an app for mobile devices that attempts to assist users
     in "interrupting the addiction cycle."  Through in-app connections to friends
