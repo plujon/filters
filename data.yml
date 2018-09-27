@@ -153,7 +153,7 @@
   platform: ios
   audience: slacker
   cost: ''
-  features: ''
+  features: dead
   icon: ''
   description: ''
 - name: Block site
@@ -164,16 +164,16 @@
   features: blacklist keyword password whitelist
   icon: ''
   description: ''
-- name: Block.si
-  url: https://addons.mozilla.org/en-US/firefox/addon/blocksi/
-  platform: browser
-  audience: parent general overlord
+- name: Blocksi
+  url: https://blocksi.net/
+  platform: chrome chromeos
+  audience: overlord parent
   cost: ''
   features: biglist cloud filtering
   icon: ''
-  description: Block.si is a Firefox and Chrome extension that blocks content according
-    to categories that are controlled by the end-user, parent, or overlord depending
-    on the device.
+  description: Blocksi is a Chrome and Chromebook product targeted at schools where
+    control and monitoring of Chromebooks is needed.  It offers filtering, time management,
+    and trend analysis.  It can also be installed as a standalone Chrome extension.
 - name: Blocksi Router
   url: http://www.blocksi.net/parental-control.php
   platform: network
@@ -497,7 +497,7 @@
   icon: ''
   description: ''
 - name: DansGuardian
-  url: http://dansguardian.org/
+  url: https://sourceforge.net/projects/dansguardian/
   platform: linux macosx network
   audience: overlord
   cost: free
@@ -879,7 +879,7 @@
   platform: ''
   audience: overlord general
   cost: free
-  features: filtering monitoring
+  features: dead filtering monitoring
   icon: ''
   description: Originally developed for Internet Cafes in Turkey.
 - name: HomeGuard
@@ -905,7 +905,7 @@
   platform: windows
   audience: ''
   cost: free
-  features: ''
+  features: dead
   icon: ''
   description: ''
 - name: IamBigBrother
@@ -1040,11 +1040,11 @@
   icon: ''
   description: ''
 - name: iShield
-  url: http://www.guardwareinc.com/ishield.php
+  url: 
   platform: windows
   audience: parent addict
   cost: "$25"
-  features: accountability filtering monitoring smarts
+  features: accountability dead filtering monitoring smarts
   icon: ''
   description: ''
 - name: Jusprog
@@ -1271,11 +1271,11 @@
   icon: ''
   description: ''
 - name: McGruff SafeGuard
-  url: http://www.gomcgruff.com/
+  url: 
   platform: windows
   audience: parent
   cost: ''
-  features: filtering monitoring
+  features: dead filtering monitoring
   icon: ''
   description: ''
 - name: Meine Startseite.de
@@ -1450,7 +1450,7 @@
   platform: windows
   audience: ''
   cost: "$25"
-  features: ''
+  features: dead
   icon: ''
   description: ''
 - name: Netgear Live Parental Controls
@@ -1462,7 +1462,7 @@
   icon: ''
   description: ''
 - name: NetGenie
-  url: http://www.netgenie.net/global/
+  url: https://www.netgenie.net/
   platform: network
   audience: parent
   cost: ''
@@ -1584,11 +1584,11 @@
   icon: ''
   description: ''
 - name: Parental Control Bar
-  url: http://www.wraac.org/
+  url: http://parentalcontrolbar.org/
   platform: ''
   audience: ''
   cost: ''
-  features: ''
+  features: dead
   icon: ''
   description: ''
 - name: Parental Controls and Web Filter from MetaCert
@@ -1766,7 +1766,7 @@
   platform: android
   audience: parent
   cost: ''
-  features: filtering monitoring
+  features: dead filtering monitoring
   icon: ''
   description: ''
 - name: Public Fox
@@ -2016,7 +2016,7 @@
   platform: android ios
   audience: parent
   cost: ''
-  features: monitoring
+  features: dead monitoring
   icon: ''
   description: ''
 - name: SniperSpy
@@ -2189,7 +2189,7 @@
   platform: android
   audience: general addict
   cost: free
-  features: imageless
+  features: dead imageless
   icon: ''
   description: A very small text-only browser for Android.  It is reminiscent of lynx.  When
     paired with an app-locker, it can contrain a device to text-only browsing.
@@ -2226,13 +2226,14 @@
   icon: ''
   description: ''
 - name: Totalnetguard
-  url: http://totalnetguard.com/index.asp
+  url: http://totalnetguard.com/
   platform: ''
   audience: ''
-  cost: ''
+  cost: "$35/year"
   features: ''
   icon: ''
-  description: ''
+  description: A suite of products offered by American Family Online.  Oddly, you
+    must enter your mailing address to get the products.
 - name: Trend Micro
   url: http://www.trendmicro.com/us/indexnight.html
   platform: ''
@@ -2402,7 +2403,7 @@
   icon: ''
   description: ''
 - name: Web Filter (from Lightspeed Systems)
-  url: http://www.lightspeedsystems.com/resources/web-filtering/
+  url: https://www.lightspeedsystems.com/products/web-filter/
   platform: ''
   audience: overlord
   cost: ''
@@ -2427,7 +2428,7 @@
   description: Like DansGuardian, but also works with https.  The project will target
     the Raspberry PI as an installation platform.
 - name: WebBlock
-  url: http://www.content-filter-software.com/
+  url: 
   platform: windows
   audience: ''
   cost: ''
