@@ -1740,7 +1740,7 @@
   platform: ''
   audience: addict
   cost: ''
-  features: ''
+  features: dead
   icon: ''
   description: ''
 - name: ProCon Latte Content Filter
