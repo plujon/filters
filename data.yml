@@ -76,7 +76,7 @@
   icon: ''
   description: ''
 - name: Aobo
-  url: http://aobo.cc/aobo-filter.html
+  url: https://www.amackeylogger.com/aobo-filter.html
   platform: macosx windows
   audience: parent addict general
   cost: "$50 (free trial)"
@@ -320,8 +320,7 @@
   cost: "$10-$15/month"
   features: dns filtering hardware monitoring smarts timer
   icon: https://cleanrouter.com/purchase/logo-clean-router.png
-  description: Similar to the more well known OpenDNS, CleanBrowsing says their filters
-    are more strict and better for kids.
+  description: ''
 - name: CleanBrowsing
   url: https://cleanbrowsing.org/
   platform: android ios linux macosx network windows
