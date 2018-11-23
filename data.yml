@@ -728,6 +728,14 @@
   features: ''
   icon: ''
   description: ''
+- name: Forcefield
+  url: https://forcefield.me
+  platform: 
+  audience: parent
+  cost: "$12 / month"
+  features: 
+  icon: 
+  description: 
 - name: Forest
   url: https://www.forestapp.cc/en/
   platform: android browser ios windows
@@ -1789,7 +1797,7 @@
   url: http://www.qustodio.com/
   platform: android ios macosx windows
   audience: parent overlord general addict
-  cost: free or $45/year
+  cost: free or $55/year
   features: filtering locationtracking monitoring smarts spying timer
   icon: http://www.qustodio.com/wp-content/pad/qustodio-icon.gif
   description: Qustodio appears to be a complete filtering/monitoring package.  Aimed
