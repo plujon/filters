@@ -1067,13 +1067,12 @@
   platform: android ios macosx windows
   audience: overlord parent general addict
   cost: free for personal use
-  features: biglist countermeasures filtering monitoring password timer
-  icon: http://www1.k9webprotection.com/sites/default/files/k9_logo.png
-  description: Sold to companies for overlord-style filtering, Blue Coat (now part
-    of Symantec) allows free use of the filter for individuals looking to protect
-    themselves or their family.  It is configured using an administrative password.  The
-    k9 administrator can view all previous internet activity in addition to changing
-    which categories to block and which features to enable.
+  features: abandoned biglist countermeasures filtering monitoring password timer
+  icon: ''
+  description: Abandoned, as of June 30, 2019.  Originally a product of Blue Coat,
+    the filter was freely available for individuals looking to protect themselves
+    or their family.  However, Blue Coat was acquired by Symantec, and Symantec discontinued
+    the product in 2019.
 - name: Kapersky Internet Security
   url: ''
   platform: ''
