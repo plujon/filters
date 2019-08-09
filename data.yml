@@ -2602,7 +2602,7 @@
   audience: addict parent
   cost: free to $99/year
   features: abandoned ailing filtering monitoring password
-  icon: http://x3watch.com/wp-content/themes/x3watch/images/x3NewLogo.png
+  icon: "//x3watch.com/wp-content/themes/x3watch/images/x3NewLogo.png"
   description: Development of X3Watch seems to have ceased in 2017, and customers
     given the chance to transfer membership to EverAccountable.
 - name: Xbox 360
