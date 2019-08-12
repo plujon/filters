@@ -35,6 +35,14 @@
   features: filtering monitoring screenshots
   icon: ''
   description: ''
+- name: ADAMnetworks
+  url: https://adamnet.works/
+  platform: network
+  audience: parent spouse overlord addict
+  cost: "$8/month"
+  features: dns filtering
+  icon: ''
+  description: ADAMnetworks aims to keep people safe as they live and interact onlilne.
 - name: Adblock Plus
   url: https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/
   platform: browser
