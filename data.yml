@@ -1251,6 +1251,16 @@
   features: ''
   icon: ''
   description: ''
+- name: Manage SPIN Safe Browser
+  url: http://nationaledtech.com/
+  platform: android
+  audience: addict parent slacker
+  cost: free to $4/month
+  features: applock filtering
+  icon: ''
+  description: Mangage SPIN is an applocker intended to be used alongside the SPIN
+    Safe browser.  Manage SPIN prevents browsers other than SPIN Safe from running.  It
+    has free and premium (aka freemium) feature sets.
 - name: ManicTime
   url: https://www.manictime.com/
   platform: android linux mac windows
