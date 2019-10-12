@@ -1579,7 +1579,7 @@
   audience: general parent
   cost: free to $20/year
   features: dns filtering monitoring
-  icon: ''
+  icon: 'http://u.cubeupload.com/MasterOfTheTiger/opendns.png'
   description: Free for home use, OpenDNS is both easy-to-use and popular.
 - name: Optenet
   url: http://www.optenetpc.com/
