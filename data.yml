@@ -192,10 +192,10 @@
   description: The Blocksi router is a physical device intended to be installed as
     the network router at home for families.
 - name: Boomerang Parental Control
-  url: http://nationaledtech.com/
+  url: https://useboomerang.com/
   platform: android
   audience: ''
-  cost: "$12/year"
+  cost: "$16/year to $31/year"
   features: filtering
   icon: ''
   description: ''
@@ -1252,15 +1252,15 @@
   icon: ''
   description: ''
 - name: Manage SPIN Safe Browser
-  url: http://nationaledtech.com/
+  url: https://filterchrome.com/
   platform: android
   audience: addict parent slacker
-  cost: free to $4/month
-  features: applock filtering
+  cost: free to $5/month
+  features: applock filtering timer
   icon: ''
   description: Mangage SPIN is an applocker intended to be used alongside the SPIN
-    Safe browser.  Manage SPIN prevents browsers other than SPIN Safe from running.  It
-    has free and premium (aka freemium) feature sets.
+    Safe browser.  Manage SPIN prevents access to browsers other SPIN Safe and/or
+    Chrome, which it can filter.  It has free and premium (aka freemium) feature sets.
 - name: ManicTime
   url: https://www.manictime.com/
   platform: android linux mac windows
@@ -2058,10 +2058,10 @@
   icon: ''
   description: ''
 - name: SPIN Safe Browser
-  url: http://nationaledtech.com/
-  platform: android
-  audience: ''
-  cost: ''
+  url: https://useboomerang.com/spin/
+  platform: android, browser ios,
+  audience: parent addict
+  cost: free
   features: filtering
   icon: ''
   description: SPIN is a browser with built-in filtering.  It has 4.2 stars in the
