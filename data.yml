@@ -1507,6 +1507,14 @@
   features: ''
   icon: ''
   description: ''
+- name: Netspark
+  url: https://www.netsparkmobile.com/en/
+  platform: android ios windows
+  audience: parent
+  cost: "$9/month"
+  features: filtering games recongition smarts timer
+  icon: ''
+  description: ''
 - name: Netsweeper
   url: https://www.netsweeper.com/
   platform: ''
