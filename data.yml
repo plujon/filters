@@ -620,7 +620,7 @@
 - name: EverAccountable
   url: http://www.everaccountable.com/
   platform: android windows
-  audience: ''
+  audience: addict spouse
   cost: "$7/month"
   features: monitoring
   icon: ''
