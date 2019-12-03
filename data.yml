@@ -22,7 +22,7 @@
 - name: ActivityLogger
   url: http://www.softactivity.com/
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -30,7 +30,7 @@
 - name: ActivTrak
   url: http://activtrak.com/
   platform: macosx windows
-  audience: overlord
+  audience: authority
   cost: free to $336 / month / 5 users
   features: filtering monitoring screenshots
   icon: ''
@@ -38,7 +38,7 @@
 - name: ADAMnetworks
   url: https://adamnet.works/
   platform: network
-  audience: parent spouse overlord addict
+  audience: parent spouse authority addict
   cost: "$8/month"
   features: dns filtering
   icon: ''
@@ -175,7 +175,7 @@
 - name: Blocksi
   url: https://blocksi.net/
   platform: chrome chromeos
-  audience: overlord parent
+  audience: authority parent
   cost: ''
   features: biglist cloud filtering
   icon: ''
@@ -185,7 +185,7 @@
 - name: Blocksi Router
   url: http://www.blocksi.net/parental-control.php
   platform: network
-  audience: parent general overlord
+  audience: parent general authority
   cost: "$60 upfront + $30/year after 2 free years"
   features: biglist cloud filtering hardware monitoring
   icon: ''
@@ -210,7 +210,7 @@
 - name: BrowseControl
   url: http://www.browsecontrol.com/
   platform: windows
-  audience: overlord
+  audience: authority
   cost: "$80"
   features: filtering free monitoring trial
   icon: ''
@@ -267,7 +267,7 @@
 - name: Cedar Creek Filtering
   url: https://www.cedarcreek.co/filtering/personal
   platform: ''
-  audience: overlord parent
+  audience: authority parent
   cost: "$15/month"
   features: biglist dns filtering gateway hardware network
   icon: ''
@@ -341,7 +341,7 @@
 - name: Cleanfeed
   url: ''
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -349,7 +349,7 @@
 - name: clearOS
   url: http://www.clearcenter.com/
   platform: network
-  audience: overlord
+  audience: authority
   cost: "$108/year to $588/year"
   features: filtering gateway more network
   icon: ''
@@ -403,7 +403,7 @@
 - name: Content Protect Pro
   url: https://www.contentwatch.com/products/contentprotect_pro
   platform: android macosx network windows
-  audience: overlord
+  audience: authority
   cost: "$40"
   features: filtering
   icon: ''
@@ -419,7 +419,7 @@
 - name: ContentProtect
   url: ''
   platform: android windows
-  audience: overlord
+  audience: authority
   cost: "$40/year"
   features: ''
   icon: ''
@@ -437,7 +437,7 @@
 - name: CurrentWare Suite
   url: http://www.currentware.com/
   platform: ''
-  audience: overlord
+  audience: authority
   cost: "$500 for 5 computers, variable"
   features: biglist filtering
   icon: ''
@@ -456,7 +456,7 @@
 - name: CyberPatrol Parental Controls
   url: https://www.cyberpatrol.com/home/
   platform: windows
-  audience: overlord parent
+  audience: authority parent
   cost: "$40/year"
   features: filtering games monitoring timer
   icon: ''
@@ -488,7 +488,7 @@
 - name: Cybersitterlists
   url: ''
   platform: network
-  audience: overlord parent general
+  audience: authority parent general
   cost: "$80 for Simple DNS + $39/year"
   features: biglist dead filtering gateway monitoring
   icon: ''
@@ -498,7 +498,7 @@
 - name: Cyclope-Series
   url: http://www.cyclope-series.com/
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -506,7 +506,7 @@
 - name: DansGuardian
   url: https://sourceforge.net/projects/dansguardian/
   platform: linux macosx network
-  audience: overlord
+  audience: authority
   cost: free
   features: abandoned filtering gateway historic more password proxy ratings smarts
   icon: http://dansguardian.org/images/left.jpg
@@ -542,7 +542,7 @@
 - name: DNSthingy
   url: https://www.dnsthingy.com/
   platform: network
-  audience: parent overlord general addict
+  audience: parent authority general addict
   cost: "$8/month"
   features: ''
   icon: ''
@@ -559,7 +559,7 @@
 - name: E2guardian Web filtering
   url: http://e2guardian.org/cms/
   platform: ''
-  audience: overlord parent
+  audience: authority parent
   cost: ''
   features: filtering gateway more proxy ratings smarts
   icon: ''
@@ -706,7 +706,7 @@
 - name: FinFisher
   url: ''
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -714,7 +714,7 @@
 - name: FlashStart
   url: http://www.flashstart.com/
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -764,7 +764,7 @@
 - name: FoxFilter
   url: http://addons.mozilla.org/en-US/firefox/addon/foxfilter/
   platform: browser
-  audience: parent general overlord
+  audience: parent general authority
   cost: free to $15/year
   features: filtering keyword
   icon: ''
@@ -807,7 +807,7 @@
 - name: Gaggle
   url: http://www.gaggle.net/
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -848,7 +848,7 @@
 - name: goguardian
   url: https://www.goguardian.com/
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -891,7 +891,7 @@
 - name: Handy Filter
   url: http://www.handyfilter.com/
   platform: ''
-  audience: overlord general
+  audience: authority general
   cost: free
   features: dead filtering monitoring
   icon: ''
@@ -899,7 +899,7 @@
 - name: HomeGuard
   url: http://veridium.net/
   platform: windows
-  audience: overlord parent
+  audience: authority parent
   cost: "$39-$49"
   features: filtering monitoring screenshots spying
   icon: ''
@@ -1072,7 +1072,7 @@
 - name: K9 Web Protection
   url: http://www1.k9webprotection.com
   platform: android ios macosx windows
-  audience: overlord parent general addict
+  audience: authority parent general addict
   cost: free for personal use
   features: abandoned biglist countermeasures filtering monitoring password timer
   icon: ''
@@ -1203,7 +1203,7 @@
 - name: LG Gate
   url: http://www.lg.com/us/business/enterprise-mobility
   platform: android
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -1502,7 +1502,7 @@
 - name: netsentron
   url: http://www.netsentron.com/
   platform: network
-  audience: overlord parent
+  audience: authority parent
   cost: "$75/month"
   features: ''
   icon: ''
@@ -1559,7 +1559,7 @@
 - name: NX Filter
   url: http://www.nxfilter.org/
   platform: network
-  audience: overlord general parent
+  audience: authority general parent
   cost: free to $$
   features: biglist dns filtering monitoring
   icon: ''
@@ -1576,7 +1576,7 @@
 - name: opendium
   url: http://www.opendium.com/
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -1660,7 +1660,7 @@
 - name: PC Tattletale
   url: https://www.pctattletale.com/
   platform: ''
-  audience: overlord parent
+  audience: authority parent
   cost: ''
   features: ''
   icon: ''
@@ -1676,7 +1676,7 @@
 - name: Pearl Echo
   url: http://www.pearlsoftware.com/
   platform: windows
-  audience: overlord
+  audience: authority
   cost: "$30"
   features: filtering monitoring
   icon: ''
@@ -1692,7 +1692,7 @@
 - name: pfSense
   url: https://www.pfsense.org/
   platform: network
-  audience: overlord
+  audience: authority
   cost: ''
   features: opensource
   icon: ''
@@ -1819,7 +1819,7 @@
 - name: Qustodio
   url: http://www.qustodio.com/
   platform: android ios macosx windows
-  audience: parent overlord general addict
+  audience: parent authority general addict
   cost: free or $55/year
   features: filtering locationtracking monitoring smarts spying timer
   icon: http://www.qustodio.com/wp-content/pad/qustodio-icon.gif
@@ -1908,7 +1908,7 @@
 - name: SafeDNS
   url: https://www.safedns.com/
   platform: network
-  audience: parent overlord
+  audience: parent authority
   cost: "$20/year"
   features: filtering
   icon: ''
@@ -1916,7 +1916,7 @@
 - name: SafeSquid
   url: http://www.safesquid.com/
   platform: network
-  audience: overlord
+  audience: authority
   cost: "$10/user/year or $5/CPU hour"
   features: gateway
   icon: ''
@@ -1934,7 +1934,7 @@
 - name: Samsung Knox
   url: https://www.samsungknox.com/
   platform: android
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -1950,7 +1950,7 @@
 - name: Scieno Sitter
   url: ''
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: dead
   icon: ''
@@ -2102,7 +2102,7 @@
 - name: SquidGuard
   url: http://www.squidguard.org/
   platform: network
-  audience: parent general overlord
+  audience: parent general authority
   cost: free
   features: abandoned biglist gateway
   icon: ''
@@ -2177,7 +2177,7 @@
 - name: SurfPass
   url: ''
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: dead
   icon: ''
@@ -2193,7 +2193,7 @@
 - name: SurveilStar
   url: http://www.surveilstar.com/
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -2325,7 +2325,7 @@
 - name: Trustwave Web Filtering
   url: ''
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: dead
   icon: ''
@@ -2361,7 +2361,7 @@
 - name: UserGate
   url: ''
   platform: network
-  audience: overlord
+  audience: authority
   cost: ''
   features: filtering
   icon: ''
@@ -2370,7 +2370,7 @@
 - name: Variato
   url: http://www.veriato.com/
   platform: android macosx windows
-  audience: overlord
+  audience: authority
   cost: "$100"
   features: monitoring spying
   icon: ''
@@ -2378,7 +2378,7 @@
 - name: Veriato 360
   url: http://www.veriato.com/products/veriato-recon
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -2419,7 +2419,7 @@
 - name: WanSecure
   url: http://www.wanbound.com/
   platform: network
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
@@ -2435,7 +2435,7 @@
 - name: Web Filter (from Lightspeed Systems)
   url: https://www.lightspeedsystems.com/products/web-filter/
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: filtering
   icon: ''
@@ -2485,7 +2485,7 @@
 - name: Webconverger
   url: https://webconverger.com/
   platform: linux
-  audience: overlord general
+  audience: authority general
   cost: ''
   features: opensource
   icon: ''
@@ -2513,7 +2513,7 @@
 - name: WebMinder
   url: ''
   platform: ''
-  audience: overlord
+  audience: authority
   cost: ''
   features: dead
   icon: ''
@@ -2565,7 +2565,7 @@
 - name: WebTitan
   url: http://www.titanhq.com/webtitan
   platform: ''
-  audience: overlord
+  audience: authority
   cost: "$850/50 users/year"
   features: filtering monitoring
   icon: ''
@@ -2666,7 +2666,7 @@
 - name: Zscaler
   url: https://www.zscaler.com/
   platform: network
-  audience: overlord
+  audience: authority
   cost: ''
   features: ''
   icon: ''
