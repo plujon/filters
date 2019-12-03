@@ -509,7 +509,7 @@
   audience: authority
   cost: free
   features: abandoned filtering gateway historic more password proxy ratings smarts
-  icon: http://dansguardian.org/images/left.jpg
+  icon: ''
   description: DansGuardian is/was a content filtering proxy that works in conjunction
     with another caching proxy such as Squid or Oops. It seems to be targeted primarily
     toward filtering internet content for organizations such as schools.  The last
@@ -2628,7 +2628,7 @@
   audience: addict parent
   cost: free to $99/year
   features: abandoned ailing filtering monitoring password
-  icon: "//x3watch.com/wp-content/themes/x3watch/images/x3NewLogo.png"
+  icon: ''
   description: Development of X3Watch seems to have ceased in 2017, and customers
     given the chance to transfer membership to EverAccountable.
 - name: Xbox 360
