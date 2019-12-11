@@ -539,6 +539,15 @@
   icon: ''
   description: Distractus is a simple Firefox addon that allows the user to whitelist
     and blacklist sites using regular expression matching.
+- name: dnscloak
+  url: https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351
+  platform: ios
+  audience: general
+  cost: ''
+  features: filtering
+  icon: ''
+  description: Can be used in combination with DNS filtering services such as CleanBrowsing,
+    Norton ConnectSafe, nxFilter, OpenDNS, Safesurfer, and the like to provide filtering.
 - name: DNSthingy
   url: https://www.dnsthingy.com/
   platform: network
@@ -1427,7 +1436,7 @@
   platform: network
   audience: parent spouse addict
   cost: free to $15/month
-  features: ''
+  features: dns
   icon: ''
   description: Net Angel sells home routers that have e2guardian pre-installed.  Whenever
     a website is blocked, a text message is sent to a phone number.  As of 2016-11-11,
@@ -1540,13 +1549,13 @@
   icon: ''
   description: ''
 - name: Norton ConnectSafe DNS Server
-  url: https://connectsafe.norton.com/
+  url: ''
   platform: network
   audience: parent
   cost: ''
-  features: ''
+  features: dead dns
   icon: ''
-  description: ''
+  description: Norton ConnectSafe was retired in 2018
 - name: Norton Family
   url: http://onlinefamily.norton.com/
   platform: android ios macosx windows
