@@ -1983,8 +1983,9 @@
     been glad to see Apple beef up parental controls on their devices, Apple has also
     been <a href="https://www.nytimes.com/2019/04/27/technology/apple-screen-time-trackers.html">criticized</a>
     and <a href="https://ww.9to5mac.com/2019/08/08/another-antitrust-investigation/">is
-    being investigated for antitrust behavior</a> for creating Screen Time while also
-    making it difficult or impossible to create competing products.
+    being investigated</a> for <a href="https://www.kaspersky.com/blog/apple-fas-complaint/26017/">antitrust
+    behavior</a> for creating Screen Time while also making it difficult or impossible
+    to create competing products.
 - name: ScreenRetriever
   url: http://www.screenretriever.com/
   platform: ''
