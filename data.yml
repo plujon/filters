@@ -1097,14 +1097,6 @@
   features: antivirus
   icon: ''
   description: ''
-- name: Kapersky Safe Kids
-  url: ''
-  platform: ''
-  audience: ''
-  cost: ''
-  features: ''
-  icon: ''
-  description: ''
 - name: Kaspersky
   url: http://usa.kaspersky.com
   platform: ''
@@ -1119,6 +1111,14 @@
   audience: ''
   cost: ''
   features: ''
+  icon: ''
+  description: ''
+- name: Kaspersky Safe Kids
+  url: https://usa.kaspersky.com/safe-kids
+  platform: android ios macosx windows
+  audience: parents
+  cost: free to $15
+  features: filtering monitoring
   icon: ''
   description: ''
 - name: KaZipster
