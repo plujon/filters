@@ -1083,7 +1083,7 @@
   platform: android ios macosx windows
   audience: authority parent general addict
   cost: free for personal use
-  features: abandoned biglist countermeasures filtering monitoring password timer
+  features: abandoned biglist countermeasures dead filtering monitoring password timer
   icon: ''
   description: Abandoned, as of June 30, 2019.  Originally a product of Blue Coat,
     the filter was freely available for individuals looking to protect themselves
@@ -1898,11 +1898,11 @@
   icon: ''
   description: ''
 - name: Safe Eyes
-  url: http://www.internetsafety.com/safe-eyes-parental-control-software.php
+  url: 
   platform: macosx windows
   audience: parent addict general
   cost: "$50 for 3 computers"
-  features: ailing dead filtering historic monitoring timer
+  features: dead filtering historic monitoring timer
   icon: http://www.internetsafety.com/graphics/se/SE_RGB_Logo.jpg
   description: <a href="http://www.covenanteyes.com/2013/01/15/tribute-to-safe-eyes-support/">Dead
     as of 2013</a>.
@@ -2650,7 +2650,7 @@
   platform: android ios macosx windows
   audience: addict parent
   cost: free to $99/year
-  features: abandoned ailing filtering monitoring password
+  features: abandoned dead filtering monitoring password
   icon: ''
   description: Development of X3Watch seems to have ceased in 2017, and customers
     given the chance to transfer membership to EverAccountable.
