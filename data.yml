@@ -257,11 +257,11 @@
   icon: ''
   description: ''
 - name: Care4teen
-  url: http://www.care4teen.com/
+  url: 
   platform: ''
   audience: parent
   cost: ''
-  features: ''
+  features: dead
   icon: ''
   description: ''
 - name: Cedar Creek Filtering
@@ -458,15 +458,15 @@
   platform: windows
   audience: authority parent
   cost: "$40/year"
-  features: filtering games monitoring timer
+  features: dead filtering games monitoring timer
   icon: ''
-  description: ''
+  description: Became part of Net Nanny
 - name: CyberSentinel
-  url: http://www.cybersentinel.com/
+  url: 
   platform: ''
   audience: parent
   cost: ''
-  features: ''
+  features: dead
   icon: ''
   description: ''
 - name: Cybersieve
@@ -554,10 +554,10 @@
   platform: network
   audience: parent authority general addict
   cost: "$8/month"
-  features: ''
+  features: dead
   icon: ''
   description: DNSthingy is for Canadians, users of Clear OS, or those willing to
-    flash their home router.
+    flash their home router.  It became ADAMnetworks in April, 2019.
 - name: Dolphin Secure
   url: ''
   platform: ''
@@ -661,11 +661,11 @@
   icon: ''
   description: Made by Google.  Works on Android Nougat 7.0 or higher.
 - name: Familyloop Safeguard
-  url: https://www.familoop.com/
+  url: 
   platform: ''
   audience: parent
   cost: "$5/month for 3 devices"
-  features: filtering monitoring
+  features: dead filtering monitoring
   icon: ''
   description: ''
 - name: FB Limiter
@@ -791,7 +791,7 @@
   description: ''
 - name: Freedom
   url: https://freedom.to/
-  platform: ios macosx windows
+  platform: android chromeos ios macosx windows
   audience: slacker
   cost: "$2/month to $7/month"
   features: filtering timer
@@ -816,12 +816,12 @@
   description: ''
 - name: Gaggle
   url: http://www.gaggle.net/
-  platform: ''
+  platform: network
   audience: authority
   cost: ''
   features: ''
   icon: ''
-  description: ''
+  description: Intended for schools
 - name: GenTech
   url: https://gentechsolution.com/
   platform: android ios
@@ -933,11 +933,11 @@
   icon: ''
   description: ''
 - name: IamBigBrother
-  url: http://www.iambigbrother.com/
+  url: 
   platform: windows
   audience: ''
   cost: ''
-  features: monitoring spying
+  features: dead monitoring spying
   icon: ''
   description: ''
 - name: iBoss Home Parental Control Router
@@ -965,11 +965,11 @@
   icon: ''
   description: ''
 - name: IMView
-  url: http://imview.com/
+  url: 
   platform: ios macosx windows
   audience: ''
   cost: ''
-  features: monitoring spying
+  features: dead monitoring spying
   icon: ''
   description: ''
 - name: iNet Safety Bubble (Mobile)
@@ -1013,11 +1013,11 @@
   icon: ''
   description: ''
 - name: Integrity Online
-  url: http://www.integrity.com/
+  url: 
   platform: ''
   audience: ''
   cost: ''
-  features: ''
+  features: dead
   icon: ''
   description: ''
 - name: Intent
@@ -1384,21 +1384,29 @@
   icon: ''
   description: ''
 - name: MobileMinder
-  url: http://mobileminder.com/
+  url: 
   platform: android
   audience: parent
   cost: ''
-  features: games monitoring timer
+  features: dead games monitoring timer
   icon: ''
   description: ''
 - name: ModemLockDown
-  url: http://www.modemlockdown.com/
+  url: 
   platform: windows
   audience: ''
   cost: "$10"
-  features: ''
+  features: dead
   icon: ''
   description: ''
+- name: mSpy
+  url: https://www.mspy.com/
+  platform: android ios
+  audience: parent
+  cost: "$30-$70/month"
+  features: calls location monitoring sms snapchat whatsapp
+  icon: 
+  description: 
 - name: Mybee.nl
   url: ''
   platform: ''
@@ -1436,7 +1444,7 @@
   url: https://www.netangel.com/
   platform: network
   audience: parent spouse addict
-  cost: free to $15/month
+  cost: "$15/month"
   features: dns
   icon: ''
   description: Net Angel sells home routers that have e2guardian pre-installed.  Whenever
@@ -1600,11 +1608,11 @@
   icon: ''
   description: Free for home use, OpenDNS is both easy-to-use and popular.
 - name: Optenet
-  url: http://www.optenetpc.com/
+  url: 
   platform: windows
   audience: parent addict
   cost: "$40"
-  features: filtering monitoring smarts timer
+  features: dead filtering monitoring smarts timer
   icon: ''
   description: ''
 - name: Override DNS
@@ -1640,11 +1648,11 @@
   icon: ''
   description: ''
 - name: Parenteeno
-  url: http://www.parenteeno.com/
+  url: 
   platform: android windows
   audience: parent
   cost: "$25/year"
-  features: keystrokes monitoring screenshots social spying
+  features: dead keystrokes monitoring screenshots social spying
   icon: ''
   description: Parenteeno monitors what the user (i.e., child) does on the target
     device and sends the data to the Parenteeno servers where reports are prepared
@@ -1672,7 +1680,7 @@
   platform: ''
   audience: authority parent
   cost: ''
-  features: ''
+  features: monitoring
   icon: ''
   description: ''
 - name: PeanutButterPC
@@ -2078,15 +2086,21 @@
   platform: macosx windows
   audience: ''
   cost: ''
-  features: monitoring spying
+  features: dead monitoring spying
   icon: ''
-  description: ''
+  description: The <a href="https://www.consumer.ftc.gov/blog/2019/10/stalking-apps-retina-x-settles-charges">FTC
+    ordered</a> Retina-X Studios to <a href="https://latesthackingnews.com/2019/10/28/ftc-banned-retina-x-spying-apps-until-proven-for-legitimate-use/">stop
+    selling their programs</a> and to delete all customer data after it became apparent
+    that they could be used to spy on unsuspecting victims.  The FTC article uses
+    the term "stalkerware".  Two years prior Retina-X servers were compromised by
+    a hacker who obtained photographic information from the TeenShield, PhoneSheriff,
+    SniperSpy, and Mobile Spy products.
 - name: Soft Eyes
   url: http://www.softeyes.com/
-  platform: ''
+  platform: windows
   audience: ''
-  cost: ''
-  features: ''
+  cost: "$50"
+  features: monitoring
   icon: ''
   description: ''
 - name: SPIN Safe Browser
@@ -2259,10 +2273,11 @@
   url: http://www.thewebblocker.com/
   platform: windows
   audience: ''
-  cost: ''
+  cost: free
   features: filtering monitoring
   icon: ''
-  description: ''
+  description: The Web Blocker offsers extremely basic filtering.  The publisher is
+    hard to find.  Use this software at your own risk.
 - name: thejnet
   url: ''
   platform: ''
@@ -2355,7 +2370,7 @@
   icon: ''
   description: ''
 - name: UBhind
-  url: http://www.rinasoftglobal.com/
+  url: https://play.google.com/store/apps/details
   platform: android ios
   audience: ''
   cost: ''
@@ -2372,11 +2387,11 @@
   icon: ''
   description: ''
 - name: URLFilterService
-  url: http://www.urlfilterservice.net/
+  url: 
   platform: windows
   audience: ''
   cost: free
-  features: dns filtering
+  features: dead dns filtering
   icon: ''
   description: URLFilterService works categorizes sites using Shalla Secure Service
     and Université Toulouse 1 Capitole url listings.  The installation video shows
@@ -2447,7 +2462,7 @@
   cost: ''
   features: ''
   icon: ''
-  description: ''
+  description: The site is in German.
 - name: WasteNoTime
   url: https://chrome.google.com/webstore/detail/wastenotime/enebomhlllfaccbelnjhfgblnalofhch
   platform: chrome
@@ -2671,6 +2686,14 @@
   features: ''
   icon: ''
   description: ''
+- name: Zift
+  url: https://wezift.com/
+  platform: ''
+  audience: ''
+  cost: ''
+  features: dead
+  icon: ''
+  description: Part of Net Nanny 10
 - name: Zone Alarm Security Suite
   url: ''
   platform: ''
