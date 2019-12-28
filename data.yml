@@ -508,7 +508,8 @@
   platform: linux macosx network
   audience: authority
   cost: free
-  features: abandoned filtering gateway historic more password proxy ratings smarts
+  features: abandoned dead filtering gateway historic more password proxy ratings
+    smarts
   icon: ''
   description: DansGuardian is/was a content filtering proxy that works in conjunction
     with another caching proxy such as Squid or Oops. It seems to be targeted primarily
@@ -2023,7 +2024,7 @@
   platform: linux
   audience: general slacker
   cost: ''
-  features: abandoned filtering iptables opensource timer
+  features: abandoned dead filtering iptables opensource timer
   icon: ''
   description: The purpose of the program is to block access to certain web sites
     (Blacklist) for a period of time with no easy way to unblock access.  It was last

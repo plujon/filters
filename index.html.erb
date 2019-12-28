@@ -10,7 +10,9 @@ filters.each do |x|
   end
 end
 hidden_features = ['dns', 'etchosts', 'iptables']
-toxic_features = ['beta', 'dead', 'hide', 'junk', 'scuzzy', 'vapor']
+toxic_features = ['beta', 'hide', 'junk', 'scuzzy', 'vapor']
+include_dead = ENV['ALL'] ? true : false
+toxic_features << 'dead' unless include_dead
 filters.select! { |x| !x["url"].to_s.empty? }
 filters.reject! { |x| x["audience"] && x["audience"].include?("developer") }
 filters.reject! { |x| x["features"] && (x["features"] & toxic_features).any? }
@@ -55,7 +57,12 @@ end
     </div>
     <h4 class="text-center">
       To help you <strong>find the solution that works best for you</strong>, because every situation is unique.<br>See legend below for which audience category describes you.
-      </h4>
+      <% if include_dead %>
+        To limit this list to products that still work, <a href="index.html">click here</a>.
+      <% else %>
+        To see dead products as well, <a href="all.html">click here</a>.
+      <% end %>
+    </h4>
     <h4 class="text-center">
       <strong>We welcome input on this work-in-progress.</strong>
     </h4>
