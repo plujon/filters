@@ -668,6 +668,14 @@
   features: dead filtering monitoring
   icon: ''
   description: ''
+- name: FamiSafe
+  url: https://famisafe.wondershare.com/
+  platform: ''
+  audience: ''
+  cost: ''
+  features: ''
+  icon: ''
+  description: ''
 - name: FB Limiter
   url: ''
   platform: windows
@@ -822,6 +830,14 @@
   features: ''
   icon: ''
   description: Intended for schools
+- name: GateSentry
+  url: 
+  platform: 
+  audience: 
+  cost: 
+  features: 
+  icon: 
+  description: 
 - name: GenTech
   url: https://gentechsolution.com/
   platform: android ios
@@ -1834,6 +1850,14 @@
   features: filtering monitoring timer
   icon: ''
   description: ''
+- name: Qbserve
+  url: https://qotoqot.com/qbserve/
+  platform: macosx
+  audience: slacker
+  cost: "$29"
+  features: timetracking
+  icon: ''
+  description: ''
 - name: Qustodio
   url: http://www.qustodio.com/
   platform: android ios macosx windows
@@ -1931,6 +1955,15 @@
   features: filtering
   icon: ''
   description: ''
+- name: SaferNet
+  url: https://safernet.com/
+  platform: ''
+  audience: ''
+  cost: "$8/month"
+  features: scuzzy
+  icon: ''
+  description: There is no information about the company on their website other than
+    an address in Colorado and a phone number.  No information about who makes it.
 - name: SafeSquid
   url: http://www.safesquid.com/
   platform: network
