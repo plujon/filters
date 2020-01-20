@@ -370,7 +370,7 @@
   url: http://getcoldturkey.com/
   platform: windows
   audience: addict slacker
-  cost: free to $19
+  cost: free to $29
   features: dns filtering timer
   icon: ''
   description: Cold Turkey is a relatively simple filter designed to support self-control
@@ -540,6 +540,14 @@
   icon: ''
   description: Distractus is a simple Firefox addon that allows the user to whitelist
     and blacklist sites using regular expression matching.
+- name: DNS Angel
+  url: https://www.sordum.org/8127/dns-angel-v1-6/
+  platform: windows
+  audience: 
+  cost: 
+  features: 
+  icon: 
+  description: 
 - name: dnscloak
   url: https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351
   platform: ios
