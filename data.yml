@@ -1260,6 +1260,14 @@
   description: Little Browser reduces data utilization by displaying only readable
     content from webpages and by not downloading extraneous contents like scripts
     and images.
+- name: LiveFree
+  url: https://www.livefree.app/
+  platform: android ios
+  audience: addict
+  cost: "$5/month"
+  features: community
+  icon: 
+  description: ''
 - name: livigent
   url: http://www.livigent.com/
   platform: ''
