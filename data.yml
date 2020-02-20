@@ -705,6 +705,14 @@
     ], so it intercepts traffic from all applications that use WinINET (IE, Office).  It
     is more useful for developing a web application and web server; it is not a consumer-oriented
     filter.
+- name: Filter Chrome
+  url: https://filterchrome.com/
+  platform: android
+  audience: addict parent slacker
+  cost: free to $5/month
+  features: applock filtering timer
+  icon: ''
+  description: Filter Chrome has free and premium (aka freemium) feature sets.
 - name: Filter Pak
   url: ''
   platform: ''
@@ -1293,16 +1301,6 @@
   features: ''
   icon: ''
   description: ''
-- name: Manage SPIN Safe Browser
-  url: https://filterchrome.com/
-  platform: android
-  audience: addict parent slacker
-  cost: free to $5/month
-  features: applock filtering timer
-  icon: ''
-  description: Mangage SPIN is an applocker intended to be used alongside the SPIN
-    Safe browser.  Manage SPIN prevents access to browsers other SPIN Safe and/or
-    Chrome, which it can filter.  It has free and premium (aka freemium) feature sets.
 - name: ManicTime
   url: https://www.manictime.com/
   platform: android linux mac windows
