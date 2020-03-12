@@ -10,7 +10,7 @@
     to accountability partners.  It is designed to be run on a server.  It is incomplete,
     and was last updated in 2005.
 - name: Accountable2You
-  url: https://www.accountable2you.com/
+  url: https://accountable2you.com/
   platform: android ios linux macosx windows
   audience: addict parent
   cost: "$7/month"
@@ -20,7 +20,7 @@
     accountability software and has since blossomed into a product in its own right.  The
     product site and product interface are quite nice.
 - name: ActivityLogger
-  url: http://www.softactivity.com/
+  url: https://www.softactivity.com/
   platform: ''
   audience: authority
   cost: ''
@@ -28,7 +28,7 @@
   icon: ''
   description: ''
 - name: ActivTrak
-  url: http://activtrak.com/
+  url: https://activtrak.com/
   platform: macosx windows
   audience: authority
   cost: free to $336 / month / 5 users
@@ -88,7 +88,7 @@
   platform: macosx windows
   audience: parent addict general
   cost: "$50 (free trial)"
-  features: filtering monitoring
+  features: dead filtering monitoring
   icon: ''
   description: ''
 - name: AppLock
@@ -125,7 +125,7 @@
   description: Can optionally use AdBlockPlus filters and optional low bandwidth (no-image
     and no-javascript) mode.
 - name: AVG Family Safety
-  url: http://www.avg.com/us-en/avg-family-safety
+  url: https://www.avg.com/en-us/internet-security
   platform: windows
   audience: parent
   cost: ''
@@ -149,7 +149,7 @@
   icon: ''
   description: ''
 - name: BitDefender Internet Security
-  url: http://www.bitdefender.com/solutions/internet-security.html
+  url: https://www.bitdefender.com/solutions/internet-security.html
   platform: windows
   audience: ''
   cost: "$70"
@@ -165,7 +165,7 @@
   icon: ''
   description: ''
 - name: Block site
-  url: https://chrome.google.com/webstore/detail/block-site/eiimnmioipafcokbfikbljfdeojpcgbh/
+  url: https://chrome.google.com/webstore/detail/block-site-website-blocke/eiimnmioipafcokbfikbljfdeojpcgbh
   platform: chrome
   audience: general parent
   cost: ''
@@ -183,7 +183,7 @@
     control and monitoring of Chromebooks is needed.  It offers filtering, time management,
     and trend analysis.  It can also be installed as a standalone Chrome extension.
 - name: Blocksi Router
-  url: http://www.blocksi.net/parental-control.php
+  url: https://www.blocksi.net/parental-control.php
   platform: network
   audience: parent general authority
   cost: "$60 upfront + $30/year after 2 free years"
@@ -208,7 +208,7 @@
   icon: ''
   description: ''
 - name: BrowseControl
-  url: http://www.browsecontrol.com/
+  url: https://www.browsecontrol.com/
   platform: windows
   audience: authority
   cost: "$80"
@@ -290,7 +290,7 @@
   icon: ''
   description: ''
 - name: Child Control
-  url: http://salfeld.com/software/parentalcontrol/index.html
+  url: https://salfeld.com/en/
   platform: windows
   audience: parent
   cost: "$30"
@@ -314,7 +314,7 @@
   icon: ''
   description: ''
 - name: Clean Internet
-  url: http://www.cleaninter.net/
+  url: https://www.cleaninter.net/
   platform: android windows
   audience: parent general addict
   cost: "$3-$5/month"
@@ -347,7 +347,7 @@
   icon: ''
   description: ''
 - name: clearOS
-  url: http://www.clearcenter.com/
+  url: https://www.clearcenter.com/
   platform: network
   audience: authority
   cost: "$108/year to $588/year"
@@ -367,7 +367,7 @@
     from content purchased or rented on GooglePlay, or from special Blu-ray or DVD
     players.
 - name: Cold Turkey
-  url: http://getcoldturkey.com/
+  url: https://getcoldturkey.com/
   platform: windows
   audience: addict slacker
   cost: free to $29
@@ -377,7 +377,7 @@
     by allowing the end-user to configure times of the week during which to block
     access to certain websites.
 - name: Computer Cop
-  url: http://www.computercop.com/
+  url: https://www.computercop.com/
   platform: ''
   audience: parent
   cost: ''
@@ -393,7 +393,7 @@
   icon: ''
   description: ''
 - name: Content Cleaner
-  url: http://www.contentpurity.com/
+  url: https://www.contentpurity.com/
   platform: ''
   audience: ''
   cost: "$20"
@@ -409,7 +409,7 @@
   icon: ''
   description: ''
 - name: ContentBarrier
-  url: http://www.intego.com/manuals/en/cb/1-welcome-to-contentbarrier.html
+  url: https://www.intego.com/manuals/en/cb/1-welcome-to-contentbarrier.html
   platform: macosx
   audience: parent general
   cost: ''
@@ -425,7 +425,7 @@
   icon: ''
   description: ContentProtect is Net Nanny for businesses.
 - name: CovenantEyes
-  url: http://www.covenanteyes.com/
+  url: https://www.covenanteyes.com/
   platform: android ios macosx windows
   audience: addict parent general
   cost: "$11/month to $15/month"
@@ -435,7 +435,7 @@
     site seems to target porn addicts and concerned parents with roughly equal emphasis.  The
     focus (and strength) of the software is accountability rather than filtering.
 - name: CurrentWare Suite
-  url: http://www.currentware.com/
+  url: https://www.currentware.com/
   platform: ''
   audience: authority
   cost: "$500 for 5 computers, variable"
@@ -445,7 +445,7 @@
     and enPowerManager.  The products are sold to employers who want to control and
     monitor employees.
 - name: CustomBlocker
-  url: https://chrome.google.com/webstore/detail/elnfhbjabfcepfnaeoehffgmifcfjlha
+  url: https://chrome.google.com/webstore/detail/customblocker/elnfhbjabfcepfnaeoehffgmifcfjlha
   platform: ''
   audience: ''
   cost: ''
@@ -496,7 +496,7 @@
     similar in approach to OpenDNS and NX Filter.  The 5 CYBERsitter lists are adult,
     malicious, k12, k12fun, and social networking.
 - name: Cyclope-Series
-  url: http://www.cyclope-series.com/
+  url: https://www.cyclope-series.com/
   platform: ''
   audience: authority
   cost: ''
@@ -612,7 +612,7 @@
   icon: ''
   description: ''
 - name: eSafely (netspark)
-  url: http://esafely.com
+  url: https://esafely.com/
   platform: browser
   audience: parent
   cost: free
@@ -628,7 +628,7 @@
   icon: ''
   description: ''
 - name: ESET Smart Security
-  url: http://www.eset.com/
+  url: https://www.eset.com/
   platform: ''
   audience: ''
   cost: ''
@@ -636,7 +636,7 @@
   icon: ''
   description: ''
 - name: EverAccountable
-  url: http://www.everaccountable.com/
+  url: https://everaccountable.com/
   platform: android windows
   audience: addict spouse
   cost: "$7/month"
@@ -730,11 +730,11 @@
   icon: ''
   description: ''
 - name: FilterPak
-  url: http://www.s4f.com/products/filterpak
+  url: http://www.s4f.com/cgi-sys/suspendedpage.cgi
   platform: windows
   audience: parent addict
   cost: unknown
-  features: accountability biglist filtering monitoring
+  features: accountability biglist dead filtering monitoring
   icon: ''
   description: ''
 - name: FinFisher
@@ -746,7 +746,7 @@
   icon: ''
   description: ''
 - name: FlashStart
-  url: http://www.flashstart.com/
+  url: https://www.flashstart.com/
   platform: ''
   audience: authority
   cost: ''
@@ -786,12 +786,12 @@
   icon: ''
   description: ''
 - name: Fortify
-  url: http://fortifyprogram.org/
+  url: https://fortifyprogram.org/
   platform: android ios macosx windows
   audience: addict
   cost: free for youth, $39 for adults
   features: other
-  icon: http://fortifyprogram.org/assets/images/fortify-logo.svg
+  icon: https://fortifyprogram.org/assets/images/fortify-logo.svg
   description: Fortify is not a filter, but it is similar enough to warrant inclusion
     here.  Instead of filtering or monitoring, it aims to educate and support a porn
     user as he/she moves toward that goal.
@@ -823,7 +823,7 @@
   description: Formerly called Anti-Social Pro, the software is marketed towareds
     those seeking to avoid the distractions of the Internet.
 - name: FSecure
-  url: http://www.f-secure.com/en/web/home_global/home
+  url: https://www.f-secure.com/en/web/home_global/home
   platform: windows
   audience: general parent
   cost: ''
@@ -839,7 +839,7 @@
   icon: ''
   description: ''
 - name: Gaggle
-  url: http://www.gaggle.net/
+  url: https://www.gaggle.net/
   platform: network
   audience: authority
   cost: ''
@@ -913,7 +913,7 @@
   icon: ''
   description: ''
 - name: Guard Your Eyes
-  url: http://guardyoureyes.com/
+  url: https://guardyoureyes.com/
   platform: ''
   audience: addict
   cost: free, but fines if you view porn
@@ -931,7 +931,7 @@
   description: A to-do app that helps the user form good habits.  Its tagline is 'gamify
     your life'
 - name: Handy Filter
-  url: http://www.handyfilter.com/
+  url: https://www.hugedomains.com/domain_profile.cfm?d=handyfilter&e=com
   platform: ''
   audience: authority general
   cost: free
@@ -939,7 +939,7 @@
   icon: ''
   description: Originally developed for Internet Cafes in Turkey.
 - name: HomeGuard
-  url: http://veridium.net/
+  url: https://veridium.net/
   platform: windows
   audience: authority parent
   cost: "$39-$49"
@@ -949,7 +949,7 @@
     use including keystrokes, screenshots, Internet activity, and other data.  It
     offers rudimentary filtering.
 - name: HostsBlock
-  url: http://www.wilderssecurity.com/threads/hosts-block.378901/
+  url: https://www.wilderssecurity.com/threads/hosts-block.378901/
   platform: windows
   audience: ''
   cost: free to $5
@@ -957,7 +957,7 @@
   icon: ''
   description: ''
 - name: HostsMan
-  url: http://www.abelhadigital.com/hostsman
+  url: http://www.abelhadigital.com/hostsman/
   platform: windows
   audience: ''
   cost: free
@@ -1163,7 +1163,7 @@
   icon: ''
   description: ''
 - name: KidoZ
-  url: http://kidoz.net/
+  url: https://kidoz.net/
   platform: ''
   audience: parent
   cost: ''
@@ -1179,7 +1179,7 @@
   icon: ''
   description: ''
 - name: KidRocket
-  url: http://kidrocket.en.softonic.com/
+  url: https://kidrocket.en.softonic.com/
   platform: ''
   audience: parent
   cost: ''
@@ -1235,7 +1235,7 @@
   icon: ''
   description: Project seems to have died in 2011
 - name: LeeckBlock
-  url: http://www.proginosko.com/leechblock.html
+  url: https://www.proginosko.com/leechblock.html
   platform: browser
   audience: ''
   cost: ''
@@ -1243,7 +1243,7 @@
   icon: ''
   description: ''
 - name: LG Gate
-  url: http://www.lg.com/us/business/enterprise-mobility
+  url: https://www.lg.com/us/business/enterprise-mobility
   platform: android
   audience: authority
   cost: ''
@@ -1318,7 +1318,7 @@
   icon: ''
   description: ''
 - name: McAfee Family Protection
-  url: http://home.mcafee.com/store/family-protection
+  url: https://home.mcafee.com/store/family-protection
   platform: windows
   audience: ''
   cost: ''
@@ -1366,7 +1366,7 @@
   icon: ''
   description: ''
 - name: Microsoft Parental Controls
-  url: http://windows.microsoft.com/en-us/windows/set-parental-controls
+  url: https://support.microsoft.com/hub/4338813/windows-help
   platform: windows
   audience: parent
   cost: free
@@ -1378,11 +1378,11 @@
   platform: ''
   audience: ''
   cost: free
-  features: social
+  features: dead social
   icon: ''
   description: ''
 - name: MMGuardian
-  url: http://www.mmguardian.com/
+  url: https://www.mmguardian.com/
   platform: android ios
   audience: ''
   cost: ''
@@ -1390,7 +1390,7 @@
   icon: ''
   description: ''
 - name: MobiCIP
-  url: http://www.mobicip.com/
+  url: https://www.mobicip.com/
   platform: android chromeos ios kindle macosx nook windows
   audience: ''
   cost: free to $40/year
@@ -1458,7 +1458,7 @@
   platform: android
   audience: hermit
   cost: free
-  features: ''
+  features: dead
   icon: ''
   description: A browser that uses a privacy-conserving configuration, Naked Browser
     seems to have been written for the author's own use and then shared with the world.
@@ -1482,7 +1482,7 @@
     the company also has beta-quality iOS and Android apps that will feature similar
     techniques.
 - name: Net Nanny
-  url: http://www.netnanny.com/
+  url: https://www.netnanny.com/
   platform: android macosx windows
   audience: parent
   cost: "$13 to $40/year"
@@ -1540,7 +1540,7 @@
   icon: ''
   description: ''
 - name: Netintelligence
-  url: http://www.netintelligence.com/
+  url: https://www.iomart.com/netintelligence/
   platform: ''
   audience: ''
   cost: ''
@@ -1548,7 +1548,7 @@
   icon: ''
   description: ''
 - name: netsentron
-  url: http://www.netsentron.com/
+  url: https://www.netsentron.com/
   platform: network
   audience: authority parent
   cost: "$75/month"
@@ -1596,7 +1596,7 @@
   icon: ''
   description: Norton ConnectSafe was retired in 2018
 - name: Norton Family
-  url: http://onlinefamily.norton.com/
+  url: https://family.norton.com/
   platform: android ios macosx windows
   audience: parent general addict
   cost: free to $50
@@ -1605,7 +1605,7 @@
   description: Norton Family has free and paid offerings, both of which are aimed
     at parents who want to know what their children are doing online.
 - name: NX Filter
-  url: http://www.nxfilter.org/
+  url: https://nxfilter.org/p3/
   platform: network
   audience: authority general parent
   cost: free to $$
@@ -1622,7 +1622,7 @@
   icon: ''
   description: ''
 - name: opendium
-  url: http://www.opendium.com/
+  url: https://www.opendium.com/
   platform: ''
   audience: authority
   cost: ''
@@ -1630,7 +1630,7 @@
   icon: ''
   description: ''
 - name: OpenDNS
-  url: http://www.opendns.com/
+  url: https://www.opendns.com/
   platform: android ios linux macosx network windows
   audience: general parent
   cost: free to $20/year
@@ -1654,7 +1654,7 @@
   icon: ''
   description: ''
 - name: Panda
-  url: http://www.pandasecurity.com/usa/homeusers/solutions/internet-security/
+  url: https://www.pandasecurity.com/en-us/homeusers/
   platform: ''
   audience: ''
   cost: ''
@@ -1662,7 +1662,7 @@
   icon: ''
   description: ''
 - name: Parental Control Bar
-  url: http://parentalcontrolbar.org/
+  url: https://parentalcontrolbar.org/
   platform: ''
   audience: ''
   cost: ''
@@ -1698,7 +1698,7 @@
   icon: ''
   description: ''
 - name: PC Pandora
-  url: http://www.pcpandora.com/application/parental/
+  url: http://pcpandora.com/qustodio-vs-net-nanny-review-app/
   platform: ''
   audience: parent
   cost: ''
@@ -1722,7 +1722,7 @@
   icon: ''
   description: ''
 - name: Pearl Echo
-  url: http://www.pearlsoftware.com/
+  url: https://www.pearlsoftware.com/
   platform: windows
   audience: authority
   cost: "$30"
@@ -1772,12 +1772,12 @@
   description: Requires user play a certain amount of educational games to unlock
     other apps.
 - name: Pluckeye
-  url: http://pluckeye.net/
+  url: https://www.pluckeye.net/
   platform: android linux macosx windows
   audience: addict
   cost: free to $15 / month
   features: changedelay filtering mimetypes monitoring opensource-contrib timer
-  icon: http://www.pluckeye.net/p64.svg
+  icon: https://static.pluckeye.net/images/p64.svg
   description: Customizable, but blocks all images from the internet by default.  Its
     delayed-configuration system is designed to bolster self-control on the Internet.
 - name: policeman
@@ -1789,7 +1789,7 @@
   icon: ''
   description: ''
 - name: Porn Blocker
-  url: http://www.pornblocker-app.com/
+  url: http://pornblocker-app.com/
   platform: ios macosx safari
   audience: ''
   cost: ''
@@ -1857,7 +1857,7 @@
   description: Public Fox can block downloads, prevent browser changes, lock down
     addons, bookmarks, and more, block unwanted web sites.
 - name: PureSight
-  url: http://www.puresight.com/
+  url: https://www.puresight.com/
   platform: windows
   audience: parent
   cost: ''
@@ -1873,12 +1873,12 @@
   icon: ''
   description: ''
 - name: Qustodio
-  url: http://www.qustodio.com/
+  url: https://www.qustodio.com/
   platform: android ios macosx windows
   audience: parent authority general addict
   cost: free or $55/year
   features: filtering locationtracking monitoring smarts spying timer
-  icon: http://www.qustodio.com/wp-content/pad/qustodio-icon.gif
+  icon: https://www.qustodio.com/wp-content/pad/qustodio-icon.gif
   description: Qustodio appears to be a complete filtering/monitoring package.  Aimed
     primarily at parents and schools, it boasts that its "smart internet filters scans
     web content in real time".  There are some rumors it hampers the Internet experience
@@ -1910,7 +1910,7 @@
   icon: ''
   description: ''
 - name: R|Tribe
-  url: http://www.rtribe.org/
+  url: https://www.rtribe.org/
   platform: android ios
   audience: addict
   cost: free to $6/month
@@ -1921,7 +1921,7 @@
     (i.e., reports), and self-tracking of recovery, the user gains knowledge about
     their own addiction cycle and is assisted in finding ways to break it.
 - name: Safe Access
-  url: http://www.safeaccess.com/
+  url: https://www.safeaccess.com/
   platform: windows
   audience: ''
   cost: ''
@@ -1979,7 +1979,7 @@
   description: There is no information about the company on their website other than
     an address in Colorado and a phone number.  No information about who makes it.
 - name: SafeSquid
-  url: http://www.safesquid.com/
+  url: https://www.safesquid.com/
   platform: network
   audience: authority
   cost: "$10/user/year or $5/CPU hour"
@@ -2152,7 +2152,7 @@
   description: ''
 - name: SPIN Safe Browser
   url: https://useboomerang.com/spin/
-  platform: android, browser ios,
+  platform: android browser ios
   audience: parent addict
   cost: free
   features: filtering
@@ -2160,7 +2160,7 @@
   description: SPIN is a browser with built-in filtering.  It has 4.2 stars in the
     Android store.
 - name: SpyAgent
-  url: http://www.spytech-web.com/
+  url: https://www.spytech-web.com/
   platform: windows
   audience: ''
   cost: ''
@@ -2168,7 +2168,7 @@
   icon: ''
   description: ''
 - name: Spysure
-  url: http://www.kjbsecurity.com/products/detail/spysure-parental-control-software/383/
+  url: https://www.kjbsecurity.com/products/detail/spysure-parental-control-software/383/
   platform: ''
   audience: parent
   cost: "$49"
@@ -2276,7 +2276,7 @@
   icon: ''
   description: ''
 - name: SurveilStar
-  url: http://www.surveilstar.com/
+  url: https://www.surveilstar.com/
   platform: ''
   audience: authority
   cost: ''
@@ -2351,7 +2351,7 @@
   description: A suite of products offered by American Family Online.  Oddly, you
     must enter your mailing address to get the products.
 - name: Trend Micro
-  url: http://www.trendmicro.com/us/indexnight.html
+  url: https://www.trendmicro.com/us/indexnight.html
   platform: ''
   audience: ''
   cost: ''
@@ -2383,7 +2383,7 @@
   icon: ''
   description: ''
 - name: True Vine Online
-  url: http://www.truevine.net/
+  url: https://www.truevine.net/
   platform: android ios macosx windows
   audience: parent
   cost: "$8-$10/month"
@@ -2454,7 +2454,7 @@
   description: Provides an easy way to comply with the Children's Internet Proetection
     Act (CIPA)
 - name: Variato
-  url: http://www.veriato.com/
+  url: https://www.veriato.com/
   platform: android macosx windows
   audience: authority
   cost: "$100"
@@ -2462,7 +2462,7 @@
   icon: ''
   description: Used for spying on employees.
 - name: Veriato 360
-  url: http://www.veriato.com/products/veriato-recon
+  url: https://www.veriato.com/products/veriato-recon
   platform: ''
   audience: authority
   cost: ''
@@ -2470,7 +2470,7 @@
   icon: ''
   description: ''
 - name: Verity
-  url: http://www.nchsoftware.com/childmonitoring/
+  url: https://www.nchsoftware.com/childmonitoring/
   platform: windows
   audience: parent
   cost: "$70"
@@ -2503,7 +2503,7 @@
   icon: ''
   description: ''
 - name: WanSecure
-  url: http://www.wanbound.com/
+  url: https://www.wanbound.com/
   platform: network
   audience: authority
   cost: ''
@@ -2527,11 +2527,11 @@
   icon: ''
   description: ''
 - name: Web Patrol
-  url: http://www.webwatcher.com/
+  url: https://www.webwatcher.com/
   platform: windows
   audience: parent
   cost: "$30"
-  features: filtering monitoring screenshots spying timer
+  features: dead filtering monitoring screenshots spying timer
   icon: ''
   description: ''
 - name: Web Safety for Squid Proxy (qlproxy)
@@ -2605,7 +2605,7 @@
   icon: ''
   description: ''
 - name: Webroot
-  url: http://www.webroot.com/us/en/
+  url: https://www.webroot.com/us/en/
   platform: ''
   audience: ''
   cost: ''
@@ -2621,11 +2621,11 @@
   icon: ''
   description: ''
 - name: Websense
-  url: http://www.websense.com/content/Home.aspx
+  url: https://www.forcepoint.com?utm_source=Websense&utm_medium=Redirect&utm_content=home
   platform: ''
   audience: ''
   cost: ''
-  features: ''
+  features: dead
   icon: ''
   description: ''
 - name: Webshadow
@@ -2649,7 +2649,7 @@
   icon: ''
   description: ''
 - name: WebTitan
-  url: http://www.titanhq.com/webtitan
+  url: https://www.titanhq.com/webtitan
   platform: ''
   audience: authority
   cost: "$850/50 users/year"
@@ -2657,7 +2657,7 @@
   icon: ''
   description: ''
 - name: WebWatcher
-  url: http://www.webwatcher.com/
+  url: https://www.webwatcher.com/
   platform: windows
   audience: ''
   cost: ''
@@ -2691,7 +2691,7 @@
   icon: ''
   description: ''
 - name: Windows Family Safety
-  url: http://familysafety.microsoft.com/
+  url: https://familysafety.microsoft.com/
   platform: windows
   audience: ''
   cost: free
@@ -2709,7 +2709,7 @@
     based on input from users from around the world.  It works in Firefox, Chrome,
     Internet Explorer, and Opera.
 - name: X3Watch
-  url: http://x3watch.com/
+  url: https://x3watch.com/
   platform: android ios macosx windows
   audience: addict parent
   cost: free to $99/year
@@ -2750,7 +2750,7 @@
   icon: ''
   description: ''
 - name: ZoneAlarm
-  url: http://www.zonealarm.com
+  url: https://www.zonealarm.com/
   platform: windows
   audience: parent
   cost: ''
