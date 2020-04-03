@@ -257,7 +257,7 @@
   icon: ''
   description: ''
 - name: Care4teen
-  url: 
+  url:
   platform: ''
   audience: parent
   cost: ''
@@ -462,7 +462,7 @@
   icon: ''
   description: Became part of Net Nanny
 - name: CyberSentinel
-  url: 
+  url:
   platform: ''
   audience: parent
   cost: ''
@@ -543,11 +543,11 @@
 - name: DNS Angel
   url: https://www.sordum.org/8127/dns-angel-v1-6/
   platform: windows
-  audience: 
-  cost: 
-  features: 
-  icon: 
-  description: 
+  audience:
+  cost:
+  features:
+  icon:
+  description:
 - name: dnscloak
   url: https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351
   platform: ios
@@ -669,7 +669,7 @@
   icon: ''
   description: Made by Google.  Works on Android Nougat 7.0 or higher.
 - name: Familyloop Safeguard
-  url: 
+  url:
   platform: ''
   audience: parent
   cost: "$5/month for 3 devices"
@@ -771,12 +771,12 @@
   description: ''
 - name: Forcefield
   url: https://forcefield.me
-  platform: 
+  platform:
   audience: parent
   cost: "$12 / month"
-  features: 
-  icon: 
-  description: 
+  features:
+  icon:
+  description:
 - name: Forest
   url: https://www.forestapp.cc/en/
   platform: android browser ios windows
@@ -847,13 +847,13 @@
   icon: ''
   description: Intended for schools
 - name: GateSentry
-  url: 
-  platform: 
-  audience: 
-  cost: 
-  features: 
-  icon: 
-  description: 
+  url:
+  platform:
+  audience:
+  cost:
+  features:
+  icon:
+  description:
 - name: GenTech
   url: https://gentechsolution.com/
   platform: android ios
@@ -965,7 +965,7 @@
   icon: ''
   description: ''
 - name: IamBigBrother
-  url: 
+  url:
   platform: windows
   audience: ''
   cost: ''
@@ -997,7 +997,7 @@
   icon: ''
   description: ''
 - name: IMView
-  url: 
+  url:
   platform: ios macosx windows
   audience: ''
   cost: ''
@@ -1045,7 +1045,7 @@
   icon: ''
   description: ''
 - name: Integrity Online
-  url: 
+  url:
   platform: ''
   audience: ''
   cost: ''
@@ -1096,7 +1096,7 @@
   icon: ''
   description: ''
 - name: iShield
-  url: 
+  url:
   platform: windows
   audience: parent addict
   cost: "$25"
@@ -1274,7 +1274,7 @@
   audience: addict
   cost: "$5/month"
   features: community
-  icon: 
+  icon:
   description: ''
 - name: livigent
   url: http://www.livigent.com/
@@ -1334,7 +1334,7 @@
   icon: ''
   description: ''
 - name: McGruff SafeGuard
-  url: 
+  url:
   platform: windows
   audience: parent
   cost: ''
@@ -1414,7 +1414,7 @@
   icon: ''
   description: ''
 - name: MobileMinder
-  url: 
+  url:
   platform: android
   audience: parent
   cost: ''
@@ -1422,7 +1422,7 @@
   icon: ''
   description: ''
 - name: ModemLockDown
-  url: 
+  url:
   platform: windows
   audience: ''
   cost: "$10"
@@ -1435,8 +1435,8 @@
   audience: parent
   cost: "$30-$70/month"
   features: calls location monitoring sms snapchat whatsapp
-  icon: 
-  description: 
+  icon:
+  description:
 - name: Mybee.nl
   url: ''
   platform: ''
@@ -1638,7 +1638,7 @@
   icon: ''
   description: Free for home use, OpenDNS is both easy-to-use and popular.
 - name: Optenet
-  url: 
+  url:
   platform: windows
   audience: parent addict
   cost: "$40"
@@ -1678,7 +1678,7 @@
   icon: ''
   description: ''
 - name: Parenteeno
-  url: 
+  url:
   platform: android windows
   audience: parent
   cost: "$25/year"
@@ -1945,7 +1945,7 @@
   icon: ''
   description: ''
 - name: Safe Eyes
-  url: 
+  url:
   platform: macosx windows
   audience: parent addict general
   cost: "$50 for 3 computers"
@@ -2394,11 +2394,11 @@
     company formerly used FilterPak.
 - name: Truple
   url: https://truple.io/
-  platform: android windows
+  platform: android windows macosx linux kindle chromeos
   audience: addict parent
   cost: "$5 / month"
   features: accountability screenshots
-  icon: ''
+  icon: https://truple.io/img/logo_small.png
   description: Truple captures screenshots at random times.
 - name: Trustwave SecureBrowsing
   url: https://www.trustwave.com/Products/SecureBrowsing/
@@ -2434,7 +2434,7 @@
   icon: ''
   description: ''
 - name: URLFilterService
-  url: 
+  url:
   platform: windows
   audience: ''
   cost: free
@@ -2544,7 +2544,7 @@
   description: Like DansGuardian, but also works with https.  The project will target
     the Raspberry PI as an installation platform.
 - name: WebBlock
-  url: 
+  url:
   platform: windows
   audience: ''
   cost: ''
