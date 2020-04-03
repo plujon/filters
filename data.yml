@@ -2394,11 +2394,11 @@
     company formerly used FilterPak.
 - name: Truple
   url: https://truple.io/
-  platform: android windows
+  platform: android windows macosx linux kindle chromeos
   audience: addict parent
   cost: "$5 / month"
   features: accountability screenshots
-  icon:
+  icon: https://truple.io/img/logo_small.png
   description: Truple captures screenshots at random times.
 - name: Trustwave SecureBrowsing
   url: https://www.trustwave.com/Products/SecureBrowsing/
