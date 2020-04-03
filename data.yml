@@ -2394,7 +2394,7 @@
     company formerly used FilterPak.
 - name: Truple
   url: https://truple.io/
-  platform: android windows macosx linux kindle chromeos
+  platform: android chromeos kindle linux macosx windows
   audience: addict parent
   cost: "$5 / month"
   features: accountability screenshots
