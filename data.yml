@@ -2697,7 +2697,16 @@
   cost: free
   features:
   icon:
-  description:
+  description: Windows Family Safety may have noble intentions, but it can easily
+    lure a parent into a false sense of security if the Chrome browser is on the computer.  In
+    particular, on Windows 8.1, even with the maximum protection settings that indicate
+    a child will only be allowed to access the sites specifically allowed by the parent,
+    Google Chrome allows google.com and youtube.com regardless (albeit with safesearch
+    enabled but that is far different than the no sites setting a parent might try
+    to select).  The editor of this site just tried to use Windows Family Safety to
+    prevent his 5 year-old from using the Internet and was appalled to discover the
+    child would be able to watch Shakira's half-time show, contrary to the implied
+    settings.  Whether Microsoft or Google are to blame is unknown.  Perhaps both.
 - name: WOT
   url: https://www.mywot.com/
   platform: browser
