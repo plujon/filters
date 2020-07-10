@@ -1,0 +1,25 @@
+<div class="filter-bar">
+  <div class="filter-row filter-row-include">
+    <button class="btn filter-button-plus">
+      <i class="fas fa-filter"></i>
+      <span class="filter-row-kind">include</span>
+      <i class="fas fa-plus"></i>
+    </button>
+  </div>
+  <div class="filter-row filter-row-exclude">
+    <button class="btn filter-button-plus" data-clude="exclude">
+      <i class="fas fa-filter"></i>
+      <span class="filter-row-kind">exclude</span>
+      <i class="fas fa-plus"></i>
+    </button>
+  </div>
+</div>
+
+<template id="filter-input-template">
+  <div class="input-group">
+    <input type="text" class="form-control">
+    <div class="input-group-append">
+      <button class="btn filter-widget-remove"><i class="fas fa-times"></i></button>
+    </div>
+  </div>
+</template>

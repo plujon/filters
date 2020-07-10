@@ -1,10 +1,10 @@
 ---
 - name: accountabilitypal
   url: http://www.accountabilitypal.org/
-  platform: linux windows
+  platform: linux network windows
   audience: addict
   cost: free
-  features: abandoned accountability dead gateway incomplete monitoring network opensource
+  features: abandoned accountability dead gateway incomplete monitoring opensource
   icon:
   description: Accountability Pal monitors Internet usage and sends e-mail reports
     to accountability partners.  It is designed to be run on a server.  It is incomplete,
@@ -212,7 +212,7 @@
   platform: windows
   audience: authority
   cost: "$80"
-  features: filtering free monitoring trial
+  features: filtering monitoring
   icon:
   description:
 - name: BSecure
@@ -266,10 +266,10 @@
   description:
 - name: Cedar Creek Filtering
   url: https://www.cedarcreek.co/filtering/personal
-  platform:
+  platform: network
   audience: authority parent
   cost: "$15/month"
-  features: biglist dns filtering gateway hardware network
+  features: biglist dns filtering gateway hardware
   icon:
   description: The product is a physical router that "plugs in between your WiFi Router
     and your internet provider's modem".
@@ -351,7 +351,7 @@
   platform: network
   audience: authority
   cost: "$108/year to $588/year"
-  features: filtering gateway more network
+  features: filtering gateway more
   icon:
   description: Aimed at businesses, governments, and schools, ClearOS is designed
     to be installed on a router.  clearOS sells switches with ClearOS installed and
@@ -366,6 +366,14 @@
   description: ClearPlay is a service that filters out violence and sexual content
     from content purchased or rented on GooglePlay, or from special Blu-ray or DVD
     players.
+- name: Cloudflare 1.1.1.1 for families
+  url: https://one.one.one.one/family/
+  platform: network
+  audience: parent
+  cost: free
+  features: dns filtering
+  icon:
+  description: Malware and/or Adult Content Blocking by Cloudflare.
 - name: Cold Turkey
   url: https://getcoldturkey.com/
   platform: windows
@@ -758,7 +766,7 @@
   platform: macosx
   audience: slacker general
   cost: "$20"
-  features: productivity timer
+  features: timer
   icon:
   description:
 - name: Focus 45
@@ -785,12 +793,20 @@
   features:
   icon:
   description:
+- name: Forticlient
+  url: https://forticlient.com/
+  platform:
+  audience:
+  cost:
+  features:
+  icon:
+  description:
 - name: Fortify
   url: https://fortifyprogram.org/
   platform: android ios macosx windows
   audience: addict
   cost: free for youth, $39 for adults
-  features: other
+  features: education friends gamification
   icon: https://fortifyprogram.org/assets/images/fortify-logo.svg
   description: Fortify is not a filter, but it is similar enough to warrant inclusion
     here.  Instead of filtering or monitoring, it aims to educate and support a porn
@@ -917,7 +933,7 @@
   platform:
   audience: addict
   cost: free, but fines if you view porn
-  features: other
+  features: consequences
   icon:
   description: Guard your eyes is an online program, not a true filter.  Users pay
     fines every time they view porn.
@@ -926,7 +942,7 @@
   platform: ios
   audience:
   cost:
-  features: accountability
+  features: accountability gamification
   icon:
   description: A to-do app that helps the user form good habits.  Its tagline is 'gamify
     your life'
@@ -1116,7 +1132,8 @@
   platform: android ios macosx windows
   audience: authority parent general addict
   cost: free for personal use
-  features: abandoned biglist countermeasures dead filtering monitoring password timer
+  features: abandoned biglist countermeasures dead filtering historic monitoring password
+    timer
   icon:
   description: Abandoned, as of June 30, 2019.  Originally a product of Blue Coat,
     the filter was freely available for individuals looking to protect themselves
@@ -1180,10 +1197,10 @@
   description:
 - name: KidRocket
   url: https://kidrocket.en.softonic.com/
-  platform:
+  platform: browser
   audience: parent
   cost:
-  features: browser
+  features:
   icon:
   description:
 - name: Kids Place
@@ -1273,15 +1290,15 @@
   platform: android ios
   audience: addict
   cost: "$5/month"
-  features: community
+  features: friends
   icon:
   description:
 - name: livigent
   url: http://www.livigent.com/
-  platform:
+  platform: network
   audience:
   cost:
-  features: filtering hardware mimetypes network smarts timer
+  features: filtering hardware mimetypes smarts timer
   icon:
   description:
 - name: Mac OS X Parental Controls
@@ -1560,7 +1577,7 @@
   platform: android ios windows
   audience: parent
   cost: "$9/month"
-  features: filtering games recongition smarts timer
+  features: filtering games image_recongition smarts timer
   icon:
   description:
 - name: Netsweeper
@@ -1694,7 +1711,7 @@
   platform: windows
   audience: spouse addict parent
   cost: "$60/year"
-  features: abandoned dead filtering mia monitoring screenshots scuzzy spying
+  features: abandoned dead filtering monitoring screenshots scuzzy spying
   icon:
   description:
 - name: PC Pandora
@@ -1702,7 +1719,7 @@
   platform:
   audience: parent
   cost:
-  features: abandoned dead mia monitoring spying
+  features: abandoned dead monitoring spying
   icon:
   description:
 - name: PC Tattletale
@@ -1914,7 +1931,7 @@
   platform: android ios
   audience: addict
   cost: free to $6/month
-  features: accountability monitoring
+  features: accountability counseling friends monitoring
   icon:
   description: R|Tribe is an app for mobile devices that attempts to assist users
     in "interrupting the addiction cycle."  Through in-app connections to friends
@@ -1989,13 +2006,13 @@
     are 2GB of ram and 2 CPU cores.
 - name: Safesurfer
   url: http://www.safesurfer.co.nz/
-  platform: android network
+  platform: android ios network
   audience: parent
-  cost: free with registration or pay what you want
-  features: dns filtering
+  cost: free to $5/month
+  features: dns filtering monitoring
   icon:
-  description: A DNS service for families with children.  The service is pay what
-    you want with registration.
+  description: A freemium DNS service for families with children.  The monitoring
+    features require a subscription.
 - name: Samsung Knox
   url: https://www.samsungknox.com/
   platform: android

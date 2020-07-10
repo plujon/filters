@@ -1,0 +1,33 @@
+<div class="table">
+  <table class="table">
+    <caption class="text-center">Various Internet Filters, Monitors, and the Like</caption>
+    <thead>
+      <tr>
+        <th>Filter</th>
+        <th>Cost</th>
+        <th>Platform</th>
+        <th title="Audiences are listed in order of relevance, with the most relevant audience listed first.">Audience</th>
+        <th title="See feature legend below.">Features</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%- filters.each do |filter| -%>
+        <tr>
+          <td><a href="<%= filter["url"] %>" title="<%= filter["name"]%>">
+            <%- if !filter["icon"].to_s.empty? -%>
+              <img height="40" src="<%= filter["icon"] %>" alt="<%= filter["name"]%>" /><br>
+            <%- end -%>
+            <%= filter["name"] %>
+          </a>
+          </td>
+          <td><%= filter["cost"] %></td>
+          <td><%= filter["platform"].join(", ") if filter["platform"] %></td>
+          <td><%= filter["audience"].join(", ") if filter["audience"] %></td>
+          <td><%= filter["features"].join(", ") if filter["features"] %></td>
+          <td><%= filter["description"] if filter["description"] %></td>
+        </tr>
+      <%- end -%>
+    </tbody>
+  </table>
+</div>

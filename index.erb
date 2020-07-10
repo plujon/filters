@@ -1,0 +1,77 @@
+<!DOCTYPE html><%- require_relative 'helpers' %>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A searchable list of Internet filters and monitors categorized by target audience (e.g. parent, spouse, authority, addict).">
+    <title>List of Internet Filters | Pluckeye</title>
+
+    <link rel="mask-icon" sizes="any" href="images/p64.svg">
+    <link rel="icon" type="image/png" href="images/p64.png">
+
+    <link rel="stylesheet" href="https://static.pluckeye.net/css/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://static.pluckeye.net/css/fontawesome-all-5.12.0.min.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+
+<%= partial('filter-style') %>
+
+  </head>
+<body>
+  <%= partial('navbar') %>
+  <div class="container">
+    <div class="page-header text-center">
+      <h2>Searchable List of Internet Filters and Monitors</h2>
+      <h4 class="text-center">
+        A gift from the makers of <a href="https://www.pluckeye.net/">Pluckeye</a>
+      </h4>
+    </div>
+    <h4 class="text-center">
+      To help you <strong>find the solution that works best for you</strong>, because every situation is unique.<br>See legend below for which audience category describes you.
+    </h4>
+    <h4 class="text-center">
+      <strong>We welcome input on this work-in-progress.</strong>
+    </h4>
+    <div id="google_translate_element" class="text-center" style="padding: 12px 0px;"></div><script type="text/javascript">
+      function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      }
+    </script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <h4 class="text-center">
+      Try typing addict, general, parent, authority, or other terms in the search box (works in English only).
+    </h4>
+
+    <div class="row">
+      <%= partial('filterable') %>
+    </div>
+
+    <div class="row">
+      <%= partial('table') %>
+    </div>
+
+    <div class="row">
+      <%= partial('audience-legend') %>
+    </div>
+
+    <div class="row">
+      <%= partial('platform-legend') %>
+    </div>
+
+    <div class="row">
+      <%= partial('feature-legend') %>
+    </div>
+
+  </div>
+
+  <script src="https://static.pluckeye.net/js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://static.pluckeye.net/js/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://static.pluckeye.net/js/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/filterable.js"></script>
+  <script src="js/linkify.js"></script>
+  <script src="js/os.js"></script>
+  <script src="js/js.js"></script>
+</body>
+</html>
+<%-
+# Local Variables:
+# compile-command: "erb -T - index.erb >index.html && firefox-nightly index.html"
+# End:
+%>
