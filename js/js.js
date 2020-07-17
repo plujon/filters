@@ -7,13 +7,13 @@ function arrayIncludes(ary, x) {
 
 (function() {
   var options = {};
-  var includes = [];
+  var includes = {};
   if (window.location.search) {
     // ?os=windows|macosx|linux|browser|network
-    // ?platform=windows|macosx|linux|browser|network|android|ios|chrome|firefox
+    // ?platform=windows|macosx|linux|browser|network|android|ios
     // ?audience=addict|parent
     // ?feature=timer+monitoring
-    var platforms = [ "android", "browser", "chrome", "firefox", "ios", "linux", "macosx", "network", "windows" ];
+    var platforms = [ "android", "browser", "ios", "linux", "macosx", "network", "windows" ];
     var audiences = [];
     var features = [];
     $("#Audience_legend dt").each(function(){
@@ -24,29 +24,37 @@ function arrayIncludes(ary, x) {
     });
     var ary = window.location.search.substr(1).split("&");
     for (var i = 0; i < ary.length; ++i) {
-      var vv = ary[i].split("=");
-      var x = vv[1].toLowerCase();
-      switch (vv[0]) {
-      case "os":       if (arrayIncludes(platforms, x)) includes.push(x); break;
-      case "platform": if (arrayIncludes(platforms, x)) includes.push(x); break;
-      case "audience": if (arrayIncludes(audiences, x)) includes.push(x); break;
-      case "feature":  if (arrayIncludes(features, x))  includes.push(x); break;
+      var name_value = ary[i].split("=");
+      var name = name_value[0].toLowerCase();
+      var value = name_value[1].toLowerCase();
+      if ('os' == name) name = 'platform';
+      if (!includes[name]) includes[name] = [];
+      var possibles = [];
+      switch (name) {
+      case "platform": possibles = platforms; break;
+      case "audience": possibles = audiences; break;
+      case "feature": possibles = features; break;
       }
+      if (arrayIncludes(possibles, value)) includes[name].push(value);
+      else if ('all' == value) includes[name] = possibles;
     }
   }
-  if (!includes.length) {
-    if (os.family) {
-      includes.push(os.family);
-      includes.push('network');
+  {
+    var init = [];
+    for (var k in includes) {
+      console.log(k, includes);
+      init.push(['include'].concat(includes[k]));
     }
+    if (0 == init.length && os.family)
+      init.push(['include', os.family, 'network']);
+    init.unshift(['include', '']);
+    init.push(['exclude', 'dead']);
+    filterable.init(init);
   }
-  filterable.init([['include', ''],
-                   ['include'].concat(includes), ['exclude', 'dead']]);
-  $('.filter-pill input').get(0).focus();
   linkify(document.body);
-  let el = $('.filter-row-include input').get(0);
+  var el = $('.filter-pill input').get(0);
   if (el && !el.value) {
-    $(el).attr('placeholder', 'addict...');
+    $(el).attr('placeholder', 'type something here such as addict or parent...');
     $(el).focus();
   }
   // TODO: Linkify to feature_legend (or add mouseovers).

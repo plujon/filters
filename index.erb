@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="A searchable list of Internet filters and monitors categorized by target audience (e.g. parent, spouse, authority, addict).">
+    <meta name="description" content="A searchable list of Internet filters and monitors categorized by target audience.  E.g., addict, authority, parent, spouse.">
     <title>List of Internet Filters | Pluckeye</title>
 
     <link rel="mask-icon" sizes="any" href="images/p64.svg">
@@ -16,17 +16,16 @@
 <body>
   <%= partial('navbar') %>
   <div class="container">
+
     <div class="page-header text-center">
       <h2>Searchable List of Internet Filters and Monitors</h2>
     </div>
+
     <div id="google_translate_element" class="text-center" style="padding: 12px 0px;"></div><script type="text/javascript">
       function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
       }
     </script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <h4 class="text-center">
-      Try typing addict, parent, or similar terms in the include field.
-    </h4>
 
     <div class="row">
       <%= partial('filterable') %>
