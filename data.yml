@@ -172,6 +172,14 @@
   features: blacklist keyword password whitelist
   icon:
   description:
+- name: BlockerX
+  url: https://play.google.com/store/apps/details?id=io.funswitch.blocker&hl=en_US
+  platform: android
+  audience: addict
+  cost:
+  features: filtering
+  icon:
+  description:
 - name: Blocksi
   url: https://blocksi.net/
   platform: browser chrome chromeos
@@ -531,6 +539,14 @@
   audience:
   cost:
   features:
+  icon:
+  description:
+- name: DETOXIFY
+  url: https://play.google.com/store/apps/details?id=com.familyfirsttechnology.pornblocker
+  platform: android
+  audience: addict
+  cost: "$5/month"
+  features: filtering
   icon:
   description:
 - name: Disconnect
@@ -2745,6 +2761,22 @@
   icon:
   description: Development of X3Watch seems to have ceased in 2017, and customers
     given the chance to transfer membership to EverAccountable.
+- name: xBlock
+  url: https://apps.apple.com/us/app/xblock-porn-blocker/id1071244095
+  platform: ios macosx
+  audience: addict
+  cost: "$50"
+  features: filtering
+  icon:
+  description:
+- name: Xblocker
+  url: https://apps.apple.com/us/app/xblocker-a-content-blocker-for-children/id1044002368
+  platform: ios
+  audience: parent
+  cost: free
+  features: filtering
+  icon:
+  description:
 - name: Xbox 360
   url:
   platform:
