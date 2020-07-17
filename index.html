@@ -13,22 +13,22 @@
     <link rel="stylesheet" href="https://static.pluckeye.net/css/fontawesome-all-5.12.0.min.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
 
 <style>
-.filter-row {
+.filter-rule {
   display: flex;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.filter-row button {
+.filter-rule button {
   background-color: green;
   color: white;
 }
-.filter-row button > .fas:first-child {
+.filter-rule button > .fas:first-child {
   padding-right: 0.5em;
 }
-.filter-row button > .fas:last-child {
+.filter-rule button > .fas:last-child {
   padding-left: 0.5em;
 }
-.filter-row > * {
+.filter-rule > * {
   margin-right: 15px;
 }
 </style>
@@ -60,48 +60,56 @@
   <div class="container">
     <div class="page-header text-center">
       <h2>Searchable List of Internet Filters and Monitors</h2>
-      <h4 class="text-center">
-        A gift from the makers of <a href="https://www.pluckeye.net/">Pluckeye</a>
-      </h4>
     </div>
-    <h4 class="text-center">
-      To help you <strong>find the solution that works best for you</strong>, because every situation is unique.<br>See legend below for which audience category describes you.
-    </h4>
-    <h4 class="text-center">
-      <strong>We welcome input on this work-in-progress.</strong>
-    </h4>
     <div id="google_translate_element" class="text-center" style="padding: 12px 0px;"></div><script type="text/javascript">
       function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
       }
     </script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <h4 class="text-center">
-      Try typing addict, general, parent, authority, or other terms in the search box (works in English only).
+      Try typing addict, parent, or similar terms in an include field.
     </h4>
 
     <div class="row">
-      <div class="filter-bar">
-  <div class="filter-row filter-row-include">
-    <button class="btn filter-button-plus">
-      <i class="fas fa-filter"></i>
-      <span class="filter-row-kind">include</span>
-      <i class="fas fa-plus"></i>
-    </button>
-  </div>
-  <div class="filter-row filter-row-exclude">
-    <button class="btn filter-button-plus" data-clude="exclude">
-      <i class="fas fa-filter"></i>
-      <span class="filter-row-kind">exclude</span>
-      <i class="fas fa-plus"></i>
-    </button>
-  </div>
-</div>
-
-<template id="filter-input-template">
+      <template id="filter-input">
   <div class="input-group">
     <input type="text" class="form-control">
     <div class="input-group-append">
       <button class="btn filter-widget-remove"><i class="fas fa-times"></i></button>
+    </div>
+  </div>
+</template>
+
+<div class="filter-rules-container">
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fas fa-filter"></i>
+      <span class="filter-rule-kind">?</span>
+      <i class="fas fa-plus"></i>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item filter-rules-plus" href="#include">include</a>
+      <a class="dropdown-item filter-rules-plus" href="#exclude">exclude</a>
+    </div>
+  </div>
+  <div class="filter-rules"></div>
+</div>
+
+<template id="filter-rule-template">
+  <div class="filter-rule">
+    <button class="btn filter-button-plus">
+      <i class="fas fa-filter"></i>
+      <span class="filter-rule-kind"></span>
+      <i class="fas fa-plus"></i>
+    </button>
+  </div>
+</template>
+
+<template id="filter-pill-template">
+  <div class="input-group filter-pill">
+    <input type="text" class="form-control">
+    <div class="input-group-append">
+      <button class="btn filter-pill-remove"><i class="fas fa-times"></i></button>
     </div>
   </div>
 </template>

@@ -37,12 +37,18 @@ function arrayIncludes(ary, x) {
   if (!includes.length) {
     if (os.family) {
       includes.push(os.family);
-      includes.push('network')
+      includes.push('network');
     }
   }
-  filterable.addIncludes(includes);
-  filterable.addExcludes('dead');
+  filterable.init([['include', ''],
+                   ['include'].concat(includes), ['exclude', 'dead']]);
+  $('.filter-pill input').get(0).focus();
   linkify(document.body);
+  let el = $('.filter-row-include input').get(0);
+  if (el && !el.value) {
+    $(el).attr('placeholder', 'addict...');
+    $(el).focus();
+  }
   // TODO: Linkify to feature_legend (or add mouseovers).
   // TODO: Linkify to audience_legend (or add mouseovers).
 })();
