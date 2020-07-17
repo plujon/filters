@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="A searchable list of Internet filters and monitors categorized by target audience (e.g. parent, spouse, authority, addict).">
+    <meta name="description" content="A searchable list of Internet filters and monitors categorized by target audience.  E.g., addict, authority, parent, spouse.">
     <title>List of Internet Filters | Pluckeye</title>
 
     <link rel="mask-icon" sizes="any" href="images/p64.svg">
@@ -11,29 +11,7 @@
 
     <link rel="stylesheet" href="https://static.pluckeye.net/css/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://static.pluckeye.net/css/fontawesome-all-5.12.0.min.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
-
-<style>
-.filter-rule {
-  display: flex;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.filter-rule button {
-  background-color: green;
-  color: white;
-}
-.filter-rule button > .fas:first-child {
-  padding-right: 0.5em;
-}
-.filter-rule button > .fas:last-child {
-  padding-left: 0.5em;
-}
-.filter-rule > * {
-  margin-right: 15px;
-}
-</style>
-
-
+    <link rel="stylesheet" href="css/css.css">
   </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-light py-0" style="background-color:rgb(236, 240, 241)">
@@ -58,17 +36,16 @@
 </nav>
 
   <div class="container">
+
     <div class="page-header text-center">
       <h2>Searchable List of Internet Filters and Monitors</h2>
     </div>
+
     <div id="google_translate_element" class="text-center" style="padding: 12px 0px;"></div><script type="text/javascript">
       function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
       }
     </script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <h4 class="text-center">
-      Try typing addict, parent, or similar terms in the include field.
-    </h4>
 
     <div class="row">
       <template id="filter-input">
@@ -161,11 +138,11 @@
             CleanBrowsing
           </a>
           </td>
-          <td>free</td>
+          <td>free to $60/year</td>
           <td>android, ios, linux, macosx, network, windows</td>
           <td>parent, general</td>
-          <td>filtering</td>
-          <td>Similar to the more well known OpenDNS, CleanBrowsing says their filters are more strict and better for kids.</td>
+          <td>filtering, monitoring</td>
+          <td>Similar to the more well known OpenDNS, CleanBrowsing says their filters are more strict and better for kids.  Monitoring and custom filtering is available with the paid plan(s).</td>
         </tr>
         <tr>
           <td><a href="https://www.covenanteyes.com/" title="CovenantEyes">
@@ -224,7 +201,7 @@
           <td>free or $55/year</td>
           <td>android, ios, macosx, windows</td>
           <td>parent, authority, general, addict</td>
-          <td>filtering, locationtracking, monitoring, smarts, spying, timer</td>
+          <td>filtering, location_tracking, monitoring, smarts, spying, timer</td>
           <td>Qustodio appears to be a complete filtering/monitoring package.  Aimed primarily at parents and schools, it boasts that its "smart internet filters scans web content in real time".  There are some rumors it hampers the Internet experience of folks who have slow Internet connections.</td>
         </tr>
         <tr>
@@ -335,7 +312,7 @@
           </td>
           <td>$70</td>
           <td>windows</td>
-          <td></td>
+          <td>general</td>
           <td>antivirus</td>
           <td></td>
         </tr>
@@ -356,7 +333,7 @@
           </a>
           </td>
           <td></td>
-          <td>chrome</td>
+          <td>browser, chrome</td>
           <td>general, parent</td>
           <td>blacklist, keyword, password, whitelist</td>
           <td></td>
@@ -367,7 +344,7 @@
           </a>
           </td>
           <td></td>
-          <td>chrome, chromeos</td>
+          <td>browser, chrome, chromeos</td>
           <td>authority, parent</td>
           <td>biglist, cloud, filtering</td>
           <td>Blocksi is a Chrome and Chromebook product targeted at schools where control and monitoring of Chromebooks is needed.  It offers filtering, time management, and trend analysis.  It can also be installed as a standalone Chrome extension.</td>
@@ -390,7 +367,7 @@
           </td>
           <td>$16/year to $31/year</td>
           <td>android</td>
-          <td></td>
+          <td>parent</td>
           <td>filtering</td>
           <td></td>
         </tr>
@@ -433,7 +410,7 @@
           </a>
           </td>
           <td></td>
-          <td></td>
+          <td>android</td>
           <td>antiad</td>
           <td></td>
           <td>A minimalist browser that uses few system resources and that blocks ads.</td>
@@ -466,7 +443,7 @@
           </a>
           </td>
           <td>free</td>
-          <td>chrome</td>
+          <td>browser, chrome</td>
           <td>parent</td>
           <td></td>
           <td></td>
@@ -476,11 +453,11 @@
             Circle
           </a>
           </td>
-          <td></td>
-          <td>network</td>
+          <td>$129/year</td>
+          <td>android, ios, network</td>
           <td>parent</td>
-          <td></td>
-          <td></td>
+          <td>filtering, hardware, monitoring, timer</td>
+          <td>Circle is a network device that filters all the devices on the network.  It is also an App on Android and iOS.</td>
         </tr>
         <tr>
           <td><a href="https://www.cleaninter.net/" title="Clean Internet">
@@ -498,9 +475,9 @@
             ClearPlay
           </a>
           </td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>$8/month</td>
+          <td>android</td>
+          <td>parent, addict</td>
           <td></td>
           <td>ClearPlay is a service that filters out violence and sexual content from content purchased or rented on GooglePlay, or from special Blu-ray or DVD players.</td>
         </tr>
@@ -533,8 +510,8 @@
           </td>
           <td></td>
           <td></td>
-          <td>parent</td>
-          <td></td>
+          <td>authority</td>
+          <td>monitoring, spying</td>
           <td></td>
         </tr>
         <tr>
@@ -542,21 +519,10 @@
             ComputerTime
           </a>
           </td>
-          <td></td>
-          <td></td>
+          <td>$40</td>
+          <td>windows</td>
           <td>parent</td>
           <td>timer</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><a href="https://www.contentpurity.com/" title="Content Cleaner">
-            Content Cleaner
-          </a>
-          </td>
-          <td>$20</td>
-          <td></td>
-          <td></td>
-          <td>pixelation</td>
           <td></td>
         </tr>
         <tr>
@@ -598,8 +564,8 @@
           </a>
           </td>
           <td></td>
-          <td></td>
-          <td></td>
+          <td>browser, chrome</td>
+          <td>general</td>
           <td></td>
           <td>CustomBlocker filters any element on any web site with any conditionwith XPath and RegExp.</td>
         </tr>
@@ -644,7 +610,7 @@
           <td></td>
           <td>windows</td>
           <td></td>
-          <td></td>
+          <td>meh</td>
           <td></td>
         </tr>
         <tr>
@@ -675,7 +641,7 @@
           </a>
           </td>
           <td></td>
-          <td>chrome</td>
+          <td>browser, chrome</td>
           <td>general</td>
           <td></td>
           <td></td>
@@ -709,7 +675,7 @@
           </td>
           <td></td>
           <td></td>
-          <td></td>
+          <td>authority</td>
           <td>antivirus</td>
           <td></td>
         </tr>
@@ -740,10 +706,10 @@
             FamiSafe
           </a>
           </td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>$5/month</td>
+          <td>android, ios, kindle</td>
+          <td>parent</td>
+          <td>filtering, monitoring, timer</td>
           <td></td>
         </tr>
         <tr>
@@ -819,7 +785,7 @@
           </td>
           <td></td>
           <td>android, browser, ios, windows</td>
-          <td></td>
+          <td>slacker</td>
           <td></td>
           <td></td>
         </tr>
@@ -952,7 +918,7 @@
           <td></td>
           <td>browser</td>
           <td></td>
-          <td></td>
+          <td>meh</td>
           <td></td>
         </tr>
         <tr>
@@ -972,7 +938,7 @@
           </a>
           </td>
           <td></td>
-          <td>chrome</td>
+          <td>browser, chrome</td>
           <td>slacker</td>
           <td>timetracking</td>
           <td></td>
@@ -1017,7 +983,7 @@
           </td>
           <td>free to $15</td>
           <td>android, ios, macosx, windows</td>
-          <td>parents</td>
+          <td>parent</td>
           <td>filtering, monitoring</td>
           <td></td>
         </tr>
@@ -1335,8 +1301,8 @@
           </a>
           </td>
           <td></td>
-          <td></td>
-          <td></td>
+          <td>network</td>
+          <td>authority</td>
           <td></td>
           <td></td>
         </tr>
@@ -1368,8 +1334,8 @@
           </a>
           </td>
           <td>$2</td>
-          <td></td>
-          <td></td>
+          <td>android</td>
+          <td>general</td>
           <td></td>
           <td></td>
         </tr>
@@ -1579,7 +1545,7 @@
           <td></td>
           <td>windows</td>
           <td></td>
-          <td></td>
+          <td>dead</td>
           <td></td>
         </tr>
         <tr>
@@ -1666,7 +1632,7 @@
           </td>
           <td>free</td>
           <td>ios, macosx</td>
-          <td>parents</td>
+          <td>parent</td>
           <td>filtering, games, monitoring, timer</td>
           <td>Apple's Screen Time is on macOS and iOS and it's free. While some have been glad to see Apple beef up parental controls on their devices, Apple has also been <a href="https://www.nytimes.com/2019/04/27/technology/apple-screen-time-trackers.html">criticized</a> and <a href="https://ww.9to5mac.com/2019/08/08/another-antitrust-investigation/">is being investigated</a> for <a href="https://www.kaspersky.com/blog/apple-fas-complaint/26017/">antitrust behavior</a> for creating Screen Time while also making it difficult or impossible to create competing products.</td>
         </tr>
@@ -1754,8 +1720,8 @@
           </td>
           <td>$50</td>
           <td>windows</td>
-          <td></td>
-          <td>monitoring</td>
+          <td>parent, authority</td>
+          <td>dead, monitoring</td>
           <td></td>
         </tr>
         <tr>
@@ -1763,9 +1729,9 @@
             SpyAgent
           </a>
           </td>
-          <td></td>
+          <td>$70</td>
           <td>windows</td>
-          <td></td>
+          <td>parent, authority</td>
           <td>monitoring, spying</td>
           <td></td>
         </tr>
@@ -1995,7 +1961,7 @@
           </a>
           </td>
           <td></td>
-          <td>chrome</td>
+          <td>browser, chrome</td>
           <td>slacker</td>
           <td></td>
           <td></td>
@@ -2369,7 +2335,7 @@
           </a>
           </td>
           <td>free</td>
-          <td>browser, chrome, firefox-52, firefox-56</td>
+          <td>browser, chrome, palemoon</td>
           <td>antiad, general</td>
           <td>biglist, filtering</td>
           <td></td>
@@ -2409,10 +2375,16 @@
   <div>
     <dl>
       <dt>android</dt> <dd>The software integrates with Android.</dd>
-      <dt>browser</dt> <dd>The software integrates with one or more browsers (e.g., Chrome, Firefox, Internet Explorer, Opera, Safari) as opposed to the operating system or network.</dd>
-      <dt>chrome</dt> <dd>The software integrates with Chrome and/or Chromium.</dd>
-      <dt>firefox-56</dt> <dd>The software integrates with Firefox 56 or below.</dd>
-      <dt>firefox-52</dt> <dd>The software integrates with Firefox 52 or above.</dd>
+      <dt>browser</dt> <dd>The software integrates with one or more browsers such as
+        <a href="https://brave.com/">Brave</a>,
+        <a href="https://www.google.com/chrome/">Chrome</a>,
+        <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>,
+        <a href="https://www.microsoft.com/edge">Edge</a>,
+        Internet Explorer,
+        <a href="https://vivaldi.com/">Vivaldi (formerly Opera)</a>,
+        <a href="https://www.apple.com/safari/">Safari</a>, and the like.</dd>
+      <dt>palemoon</dt> <dd>The software integrates with Firefox 56 or below and spin-offs such as <a href="http://palemoon.org/">Pale Moon</a> and <a href="https://www.waterfox.net/">Waterfox</a>.</dd>
+      <dt>internet</dt> <dd>The product is an Internet site.</dd>
       <dt>ios</dt> <dd>The software integrates with iOS.</dd>
       <dt>linux</dt> <dd>The software integrates with Linux.</dd>
       <dt>macosx</dt> <dd>The software integrates with Mac OS X.</dd>
@@ -2462,7 +2434,7 @@
       <!-- <dt id="isp">isp</dt> <dd>The service is marketed as an ISP.</dd> -->
       <dt id="journal">journal</dt> <dd>The software is or includes a journal feature to help the user reflect.  See also education.</dd>
       <dt id="keyword">keyword</dt> <dd>Filtering is accomplished on the fly through keyword detection within web pages.</dd>
-      <dt id="locationtracking">locationtracking</dt> <dd>The location of the end-user is tracked and usually presented to another person (ostensibly the end-user's parent).</dd>
+      <dt id="location_tracking">location_tracking</dt> <dd>The location of the end-user is tracked and usually presented to another person (ostensibly the end-user's parent).</dd>
       <dt id="mimetypes">mimetypes</dt> <dd>Filtering can be done on a mime type basis.  E.g., Pluckeye can block all images from https://craigslist.org/ , but still allow text.</dd>
       <dt id="monitoring">monitoring</dt> <dd>The software monitors Internet activity or filter settings for the purpose of allowing a parent, accountability partner, or other person to view.  See also accountability.</dd>
       <dt>more</dt> <dd>The software has other features that do not fit one of the other feature categories.</dd>

@@ -19,7 +19,7 @@ def filters
   end
   @filters.select! { |x| !x["url"].to_s.empty? }
   @filters.reject! { |x| x["audience"] && x["audience"].include?("developer") }
-  toxic_features = ['beta', 'hide', 'junk', 'scuzzy', 'vapor']
+  toxic_features = ['beta', 'hide', 'junk', 'scuzzy', 'unhelpful', 'vapor']
   @filters.reject! { |x| x["features"] && (x["features"] & toxic_features).any? }
 
   @filters.sort! { |a,b|

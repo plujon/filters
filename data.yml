@@ -151,7 +151,7 @@
 - name: BitDefender Internet Security
   url: https://www.bitdefender.com/solutions/internet-security.html
   platform: windows
-  audience:
+  audience: general
   cost: "$70"
   features: antivirus
   icon:
@@ -166,7 +166,7 @@
   description:
 - name: Block site
   url: https://chrome.google.com/webstore/detail/block-site-website-blocke/eiimnmioipafcokbfikbljfdeojpcgbh
-  platform: chrome
+  platform: browser chrome
   audience: general parent
   cost:
   features: blacklist keyword password whitelist
@@ -174,7 +174,7 @@
   description:
 - name: Blocksi
   url: https://blocksi.net/
-  platform: chrome chromeos
+  platform: browser chrome chromeos
   audience: authority parent
   cost:
   features: biglist cloud filtering
@@ -194,7 +194,7 @@
 - name: Boomerang Parental Control
   url: https://useboomerang.com/
   platform: android
-  audience:
+  audience: parent
   cost: "$16/year to $31/year"
   features: filtering
   icon:
@@ -241,7 +241,7 @@
   description:
 - name: ButterFly Browser
   url: https://play.google.com/store/apps/details?id=acr.browser.butterfly
-  platform:
+  platform: android
   audience: antiad
   cost:
   features:
@@ -299,7 +299,7 @@
   description:
 - name: Chrome supervised profile
   url: https://support.google.com/chrome/answer/3463947
-  platform: chrome
+  platform: browser chrome
   audience: parent
   cost: free
   features:
@@ -307,12 +307,13 @@
   description:
 - name: Circle
   url: https://meetcircle.com/
-  platform: network
+  platform: android ios network
   audience: parent
-  cost:
-  features:
+  cost: "$129/year"
+  features: filtering hardware monitoring timer
   icon:
-  description:
+  description: Circle is a network device that filters all the devices on the network.  It
+    is also an App on Android and iOS.
 - name: Clean Internet
   url: https://www.cleaninter.net/
   platform: android windows
@@ -333,11 +334,12 @@
   url: https://cleanbrowsing.org/
   platform: android ios linux macosx network windows
   audience: parent general
-  cost: free
-  features: dns filtering
+  cost: free to $60/year
+  features: dns filtering monitoring
   icon: https://cleanbrowsing.org/images/CleanBrowsing-logo-small.png
   description: Similar to the more well known OpenDNS, CleanBrowsing says their filters
-    are more strict and better for kids.
+    are more strict and better for kids.  Monitoring and custom filtering is available
+    with the paid plan(s).
 - name: Cleanfeed
   url:
   platform:
@@ -358,9 +360,9 @@
     calls them "appliances".  It is very similar to DansGuardian.
 - name: ClearPlay
   url: https://www.clearplay.com/
-  platform:
-  audience:
-  cost:
+  platform: android
+  audience: parent addict
+  cost: "$8/month"
   features:
   icon:
   description: ClearPlay is a service that filters out violence and sexual content
@@ -387,27 +389,27 @@
 - name: Computer Cop
   url: https://www.computercop.com/
   platform:
-  audience: parent
+  audience: authority
   cost:
-  features:
+  features: monitoring spying
   icon:
   description:
 - name: ComputerTime
   url: http://www.softwaretime.com/computertime/
-  platform:
+  platform: windows
   audience: parent
-  cost:
+  cost: "$40"
   features: timer
   icon:
   description:
 - name: Content Cleaner
   url: https://www.contentpurity.com/
-  platform:
+  platform: windows
   audience:
   cost: "$20"
-  features: pixelation
+  features: scuzzy skin
   icon:
-  description:
+  description: Detects and removes porn from hard drive.
 - name: Content Protect Pro
   url: https://www.contentwatch.com/products/contentprotect_pro
   platform: android macosx network windows
@@ -454,8 +456,8 @@
     monitor employees.
 - name: CustomBlocker
   url: https://chrome.google.com/webstore/detail/customblocker/elnfhbjabfcepfnaeoehffgmifcfjlha
-  platform:
-  audience:
+  platform: browser chrome
+  audience: general
   cost:
   features:
   icon:
@@ -533,7 +535,7 @@
   description:
 - name: Disconnect
   url: https://disconnect.me
-  platform: chrome
+  platform: browser chrome
   audience: general
   cost:
   features:
@@ -553,7 +555,7 @@
   platform: windows
   audience:
   cost:
-  features:
+  features: meh
   icon:
   description:
 - name: dnscloak
@@ -638,7 +640,7 @@
 - name: ESET Smart Security
   url: https://www.eset.com/
   platform:
-  audience:
+  audience: authority
   cost:
   features: antivirus
   icon:
@@ -686,10 +688,10 @@
   description:
 - name: FamiSafe
   url: https://famisafe.wondershare.com/
-  platform:
-  audience:
-  cost:
-  features:
+  platform: android ios kindle
+  audience: parent
+  cost: "$5/month"
+  features: filtering monitoring timer
   icon:
   description:
 - name: FB Limiter
@@ -771,7 +773,7 @@
   description:
 - name: Focus 45
   url:
-  platform: chrome
+  platform: browser chrome
   audience: slacker
   cost:
   features:
@@ -788,7 +790,7 @@
 - name: Forest
   url: https://www.forestapp.cc/en/
   platform: android browser ios windows
-  audience:
+  audience: slacker
   cost:
   features:
   icon:
@@ -1009,7 +1011,7 @@
   platform: browser
   audience:
   cost:
-  features:
+  features: meh
   icon:
   description:
 - name: IMView
@@ -1070,7 +1072,7 @@
   description:
 - name: Intent
   url: https://browsewithintent.com/
-  platform: chrome
+  platform: browser chrome
   audience: slacker
   cost:
   features: timetracking
@@ -1166,7 +1168,7 @@
 - name: Kaspersky Safe Kids
   url: https://usa.kaspersky.com/safe-kids
   platform: android ios macosx windows
-  audience: parents
+  audience: parent
   cost: free to $15
   features: filtering monitoring
   icon:
@@ -1582,8 +1584,8 @@
   description:
 - name: Netsweeper
   url: https://www.netsweeper.com/
-  platform:
-  audience:
+  platform: network
+  audience: authority
   cost:
   features:
   icon:
@@ -1664,8 +1666,8 @@
   description:
 - name: Override DNS
   url: https://play.google.com/store/apps/details?id=net.mx17.overridedns
-  platform:
-  audience:
+  platform: android
+  audience: general
   cost: "$2"
   features:
   icon:
@@ -1748,7 +1750,7 @@
   description:
 - name: Personal Blocklist
   url:
-  platform: chrome
+  platform: browser chrome
   audience: general slacker
   cost: free
   features: dead
@@ -1840,7 +1842,7 @@
   description:
 - name: ProCon Latte Content Filter
   url:
-  platform: browser firefox-56
+  platform: browser palemoon
   audience: parent general addict
   cost:
   features: dead filtering keyword opensource password profanity
@@ -1894,7 +1896,7 @@
   platform: android ios macosx windows
   audience: parent authority general addict
   cost: free or $55/year
-  features: filtering locationtracking monitoring smarts spying timer
+  features: filtering location_tracking monitoring smarts spying timer
   icon: https://www.qustodio.com/wp-content/pad/qustodio-icon.gif
   description: Qustodio appears to be a complete filtering/monitoring package.  Aimed
     primarily at parents and schools, it boasts that its "smart internet filters scans
@@ -1942,7 +1944,7 @@
   platform: windows
   audience:
   cost:
-  features:
+  features: dead
   icon:
   description:
 - name: Safe Browser
@@ -2048,7 +2050,7 @@
 - name: Screen Time by Apple
   url: https://support.apple.com/en-us/HT210387
   platform: ios macosx
-  audience: parents
+  audience: parent
   cost: free
   features: filtering games monitoring timer
   icon:
@@ -2162,9 +2164,9 @@
 - name: Soft Eyes
   url: http://www.softeyes.com/
   platform: windows
-  audience:
+  audience: parent authority
   cost: "$50"
-  features: monitoring
+  features: dead monitoring
   icon:
   description:
 - name: SPIN Safe Browser
@@ -2179,8 +2181,8 @@
 - name: SpyAgent
   url: https://www.spytech-web.com/
   platform: windows
-  audience:
-  cost:
+  audience: parent authority
+  cost: "$70"
   features: monitoring spying
   icon:
   description:
@@ -2246,7 +2248,7 @@
   description: A to-do app that helps the user form good habits.
 - name: Strict Workflow
   url:
-  platform: chrome
+  platform: browser chrome
   audience:
   cost:
   features:
@@ -2444,7 +2446,7 @@
     and regain control of your productivities!
 - name: uBlock
   url: https://github.com/gorhill/uBlock
-  platform: browser chrome firefox-52 firefox-56
+  platform: browser chrome palemoon
   audience: antiad general
   cost: free
   features: biglist filtering
@@ -2529,7 +2531,7 @@
   description: The site is in German.
 - name: WasteNoTime
   url: https://chrome.google.com/webstore/detail/wastenotime/enebomhlllfaccbelnjhfgblnalofhch
-  platform: chrome
+  platform: browser chrome
   audience: slacker
   cost:
   features:
@@ -2596,7 +2598,7 @@
     to a kiosk.
 - name: WebFilter Pro
   url:
-  platform: browser firefox-56
+  platform: browser palemoon
   audience:
   cost:
   features: dead
@@ -2691,7 +2693,7 @@
   description:
 - name: Whitelist Ninja
   url:
-  platform: firefox-56
+  platform: palemoon
   audience:
   cost:
   features: dead
