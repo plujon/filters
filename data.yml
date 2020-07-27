@@ -497,10 +497,10 @@
   description:
 - name: CyberSitter
   url: http://www.cybersitter.com/
-  platform:
-  audience: parent
-  cost:
-  features:
+  platform: windows
+  audience: parent authority
+  cost: "$50"
+  features: filtering
   icon:
   description:
 - name: Cybersitterlists
@@ -972,6 +972,14 @@
   features: dead filtering monitoring
   icon:
   description: Originally developed for Internet Cafes in Turkey.
+- name: Hidetools Spy Monitor
+  url: http://www.topshareware.com/Hidetools-Spy-Monitor-download-62604.htm
+  platform: windows
+  audience:
+  cost: "$40"
+  features: scuzzy spying
+  icon:
+  description:
 - name: HomeGuard
   url: https://veridium.net/
   platform: windows
@@ -1639,6 +1647,15 @@
   icon: http://safeweb.norton.com/images/global/norton-icon.png
   description: Norton Family has free and paid offerings, both of which are aimed
     at parents who want to know what their children are doing online.
+- name: NuNanny
+  url: http://nunanny.com/
+  platform: windows
+  audience: parent authority
+  cost: "$40"
+  features: filtering monitoring scuzzy social
+  icon:
+  description: Scuzzy because it is made by Hidetools Inc, the same folks who make
+    Hidetools Spy Monitor back in 2008.  That product is the poster child for scuzzy.
 - name: NX Filter
   url: https://nxfilter.org/p3/
   platform: network
