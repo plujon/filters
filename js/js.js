@@ -48,7 +48,7 @@ function arrayIncludes(ary, x) {
     if (0 == init.length && os.family)
       init.push(['include', os.family, 'network']);
     init.unshift(['include', '']);
-    init.push(['exclude', 'dead']);
+    init.push(['exclude', 'defunct']);
     filterable.init(init);
   }
   linkify(document.body);

@@ -4,7 +4,7 @@
   platform: linux network windows
   audience: addict
   cost: free
-  features: abandoned accountability dead gateway incomplete monitoring opensource
+  features: abandoned accountability defunct gateway incomplete monitoring opensource
   icon:
   description: Accountability Pal monitors Internet usage and sends e-mail reports
     to accountability partners.  It is designed to be run on a server.  It is incomplete,
@@ -56,7 +56,7 @@
   platform: browser
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: AhnLab SiteGuard
@@ -72,7 +72,7 @@
   platform: browser
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Anti-Porn Warning
@@ -80,7 +80,7 @@
   platform: browser
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Aobo
@@ -88,7 +88,7 @@
   platform: macosx windows
   audience: parent addict general
   cost: "$50 (free trial)"
-  features: dead filtering monitoring
+  features: defunct filtering monitoring
   icon:
   description:
 - name: AppLock
@@ -161,7 +161,7 @@
   platform: ios
   audience: slacker
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Block site
@@ -228,7 +228,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Buddy Browser
@@ -236,7 +236,7 @@
   platform: macosx windows
   audience: parent
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: BullGuard Internet Security
@@ -269,7 +269,7 @@
   platform:
   audience: parent
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Cedar Creek Filtering
@@ -286,7 +286,7 @@
   platform: browser
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Cenzor
@@ -476,7 +476,7 @@
   platform: windows
   audience: authority parent
   cost: "$40/year"
-  features: dead filtering games monitoring timer
+  features: defunct filtering games monitoring timer
   icon:
   description: Became part of Net Nanny
 - name: CyberSentinel
@@ -484,7 +484,7 @@
   platform:
   audience: parent
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Cybersieve
@@ -508,7 +508,7 @@
   platform: network
   audience: authority parent general
   cost: "$80 for Simple DNS + $39/year"
-  features: biglist dead filtering gateway monitoring
+  features: biglist defunct filtering gateway monitoring
   icon:
   description: Designed to be used with the Simple DNS Plus (a DNS server), it is
     similar in approach to OpenDNS and NX Filter.  The 5 CYBERsitter lists are adult,
@@ -526,7 +526,7 @@
   platform: linux macosx network
   audience: authority
   cost: free
-  features: abandoned dead filtering gateway historic more password proxy ratings
+  features: abandoned defunct filtering gateway historic more password proxy ratings
     smarts
   icon:
   description: DansGuardian is/was a content filtering proxy that works in conjunction
@@ -562,7 +562,7 @@
   platform: browser
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description: Distractus is a simple Firefox addon that allows the user to whitelist
     and blacklist sites using regular expression matching.
@@ -588,7 +588,7 @@
   platform: network
   audience: parent authority general addict
   cost: "$8/month"
-  features: dead
+  features: defunct
   icon:
   description: DNSthingy is for Canadians, users of Clear OS, or those willing to
     flash their home router.  It became ADAMnetworks in April, 2019.
@@ -634,7 +634,7 @@
   platform:
   audience: parent
   cost:
-  features: dead timer
+  features: defunct timer
   icon:
   description:
 - name: eSafely (netspark)
@@ -642,7 +642,7 @@
   platform: browser
   audience: parent
   cost: free
-  features: dead
+  features: defunct
   icon:
   description:
 - name: eScan
@@ -674,16 +674,16 @@
   platform:
   audience:
   cost:
-  features: dead skin
+  features: defunct skin
   icon:
   description: Launched in 2001 and last updated in September 2001, this appears to
-    be a dead project.
+    be a defunct project.
 - name: Family Cyber Alert
   url:
   platform:
   audience:
   cost:
-  features: dead monitoring
+  features: defunct monitoring
   icon:
   description:
 - name: Family Link
@@ -699,7 +699,7 @@
   platform:
   audience: parent
   cost: "$5/month for 3 devices"
-  features: dead filtering monitoring
+  features: defunct filtering monitoring
   icon:
   description:
 - name: FamiSafe
@@ -715,7 +715,7 @@
   platform: windows
   audience:
   cost: free to $15
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Fiddler
@@ -752,7 +752,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: FilterPak
@@ -760,7 +760,7 @@
   platform: windows
   audience: parent addict
   cost: unknown
-  features: accountability biglist dead filtering monitoring
+  features: accountability biglist defunct filtering monitoring
   icon:
   description:
 - name: FinFisher
@@ -910,7 +910,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: GodSaves.tk Anti-Porn
@@ -918,7 +918,7 @@
   platform: browser
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: goguardian
@@ -969,7 +969,7 @@
   platform:
   audience: authority general
   cost: free
-  features: dead filtering monitoring
+  features: defunct filtering monitoring
   icon:
   description: Originally developed for Internet Cafes in Turkey.
 - name: Hidetools Spy Monitor
@@ -1003,7 +1003,7 @@
   platform: windows
   audience:
   cost: free
-  features: dead
+  features: defunct
   icon:
   description:
 - name: IamBigBrother
@@ -1011,7 +1011,7 @@
   platform: windows
   audience:
   cost:
-  features: dead monitoring spying
+  features: defunct monitoring spying
   icon:
   description:
 - name: iBoss Home Parental Control Router
@@ -1027,7 +1027,7 @@
   platform: browser
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Image Block
@@ -1043,7 +1043,7 @@
   platform: ios macosx windows
   audience:
   cost:
-  features: dead monitoring spying
+  features: defunct monitoring spying
   icon:
   description:
 - name: iNet Safety Bubble (Mobile)
@@ -1059,7 +1059,7 @@
   platform:
   audience:
   cost: free to $10/year
-  features: abandoned dead harvester scuzzy
+  features: abandoned defunct harvester scuzzy
   icon:
   description:
 - name: Integard
@@ -1067,7 +1067,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Intego IS Barrier X6 (Mac)
@@ -1091,7 +1091,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Intent
@@ -1107,7 +1107,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: InternetOff
@@ -1142,7 +1142,7 @@
   platform: windows
   audience: parent addict
   cost: "$25"
-  features: accountability dead filtering monitoring smarts
+  features: accountability defunct filtering monitoring smarts
   icon:
   description:
 - name: Jusprog
@@ -1158,8 +1158,8 @@
   platform: android ios macosx windows
   audience: authority parent general addict
   cost: free for personal use
-  features: abandoned biglist countermeasures dead filtering historic monitoring password
-    timer
+  features: abandoned biglist countermeasures defunct filtering historic monitoring
+    password timer
   icon:
   description: Abandoned, as of June 30, 2019.  Originally a product of Blue Coat,
     the filter was freely available for individuals looking to protect themselves
@@ -1202,7 +1202,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: KidoZ
@@ -1250,7 +1250,7 @@
   platform:
   audience: parent
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Kinderserver
@@ -1381,7 +1381,7 @@
   platform: windows
   audience: parent
   cost:
-  features: dead filtering monitoring
+  features: defunct filtering monitoring
   icon:
   description:
 - name: Meine Startseite.de
@@ -1405,7 +1405,7 @@
   platform: network
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Microsoft Parental Controls
@@ -1421,7 +1421,7 @@
   platform:
   audience:
   cost: free
-  features: dead social
+  features: defunct social
   icon:
   description:
 - name: MMGuardian
@@ -1461,7 +1461,7 @@
   platform: android
   audience: parent
   cost:
-  features: dead games monitoring timer
+  features: defunct games monitoring timer
   icon:
   description:
 - name: ModemLockDown
@@ -1469,7 +1469,7 @@
   platform: windows
   audience:
   cost: "$10"
-  features: dead
+  features: defunct
   icon:
   description:
 - name: mSpy
@@ -1501,7 +1501,7 @@
   platform: android
   audience: hermit
   cost: free
-  features: dead
+  features: defunct
   icon:
   description: A browser that uses a privacy-conserving configuration, Naked Browser
     seems to have been written for the author's own use and then shared with the world.
@@ -1537,7 +1537,7 @@
   platform: linux macosx
   audience: addict
   cost: free
-  features: abandoned accountability dead monitoring opensource
+  features: abandoned accountability defunct monitoring opensource
   icon:
   description: Net Responsibility monitors Internet usage and sends e-mail reports
     to accountability partners.  Must be compiled from source on Mac OS X and Ubuntu
@@ -1563,7 +1563,7 @@
   platform: windows
   audience:
   cost: "$25"
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Netgear Live Parental Controls
@@ -1635,7 +1635,7 @@
   platform: network
   audience: parent
   cost:
-  features: dead dns
+  features: defunct dns
   icon:
   description: Norton ConnectSafe was retired in 2018
 - name: Norton Family
@@ -1670,7 +1670,7 @@
   platform:
   audience:
   cost: free to more
-  features: dead games monitoring timetracking
+  features: defunct games monitoring timetracking
   icon:
   description:
 - name: opendium
@@ -1694,7 +1694,7 @@
   platform: windows
   audience: parent addict
   cost: "$40"
-  features: dead filtering monitoring smarts timer
+  features: defunct filtering monitoring smarts timer
   icon:
   description:
 - name: Override DNS
@@ -1718,7 +1718,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Parental Controls and Web Filter from MetaCert
@@ -1726,7 +1726,7 @@
   platform: browser
   audience:
   cost: free or donate
-  features: dead filtering password
+  features: defunct filtering password
   icon:
   description:
 - name: Parenteeno
@@ -1734,7 +1734,7 @@
   platform: android windows
   audience: parent
   cost: "$25/year"
-  features: dead keystrokes monitoring screenshots social spying
+  features: defunct keystrokes monitoring screenshots social spying
   icon:
   description: Parenteeno monitors what the user (i.e., child) does on the target
     device and sends the data to the Parenteeno servers where reports are prepared
@@ -1746,7 +1746,7 @@
   platform: windows
   audience: spouse addict parent
   cost: "$60/year"
-  features: abandoned dead filtering monitoring screenshots scuzzy spying
+  features: abandoned defunct filtering monitoring screenshots scuzzy spying
   icon:
   description:
 - name: PC Pandora
@@ -1754,7 +1754,7 @@
   platform:
   audience: parent
   cost:
-  features: abandoned dead monitoring spying
+  features: abandoned defunct monitoring spying
   icon:
   description:
 - name: PC Tattletale
@@ -1786,7 +1786,7 @@
   platform: browser chrome
   audience: general slacker
   cost: free
-  features: dead
+  features: defunct
   icon:
   description:
 - name: pfSense
@@ -1811,7 +1811,7 @@
   platform: Firefox
   audience: parent
   cost: free
-  features: abandoned dead
+  features: abandoned defunct
   icon:
   description:
 - name: Play This 2 Play That
@@ -1837,7 +1837,7 @@
   platform: browser
   audience: general hermit
   cost: free
-  features: dead filtering mimetypes
+  features: defunct filtering mimetypes
   icon:
   description:
 - name: Porn Blocker
@@ -1870,7 +1870,7 @@
   platform:
   audience: addict
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: ProCon Latte Content Filter
@@ -1878,7 +1878,7 @@
   platform: browser palemoon
   audience: parent general addict
   cost:
-  features: dead filtering keyword opensource password profanity
+  features: defunct filtering keyword opensource password profanity
   icon:
   description: A Firefox extension, the ProCon Latte Content Filter blocks (usually
     containing pornography) based on simple keyword lists.  It supports password protection,
@@ -1896,7 +1896,7 @@
   platform: android
   audience: parent
   cost:
-  features: dead filtering monitoring
+  features: defunct filtering monitoring
   icon:
   description:
 - name: Public Fox
@@ -1977,7 +1977,7 @@
   platform: windows
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Safe Browser
@@ -1993,7 +1993,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Safe Eyes
@@ -2001,16 +2001,16 @@
   platform: macosx windows
   audience: parent addict general
   cost: "$50 for 3 computers"
-  features: dead filtering historic monitoring timer
+  features: defunct filtering historic monitoring timer
   icon: http://www.internetsafety.com/graphics/se/SE_RGB_Logo.jpg
-  description: <a href="http://www.covenanteyes.com/2013/01/15/tribute-to-safe-eyes-support/">Dead
+  description: <a href="http://www.covenanteyes.com/2013/01/15/tribute-to-safe-eyes-support/">Defunct
     as of 2013</a>.
 - name: Safe Families We-Blocker 2.1
   url: http://www.safefamilies.org/download.php
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: SafeDNS
@@ -2061,7 +2061,7 @@
   platform: android
   audience: parent
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Scieno Sitter
@@ -2069,7 +2069,7 @@
   platform:
   audience: authority
   cost:
-  features: dead
+  features: defunct
   icon:
   description: Perfect for the scientologist overlord.  Merely amusing for all others.
 - name: Screen Time
@@ -2107,7 +2107,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: SecureTeen
@@ -2131,7 +2131,7 @@
   platform: linux
   audience: general slacker
   cost:
-  features: abandoned dead filtering iptables opensource timer
+  features: abandoned defunct filtering iptables opensource timer
   icon:
   description: The purpose of the program is to block access to certain web sites
     (Blacklist) for a period of time with no easy way to unblock access.  It was last
@@ -2160,7 +2160,7 @@
   platform:
   audience:
   cost:
-  features: dead skin
+  features: defunct skin
   icon:
   description:
 - name: Silent Block
@@ -2168,7 +2168,7 @@
   platform: browser
   audience: general
   cost:
-  features: dead
+  features: defunct
   icon:
   description: Silent Block is a Firefox addon that uses url regular expression to
     whitelist or blacklist sites.
@@ -2177,7 +2177,7 @@
   platform: android ios
   audience: parent
   cost:
-  features: dead monitoring
+  features: defunct monitoring
   icon:
   description:
 - name: SniperSpy
@@ -2185,7 +2185,7 @@
   platform: macosx windows
   audience:
   cost:
-  features: dead monitoring spying
+  features: defunct monitoring spying
   icon:
   description: The <a href="https://www.consumer.ftc.gov/blog/2019/10/stalking-apps-retina-x-settles-charges">FTC
     ordered</a> Retina-X Studios to <a href="https://latesthackingnews.com/2019/10/28/ftc-banned-retina-x-spying-apps-until-proven-for-legitimate-use/">stop
@@ -2199,7 +2199,7 @@
   platform: windows
   audience: parent authority
   cost: "$50"
-  features: dead monitoring
+  features: defunct monitoring
   icon:
   description:
 - name: SPIN Safe Browser
@@ -2308,7 +2308,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: SurfPass
@@ -2316,7 +2316,7 @@
   platform:
   audience: authority
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: SurfWatch
@@ -2324,7 +2324,7 @@
   platform:
   audience:
   cost:
-  features: dead historic
+  features: defunct historic
   icon:
   description:
 - name: SurveilStar
@@ -2348,7 +2348,7 @@
   platform: windows
   audience:
   cost:
-  features: dead junk
+  features: defunct junk
   icon:
   description:
 - name: TextBrowser
@@ -2356,7 +2356,7 @@
   platform: android
   audience: general addict
   cost: free
-  features: dead imageless
+  features: defunct imageless
   icon:
   description: A very small text-only browser for Android.  It is reminiscent of lynx.  When
     paired with an app-locker, it can contrain a device to text-only browsing.
@@ -2465,7 +2465,7 @@
   platform:
   audience: authority
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: UBhind
@@ -2490,7 +2490,7 @@
   platform: windows
   audience:
   cost: free
-  features: dead dns filtering
+  features: defunct dns filtering
   icon:
   description: URLFilterService works categorizes sites using Shalla Secure Service
     and Université Toulouse 1 Capitole url listings.  The installation video shows
@@ -2583,7 +2583,7 @@
   platform: windows
   audience: parent
   cost: "$30"
-  features: dead filtering monitoring screenshots spying timer
+  features: defunct filtering monitoring screenshots spying timer
   icon:
   description:
 - name: Web Safety for Squid Proxy (qlproxy)
@@ -2591,7 +2591,7 @@
   platform: linux macosx windows
   audience:
   cost: 25 Euro per year
-  features: dead gateway icap network
+  features: defunct gateway icap network
   icon:
   description: Like DansGuardian, but also works with https.  The project will target
     the Raspberry PI as an installation platform.
@@ -2634,7 +2634,7 @@
   platform: browser palemoon
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: WebGuard
@@ -2642,7 +2642,7 @@
   platform:
   audience:
   cost:
-  features: dead skin
+  features: defunct skin
   icon:
   description: A 2005 article by PhD students Mohamed Hammami of Ecole Centrale de
     Lyon in France and Liming Chen of Ecole Centrale de Lyon in France.  The company
@@ -2653,7 +2653,7 @@
   platform:
   audience: authority
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Webroot
@@ -2677,7 +2677,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description:
 - name: Webshadow
@@ -2729,7 +2729,7 @@
   platform: palemoon
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description: Parental Control by a whitelist of sites, admin is by password. We
     use this for young children to keep them on the sites we have pre approved. You
@@ -2774,7 +2774,7 @@
   platform: android ios macosx windows
   audience: addict parent
   cost: free to $99/year
-  features: abandoned dead filtering monitoring password
+  features: abandoned defunct filtering monitoring password
   icon:
   description: Development of X3Watch seems to have ceased in 2017, and customers
     given the chance to transfer membership to EverAccountable.
@@ -2815,7 +2815,7 @@
   platform:
   audience:
   cost:
-  features: dead
+  features: defunct
   icon:
   description: Part of Net Nanny 10
 - name: Zone Alarm Security Suite
