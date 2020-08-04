@@ -31,7 +31,11 @@
       <%= partial('filterable') %>
     </div>
 
-    <div class="row">
+    <div>
+      <button class="btn btn-default shuffler" title="Shuffle entries (refresh the page to get the default sort order)."><i class="fas fa-random"></i> random shuffle</button>
+    </div>
+
+    <div>
       <%= partial('table') %>
     </div>
 
@@ -55,6 +59,7 @@
   <script src="js/filterable.js"></script>
   <script src="js/linkify.js"></script>
   <script src="js/os.js"></script>
+  <script src="js/shuffle.js"></script>
   <script src="js/js.js"></script>
 </body>
 </html>

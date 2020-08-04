@@ -52,6 +52,11 @@ function arrayIncludes(ary, x) {
     filterable.init(init);
   }
   linkify(document.body);
+
+  $('.shuffler').on('click', function () {
+    shuffle(document.getElementsByClassName('shuffle'))
+  });
+
   var el = $('.filter-pill input').get(0);
   if (el && !el.value) {
     $(el).attr('placeholder', 'type something here such as addict or parent...');
