@@ -1910,9 +1910,9 @@
     addons, bookmarks, and more, block unwanted web sites.
 - name: PureSight
   url: https://www.puresight.com/
-  platform: windows
+  platform: android windows
   audience: parent
-  cost:
+  cost: "$2 / device / month"
   features: filtering monitoring timer
   icon:
   description:
