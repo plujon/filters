@@ -14,12 +14,17 @@
     <tbody>
       <%- filters.each do |filter| -%>
         <tr>
-          <td><a href="<%= filter["url"] %>" title="<%= filter["name"]%>">
+          <td>
+            <% if filter['url'] %>
+              <a href="<%= filter["url"] %>" title="<%= filter["name"]%>">
             <%- if !filter["icon"].to_s.empty? -%>
               <img height="40" src="<%= filter["icon"] %>" alt="<%= filter["name"]%>" /><br>
             <%- end -%>
             <%= filter["name"] %>
           </a>
+            <% else %>
+          <%= filter['name'] %>
+            <% end %>
           </td>
           <td><%= filter["cost"] %></td>
           <td><%= filter["platform"].join(", ") if filter["platform"] %></td>

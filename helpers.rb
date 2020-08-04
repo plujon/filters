@@ -21,6 +21,11 @@ def filters
   @filters.reject! { |x| x["audience"] && x["audience"].include?("developer") }
   toxic_features = ['beta', 'hide', 'junk', 'scuzzy', 'unhelpful', 'vapor']
   @filters.reject! { |x| x["features"] && (x["features"] & toxic_features).any? }
+  @filters.each do |x|
+    if x['features'] && x['features'].include?('defunct')
+      x.delete('url')
+    end
+  end
 
   @filters.sort! { |a,b|
     if !a["icon"].to_s.empty? && b["icon"].to_s.empty?
