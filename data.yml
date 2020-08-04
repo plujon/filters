@@ -13,7 +13,7 @@
   url: https://accountable2you.com/
   platform: android ios linux macosx windows
   audience: addict parent
-  cost: "$7/month"
+  cost: "$7 / month"
   features: accountability monitoring timer
   icon: https://lh6.googleusercontent.com/-BhjARoRU0Xc/VHzImGaZwfI/AAAAAAAAABc/cwaNFOypo9c/w962-h962/AU2%2BLOGO_WHITE_2.png
   description: Accountable2You originated as a personal replacement for other, slower,
@@ -39,7 +39,7 @@
   url: https://adamnet.works/
   platform: network
   audience: parent spouse authority addict
-  cost: "$8/month"
+  cost: "$8 / month"
   features: dns filtering
   icon:
   description: ADAMnetworks aims to keep people safe as they live and interact onlilne.
@@ -144,7 +144,7 @@
   url: https://www.bark.us/
   platform: android ios
   audience: parent
-  cost: "$7.50/month"
+  cost: "$7.50 / month"
   features: monitoring social
   icon:
   description:
@@ -194,7 +194,7 @@
   url: https://www.blocksi.net/parental-control.php
   platform: network
   audience: parent general authority
-  cost: "$60 upfront + $30/year after 2 free years"
+  cost: "$60 upfront + $30 / year after 2 free years"
   features: biglist cloud filtering hardware monitoring
   icon:
   description: The Blocksi router is a physical device intended to be installed as
@@ -203,7 +203,7 @@
   url: https://useboomerang.com/
   platform: android
   audience: parent
-  cost: "$16/year to $31/year"
+  cost: "$16 / year to $31 / year"
   features: filtering
   icon:
   description:
@@ -276,7 +276,7 @@
   url: https://www.cedarcreek.co/filtering/personal
   platform: network
   audience: authority parent
-  cost: "$15/month"
+  cost: "$15 / month"
   features: biglist dns filtering gateway hardware
   icon:
   description: The product is a physical router that "plugs in between your WiFi Router
@@ -317,7 +317,7 @@
   url: https://meetcircle.com/
   platform: android ios network
   audience: parent
-  cost: "$129/year"
+  cost: "$129 / year"
   features: filtering hardware monitoring timer
   icon:
   description: Circle is a network device that filters all the devices on the network.  It
@@ -326,7 +326,7 @@
   url: https://www.cleaninter.net/
   platform: android windows
   audience: parent general addict
-  cost: "$3-$5/month"
+  cost: "$3-$5 / month"
   features:
   icon:
   description:
@@ -334,7 +334,7 @@
   url: https://cleanrouter.com/features/
   platform: network
   audience: parent general
-  cost: "$10-$15/month"
+  cost: "$10 - $15 / month"
   features: dns filtering hardware monitoring smarts timer
   icon: https://cleanrouter.com/purchase/logo-clean-router.png
   description:
@@ -342,9 +342,9 @@
   url: https://cleanbrowsing.org/
   platform: android ios linux macosx network windows
   audience: parent general
-  cost: free to $60/year
+  cost: free to $60 / year
   features: dns filtering monitoring
-  icon: https://cleanbrowsing.org/images/CleanBrowsing-logo-small.png
+  icon:
   description: Similar to the more well known OpenDNS, CleanBrowsing says their filters
     are more strict and better for kids.  Monitoring and custom filtering is available
     with the paid plan(s).
@@ -360,7 +360,7 @@
   url: https://www.clearcenter.com/
   platform: network
   audience: authority
-  cost: "$108/year to $588/year"
+  cost: "$108 / year to $588 / year"
   features: filtering gateway more
   icon:
   description: Aimed at businesses, governments, and schools, ClearOS is designed
@@ -370,7 +370,7 @@
   url: https://www.clearplay.com/
   platform: android
   audience: parent addict
-  cost: "$8/month"
+  cost: "$8 / month"
   features:
   icon:
   description: ClearPlay is a service that filters out violence and sexual content
@@ -438,7 +438,7 @@
   url:
   platform: android windows
   audience: authority
-  cost: "$40/year"
+  cost: "$40 / year"
   features:
   icon:
   description: ContentProtect is Net Nanny for businesses.
@@ -446,7 +446,7 @@
   url: https://www.covenanteyes.com/
   platform: android ios macosx windows
   audience: addict parent general
-  cost: "$11/month to $15/month"
+  cost: "$11 - $15 / month"
   features: accountability filtering monitoring spying timer
   icon: http://pbs.twimg.com/profile_images/468823054357757953/jY1TV1Uu_400x400.png
   description: CovenantEyes has a beautiful website with a lot of articles about pornography.  The
@@ -475,7 +475,7 @@
   url: https://www.cyberpatrol.com/home/
   platform: windows
   audience: authority parent
-  cost: "$40/year"
+  cost: "$40 / year"
   features: defunct filtering games monitoring timer
   icon:
   description: Became part of Net Nanny
@@ -507,7 +507,7 @@
   url:
   platform: network
   audience: authority parent general
-  cost: "$80 for Simple DNS + $39/year"
+  cost: "$80 for Simple DNS + $39 / year"
   features: biglist defunct filtering gateway monitoring
   icon:
   description: Designed to be used with the Simple DNS Plus (a DNS server), it is
@@ -545,7 +545,7 @@
   url: https://play.google.com/store/apps/details?id=com.familyfirsttechnology.pornblocker
   platform: android
   audience: addict
-  cost: "$5/month"
+  cost: "$5 / month"
   features: filtering
   icon:
   description:
@@ -587,7 +587,7 @@
   url: https://www.dnsthingy.com/
   platform: network
   audience: parent authority general addict
-  cost: "$8/month"
+  cost: "$8 / month"
   features: defunct
   icon:
   description: DNSthingy is for Canadians, users of Clear OS, or those willing to
@@ -665,7 +665,7 @@
   url: https://everaccountable.com/
   platform: android windows
   audience: addict spouse
-  cost: "$7/month"
+  cost: "$7 / month"
   features: monitoring
   icon:
   description:
@@ -698,7 +698,7 @@
   url:
   platform:
   audience: parent
-  cost: "$5/month for 3 devices"
+  cost: "$5 / month for 3 devices"
   features: defunct filtering monitoring
   icon:
   description:
@@ -706,7 +706,7 @@
   url: https://famisafe.wondershare.com/
   platform: android ios kindle
   audience: parent
-  cost: "$5/month"
+  cost: "$5 / month"
   features: filtering monitoring timer
   icon:
   description:
@@ -735,7 +735,7 @@
   url: https://filterchrome.com/
   platform: android
   audience: addict parent slacker
-  cost: free to $5/month
+  cost: free to $5 / month
   features: applock filtering timer
   icon:
   description: Filter Chrome has free and premium (aka freemium) feature sets.
@@ -833,7 +833,7 @@
   url: http://addons.mozilla.org/en-US/firefox/addon/foxfilter/
   platform: browser
   audience: parent general authority
-  cost: free to $15/year
+  cost: free to $15 / year
   features: filtering keyword
   icon:
   description: FoxFilter is an add-on to Firefox and Chrome designed to "protect children
@@ -851,7 +851,7 @@
   url: https://freedom.to/
   platform: android chromeos ios macosx windows
   audience: slacker
-  cost: "$2/month to $7/month"
+  cost: "$2 / month to $7 / month"
   features: filtering timer
   icon:
   description: Formerly called Anti-Social Pro, the software is marketed towareds
@@ -892,7 +892,7 @@
   url: https://gentechsolution.com/
   platform: android ios
   audience:
-  cost: "$100/year to $125/year"
+  cost: "$100 / year to $125 / year"
   features: filter image-recognition scuzzy smarts
   icon:
   description: Supposedly designed with the "frum" community in mind.  Yet, it was
@@ -1058,7 +1058,7 @@
   url: https://inetclean.com/
   platform:
   audience:
-  cost: free to $10/year
+  cost: free to $10 / year
   features: abandoned defunct harvester scuzzy
   icon:
   description:
@@ -1082,7 +1082,7 @@
   url: https://integritybuddy.com/
   platform:
   audience:
-  cost: "$5/month"
+  cost: "$5 / month"
   features:
   icon:
   description:
@@ -1315,7 +1315,7 @@
   url: https://www.livefree.app/
   platform: android ios
   audience: addict
-  cost: "$5/month"
+  cost: "$5 / month"
   features: friends
   icon:
   description:
@@ -1396,7 +1396,7 @@
   url: https://www.meshimer.com/
   platform: Windows
   audience:
-  cost: "$5-$15/month"
+  cost: "$5 - $15 / month"
   features: pixelation scuzzy
   icon:
   description:
@@ -1436,7 +1436,7 @@
   url: https://www.mobicip.com/
   platform: android chromeos ios kindle macosx nook windows
   audience:
-  cost: free to $40/year
+  cost: free to $40 / year
   features: filtering monitoring
   icon:
   description:
@@ -1476,7 +1476,7 @@
   url: https://www.mspy.com/
   platform: android ios
   audience: parent
-  cost: "$30-$70/month"
+  cost: "$30 - $70 / month"
   features: calls location monitoring sms snapchat whatsapp
   icon:
   description:
@@ -1509,7 +1509,7 @@
   url: http://www.usanativ.com/
   platform: windows
   audience:
-  cost: "$10/month to $14/month"
+  cost: "$10 / month to $14 / month"
   features: filter scuzzy skin-shading smarts
   icon:
   description: Kosher Internet, uses Seimen technologies
@@ -1517,7 +1517,7 @@
   url: https://www.netangel.com/
   platform: network
   audience: parent spouse addict
-  cost: "$15/month"
+  cost: "$15 / month"
   features: dns
   icon:
   description: Net Angel sells home routers that have e2guardian pre-installed.  Whenever
@@ -1528,7 +1528,7 @@
   url: https://www.netnanny.com/
   platform: android macosx windows
   audience: parent
-  cost: "$13 to $40/year"
+  cost: "$13 to $40 / year"
   features: accountability biglist filtering monitoring social timer
   icon:
   description:
@@ -1594,7 +1594,7 @@
   url: https://www.netsentron.com/
   platform: network
   audience: authority parent
-  cost: "$75/month"
+  cost: "$75 / month"
   features:
   icon:
   description:
@@ -1602,7 +1602,7 @@
   url: https://www.netsparkmobile.com/en/
   platform: android ios windows
   audience: parent
-  cost: "$9/month"
+  cost: "$9 / month"
   features: filtering games image_recongition smarts timer
   icon:
   description:
@@ -1685,7 +1685,7 @@
   url: https://www.opendns.com/
   platform: android ios linux macosx network windows
   audience: general parent
-  cost: free to $20/year
+  cost: free to $20 / year
   features: dns filtering monitoring
   icon:
   description: Free for home use, OpenDNS is both easy-to-use and popular.
@@ -1733,7 +1733,7 @@
   url:
   platform: android windows
   audience: parent
-  cost: "$25/year"
+  cost: "$25 / year"
   features: defunct keystrokes monitoring screenshots social spying
   icon:
   description: Parenteeno monitors what the user (i.e., child) does on the target
@@ -1745,7 +1745,7 @@
   url: http://www.partnerguard.com/
   platform: windows
   audience: spouse addict parent
-  cost: "$60/year"
+  cost: "$60 / year"
   features: abandoned defunct filtering monitoring screenshots scuzzy spying
   icon:
   description:
@@ -1928,7 +1928,7 @@
   url: https://www.qustodio.com/
   platform: android ios macosx windows
   audience: parent authority general addict
-  cost: free or $55/year
+  cost: free or $55 / year
   features: filtering location_tracking monitoring smarts spying timer
   icon: https://www.qustodio.com/wp-content/pad/qustodio-icon.gif
   description: Qustodio appears to be a complete filtering/monitoring package.  Aimed
@@ -1957,7 +1957,7 @@
   url: https://routerlimits.com/
   platform: network
   audience: parent
-  cost: free to $20/month
+  cost: free to $20 / month
   features: filtering monitoring
   icon:
   description:
@@ -1965,7 +1965,7 @@
   url: https://www.rtribe.org/
   platform: android ios
   audience: addict
-  cost: free to $6/month
+  cost: free to $6 / month
   features: accountability counseling friends monitoring
   icon:
   description: R|Tribe is an app for mobile devices that attempts to assist users
@@ -2017,7 +2017,7 @@
   url: https://www.safedns.com/
   platform: network
   audience: parent authority
-  cost: "$20/year"
+  cost: "$20 / year"
   features: filtering
   icon:
   description:
@@ -2025,7 +2025,7 @@
   url: https://safernet.com/
   platform:
   audience:
-  cost: "$8/month"
+  cost: "$8 / month"
   features: scuzzy
   icon:
   description: There is no information about the company on their website other than
@@ -2034,7 +2034,7 @@
   url: https://www.safesquid.com/
   platform: network
   audience: authority
-  cost: "$10/user/year or $5/CPU hour"
+  cost: "$10 / user / year or $5 / CPU hour"
   features: gateway
   icon:
   description: Designed for organizations, the minimum system requires for SafeSquid
@@ -2043,7 +2043,7 @@
   url: http://www.safesurfer.co.nz/
   platform: android ios network
   audience: parent
-  cost: free to $5/month
+  cost: free to $5 / month
   features: dns filtering monitoring
   icon:
   description: A freemium DNS service for families with children.  The monitoring
@@ -2397,7 +2397,7 @@
   url: http://totalnetguard.com/
   platform:
   audience:
-  cost: "$35/year"
+  cost: "$35 / year"
   features:
   icon:
   description: A suite of products offered by American Family Online.  Oddly, you
@@ -2438,7 +2438,7 @@
   url: https://www.truevine.net/
   platform: android ios macosx windows
   audience: parent
-  cost: "$8-$10/month"
+  cost: "$8 - $10 / month"
   features:
   icon:
   description: Originally founded as a dial up ISP back in the late 90s, True Vine
@@ -2607,7 +2607,7 @@
   url: http://www.webchaver.com/
   platform:
   audience:
-  cost: "$5 - $7/month"
+  cost: "$5 - $7 / month"
   features: filtering monitoring timer
   icon:
   description:
@@ -2684,8 +2684,8 @@
   url: http://webshadow.org/
   platform: android ios windows
   audience: parent
-  cost: free with email-based registration
-  features: monitoring
+  cost: free
+  features: defunct monitoring
   icon:
   description: The software tracks browsing so that parents can see what their children
     are doing online.  The stated goal of the product is to provide an incentive for
@@ -2704,7 +2704,7 @@
   url: https://www.titanhq.com/webtitan
   platform:
   audience: authority
-  cost: "$850/50 users/year"
+  cost: "$850 / 50 users / year"
   features: filtering monitoring
   icon:
   description:
@@ -2773,7 +2773,7 @@
   url: https://x3watch.com/
   platform: android ios macosx windows
   audience: addict parent
-  cost: free to $99/year
+  cost: free to $99 / year
   features: abandoned defunct filtering monitoring password
   icon:
   description: Development of X3Watch seems to have ceased in 2017, and customers
