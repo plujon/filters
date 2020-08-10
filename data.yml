@@ -51,6 +51,14 @@
   features:
   icon:
   description:
+- name: Adguard
+  url: https://adguard.com/
+  platform: android browser ios macosx network windows
+  audience: antiad parent general
+  cost: "$2.50 / month"
+  features: biglist filtering
+  icon:
+  description: Run by a large company
 - name: Adult Blocker
   url:
   platform: browser
