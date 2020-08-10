@@ -35,8 +35,11 @@ function arrayIncludes(ary, x) {
       case "audience": possibles = audiences; break;
       case "feature": possibles = features; break;
       }
-      if (arrayIncludes(possibles, value)) includes[name].push(value);
-      else if ('all' == value) includes[name] = possibles;
+      value.split(/[^a-z0-9]/).forEach(function(s) {
+        console.log(s);
+        if (arrayIncludes(possibles, s)) includes[name].push(s);
+        else if ('all' == s) includes[name] = possibles;
+      });
     }
   }
   {
