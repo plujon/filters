@@ -803,6 +803,14 @@
   features:
   icon:
   description:
+- name: FocusMe
+  url: https://focusme.com/
+  platform: android macosx windows
+  audience: slacker
+  cost: "$6 / month"
+  features: filtering timer
+  icon:
+  description:
 - name: Forcefield
   url: https://forcefield.me
   platform:
