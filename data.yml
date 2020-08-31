@@ -1872,6 +1872,14 @@
   features: junk
   icon:
   description:
+- name: PorNo!
+  url: https://mrvivacious.github.io/dev/dev_PorNo.html
+  platform: android browser
+  audience: addict
+  cost: free
+  features: filtering
+  icon:
+  description:
 - name: Privoxy
   url: http://www.privoxy.org/
   platform: linux macosx network windows
