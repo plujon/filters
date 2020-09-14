@@ -2766,6 +2766,14 @@
   features:
   icon:
   description:
+- name: Whitespace
+  url: https://apps.apple.com/us/developer/first-objective-limited/id757794911
+  platform: ios
+  audience:
+  cost:
+  features: filtering
+  icon:
+  description: Removes images from Safari.
 - name: Windows Family Safety
   url: https://familysafety.microsoft.com/
   platform: windows
