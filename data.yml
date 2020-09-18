@@ -450,11 +450,11 @@
   features:
   icon:
   description: ContentProtect is Net Nanny for businesses.
-- name: CovenantEyes
+- name: Covenant Eyes
   url: https://www.covenanteyes.com/
   platform: android ios macosx windows
   audience: addict parent general
-  cost: "$11 - $15 / month"
+  cost: "$16 / month"
   features: accountability filtering monitoring spying timer
   icon: http://pbs.twimg.com/profile_images/468823054357757953/jY1TV1Uu_400x400.png
   description: CovenantEyes has a beautiful website with a lot of articles about pornography.  The
