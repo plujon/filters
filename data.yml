@@ -1940,6 +1940,14 @@
   features: filtering monitoring timer
   icon:
   description:
+- name: Purified Porn Filter
+  url: https://purified-app.com/
+  platform: ios
+  audience: parent
+  cost: "$5 / month"
+  features:
+  icon:
+  description:
 - name: Qbserve
   url: https://qotoqot.com/qbserve/
   platform: macosx
