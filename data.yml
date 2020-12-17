@@ -1942,8 +1942,8 @@
     addons, bookmarks, and more, block unwanted web sites.
 - name: Pure Browser
   url: https://purebrowser.org/
-  platform:
-  audience:
+  platform: android ios
+  audience: addict parent
   cost:
   features: filtering
   icon:
@@ -1968,7 +1968,7 @@
 - name: Purity Browser
   url: https://puritybrowser.com/
   platform: android browser ios
-  audience:
+  audience: addict parent
   cost: "$5 / month"
   features: accountability filtering
   icon:
