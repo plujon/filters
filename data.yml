@@ -207,6 +207,14 @@
   icon:
   description: The Blocksi router is a physical device intended to be installed as
     the network router at home for families.
+- name: BlockSite
+  url: https://blocksite.co/
+  platform: android browser ios
+  audience: slacker
+  cost: free
+  features: filtering
+  icon:
+  description:
 - name: Boomerang Parental Control
   url: https://useboomerang.com/
   platform: android
@@ -1932,6 +1940,15 @@
   icon:
   description: Public Fox can block downloads, prevent browser changes, lock down
     addons, bookmarks, and more, block unwanted web sites.
+- name: Pure Browser
+  url: https://purebrowser.org/
+  platform:
+  audience:
+  cost:
+  features: filtering
+  icon:
+  description: It is described as a "Christian browser", it's patron verse is Phillipians
+    4:8.
 - name: PureSight
   url: https://www.puresight.com/
   platform: android windows
@@ -1946,6 +1963,14 @@
   audience: parent
   cost: "$5 / month"
   features:
+  icon:
+  description:
+- name: Purity Browser
+  url: https://puritybrowser.com/
+  platform: android browser ios
+  audience:
+  cost: "$5 / month"
+  features: accountability filtering
   icon:
   description:
 - name: Qbserve
