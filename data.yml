@@ -2505,8 +2505,8 @@
   url: https://truple.io/
   platform: android chromeos kindle linux macosx windows
   audience: addict parent
-  cost: "$5 / month"
-  features: accountability screenshots
+  cost: "$5 - $16 / month"
+  features: accountability filtering screenshots
   icon: https://truple.io/img/logo_small.png
   description: Truple captures screenshots at random times.
 - name: Trustwave SecureBrowsing
