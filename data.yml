@@ -2509,6 +2509,14 @@
   features: accountability filtering screenshots
   icon: https://truple.io/img/logo_small.png
   description: Truple captures screenshots at random times.
+- name: Truple DNS
+  url: https://play.google.com/store/apps/details?id=com.camhart.pornblocker
+  platform: android
+  audience: addict
+  cost: "free or $5 / month"
+  features: applock changedelay dns filtering
+  icon:
+  description: Not to be confused with the main Truple filter, which takes screenshots as well as providing filtering. You can lock the filter either with a delay or with a pin, but either way requires premium ($5 / month). App blocking also requires premium.
 - name: Trustwave SecureBrowsing
   url: https://www.trustwave.com/Products/SecureBrowsing/
   platform: browser
