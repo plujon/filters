@@ -19,8 +19,3 @@
 .shuffler {
   margin-bottom: 10px;
 }
-
-/* fix mobile usability issue detected by Google */
-html {
-  font-size: 20px;
-}
