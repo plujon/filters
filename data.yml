@@ -400,6 +400,14 @@
   features: dns filtering
   icon:
   description: Malware and/or Adult Content Blocking by Cloudflare.
+- name: CloudVeil
+  url: https://www.cloudveil.org/
+  platform: android ios macosx windows
+  audience:
+  cost:
+  features:
+  icon:
+  description:
 - name: Cold Turkey
   url: https://getcoldturkey.com/
   platform: windows
@@ -464,7 +472,7 @@
   audience: addict parent general
   cost: "$16 / month"
   features: accountability filtering monitoring spying timer
-  icon: http://pbs.twimg.com/profile_images/468823054357757953/jY1TV1Uu_400x400.png
+  icon: https://www.covenanteyes.com/lemonade/wp-content/themes/JohnWayne/images/covenant-eyes-logo@2x.png
   description: CovenantEyes has a beautiful website with a lot of articles about pornography.  The
     site seems to target porn addicts and concerned parents with roughly equal emphasis.  The
     focus (and strength) of the software is accountability rather than filtering.
@@ -2509,14 +2517,6 @@
   features: accountability filtering screenshots
   icon: https://truple.io/img/logo_small.png
   description: Truple captures screenshots at random times.
-- name: Truple DNS
-  url: https://play.google.com/store/apps/details?id=com.camhart.pornblocker
-  platform: android
-  audience: addict
-  cost: "free or $5 / month"
-  features: applock changedelay dns filtering
-  icon:
-  description: Not to be confused with the main Truple filter, which takes screenshots as well as providing filtering. You can lock the filter either with a delay or with a pin, but either way requires premium ($5 / month). App blocking also requires premium.
 - name: Trustwave SecureBrowsing
   url: https://www.trustwave.com/Products/SecureBrowsing/
   platform: browser
