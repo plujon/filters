@@ -978,24 +978,15 @@
   features:
   icon:
   description:
-- name: Guard Your Eyes
-  url: https://guardyoureyes.com/
-  platform:
-  audience: addict
-  cost: free, but fines if you view porn
-  features: consequences
-  icon:
-  description: Guard your eyes is an online program, not a true filter.  Users pay
-    fines every time they view porn.
-- name: Habatica
+- name: Habitica
   url: https://habitica.com/
   platform: ios
   audience:
   cost:
   features: accountability gamification
   icon:
-  description: A to-do app that helps the user form good habits.  Its tagline is 'gamify
-    your life'
+  description: A to-do app that helps the user form good habits.  Its tagline is "gamify
+    your life".
 - name: Handy Filter
   url: https://www.hugedomains.com/domain_profile.cfm?d=handyfilter&e=com
   platform:
@@ -1295,12 +1286,14 @@
   description:
 - name: Knas Based Accountability
   url: http://venishmartem.com/exclusives/kba
-  platform: macosx windows
-  audience:
+  platform: android ios macosx windows
+  audience: addict
   cost: free
-  features: accountability monitoring
+  features: accountability financial_consequences monitoring
   icon:
-  description:
+  description: Knas Based Accountability monitors your Internet use. If you
+    watch porn, the staff charge a penalty to your credit card. You choose
+    your penalty when you sign up; the minimum penalty is $100.
 - name: Kurupira
   url: http://kurupira.net/
   platform:
@@ -1309,7 +1302,7 @@
   features: abandoned hide
   icon:
   description: Project seems to have died in 2011
-- name: LeeckBlock
+- name: LeechBlock
   url: https://www.proginosko.com/leechblock.html
   platform: browser
   audience:
@@ -1544,7 +1537,7 @@
   cost: "$10 / month to $14 / month"
   features: filter scuzzy skin-shading smarts
   icon:
-  description: Kosher Internet, uses Seimen technologies
+  description: Kosher Internet. Uses Simmens technologies.
 - name: Net Angel
   url: https://www.netangel.com/
   platform: network
@@ -1622,6 +1615,17 @@
   features:
   icon:
   description:
+- name: Netsanity
+  url: https://netsanity.net/
+  platform: android ios
+  audience: parent authority
+  cost: free or $7 / month
+  features: applock cloud filtering games image_recognition keyword location_tracking monitoring more smarts timer
+  icon: https://netsanity.net/wp-content/uploads/elementor/thumbs/NS-Logo-transparent-small-125px-nxko5hpha5233ve1lvoch4dkfkdadq84r6kb5rjjaw.png
+  description: Uses machine learning to try and classify websites into
+    categories such as porn, gambling, social media, image search, et cetera.
+    The free version just filters porn; the paid version also offers other
+    parental controls. Supports Apple and Samsung mobile devices only.
 - name: netsentron
   url: https://www.netsentron.com/
   platform: network
@@ -2568,24 +2572,16 @@
   cost:
   features: filtering
   icon:
-  description: Provides an easy way to comply with the Children's Internet Proetection
+  description: Provides an easy way to comply with the Children's Internet Protection
     Act (CIPA)
-- name: Variato
-  url: https://www.veriato.com/
+- name: Veriato
+  url: https://www.veriato.com/products/veriato-cerebral-insider-threat-detection-software
   platform: android macosx windows
   audience: authority
-  cost: "$100"
+  cost: "$95 per employee"
   features: monitoring spying
   icon:
   description: Used for spying on employees.
-- name: Veriato 360
-  url: https://www.veriato.com/products/veriato-recon
-  platform:
-  audience: authority
-  cost:
-  features:
-  icon:
-  description:
 - name: Verity
   url: https://www.nchsoftware.com/childmonitoring/
   platform: windows
