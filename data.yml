@@ -1888,7 +1888,7 @@
 - name: Pluckeye
   url: https://www.pluckeye.net/
   platform: android linux macosx windows
-  audience: addict
+  audience: addict slacker
   cost: free to $15 / month
   features: changedelay filtering mimetypes monitoring timer
   icon: https://static.pluckeye.net/images/p64.svg
