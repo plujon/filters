@@ -16,7 +16,7 @@
         <tr>
           <td>
             <% if filter['url'] %>
-              <a href="<%= filter["url"] %>" title="<%= filter["name"]%>">
+              <a href="<%= filter["url"] %>" title="<%= filter["name"]%>" target="_blank">
             <%- if !filter["icon"].to_s.empty? -%>
               <img height="40" src="<%= filter["icon"] %>" alt="<%= filter["name"]%>" /><br>
             <%- end -%>

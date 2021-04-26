@@ -2061,7 +2061,7 @@
   platform: android ios
   audience: addict general
   cost: free to $499 / month
-  features: accountability coaching counseling friends
+  features: accountability counseling friends
   icon:
   description: R|Tribe is an app for keeping track of your emotions and staying accountable
     to other pepole.  For a fee users can connect with coaches via messaging or video.
@@ -2096,8 +2096,8 @@
   cost: "$50 for 3 computers"
   features: defunct filtering historic monitoring timer
   icon: http://www.internetsafety.com/graphics/se/SE_RGB_Logo.jpg
-  description: <a href="http://www.covenanteyes.com/2013/01/15/tribute-to-safe-eyes-support/">Defunct
-    as of 2013</a>.
+  description: <a href="http://www.covenanteyes.com/2013/01/15/tribute-to-safe-eyes-support/"
+    target="_blank">Defunct as of 2013</a>.
 - name: Safe Families We-Blocker 2.1
   url: http://www.safefamilies.org/download.php
   platform:
@@ -2182,11 +2182,11 @@
   icon:
   description: Apple's Screen Time is on macOS and iOS and it's free. While some have
     been glad to see Apple beef up parental controls on their devices, Apple has also
-    been <a href="https://www.nytimes.com/2019/04/27/technology/apple-screen-time-trackers.html">criticized</a>
-    and <a href="https://ww.9to5mac.com/2019/08/08/another-antitrust-investigation/">is
-    being investigated</a> for <a href="https://www.kaspersky.com/blog/apple-fas-complaint/26017/">antitrust
-    behavior</a> for creating Screen Time while also making it difficult or impossible
-    to create competing products.
+    been <a href="https://www.nytimes.com/2019/04/27/technology/apple-screen-time-trackers.html"
+    target="_blank">criticized</a> and <a href="https://ww.9to5mac.com/2019/08/08/another-antitrust-investigation/"
+    target="_blank">is being investigated</a> for <a href="https://www.kaspersky.com/blog/apple-fas-complaint/26017/"
+    target="_blank">antitrust behavior</a> for creating Screen Time while also making
+    it difficult or impossible to create competing products.
 - name: ScreenRetriever
   url: http://www.screenretriever.com/
   platform:
@@ -2280,13 +2280,13 @@
   cost:
   features: defunct monitoring spying
   icon:
-  description: The <a href="https://www.consumer.ftc.gov/blog/2019/10/stalking-apps-retina-x-settles-charges">FTC
-    ordered</a> Retina-X Studios to <a href="https://latesthackingnews.com/2019/10/28/ftc-banned-retina-x-spying-apps-until-proven-for-legitimate-use/">stop
-    selling their programs</a> and to delete all customer data after it became apparent
-    that they could be used to spy on unsuspecting victims.  The FTC article uses
-    the term "stalkerware".  Two years prior Retina-X servers were compromised by
-    a hacker who obtained photographic information from the TeenShield, PhoneSheriff,
-    SniperSpy, and Mobile Spy products.
+  description: The <a href="https://www.consumer.ftc.gov/blog/2019/10/stalking-apps-retina-x-settles-charges"
+    target="_blank">FTC ordered</a> Retina-X Studios to <a href="https://latesthackingnews.com/2019/10/28/ftc-banned-retina-x-spying-apps-until-proven-for-legitimate-use/"
+    target="_blank">stop selling their programs</a> and to delete all customer data
+    after it became apparent that they could be used to spy on unsuspecting victims.  The
+    FTC article uses the term "stalkerware".  Two years prior Retina-X servers were
+    compromised by a hacker who obtained photographic information from the TeenShield,
+    PhoneSheriff, SniperSpy, and Mobile Spy products.
 - name: Soft Eyes
   url: http://www.softeyes.com/
   platform: windows
