@@ -412,7 +412,7 @@
   url: https://getcoldturkey.com/
   platform: windows
   audience: addict slacker
-  cost: free to $29
+  cost: free to $39
   features: dns filtering timer
   icon:
   description: Cold Turkey is a relatively simple filter designed to support self-control
@@ -1326,6 +1326,14 @@
   features:
   icon:
   description: An Android browser with built-in ad-blocking.
+- name: Limit
+  url: https://chrome.google.com/webstore/detail/limit-set-limits-for-dist/blcdfhbibkkjpfdddnmnmhfgjlicebba
+  platform: browser
+  audience:
+  cost:
+  features:
+  icon:
+  description:
 - name: Little Web Browser
   url: https://play.google.com/store/apps/details?id=com.weejim.app.lynx
   platform: android
@@ -1640,7 +1648,7 @@
   platform: android ios windows
   audience: parent
   cost: "$9 / month"
-  features: filtering games image_recongition smarts timer
+  features: filtering games image_recognition smarts timer
   icon:
   description:
 - name: Netsweeper
@@ -1786,6 +1794,14 @@
   features: abandoned defunct filtering monitoring screenshots scuzzy spying
   icon:
   description:
+- name: Pause
+  url: https://chrome.google.com/webstore/detail/pause-stop-mindless-brows/ljfdccdjpfjpfjbpdiihanpodilolofh
+  platform: browser
+  audience:
+  cost:
+  features:
+  icon:
+  description:
 - name: PC Pandora
   url: http://pcpandora.com/qustodio-vs-net-nanny-review-app/
   platform:
@@ -1807,7 +1823,7 @@
   platform: windows
   audience: parent
   cost: "$25"
-  features:
+  features: defunct
   icon:
   description:
 - name: Pearl Echo
@@ -2034,14 +2050,12 @@
 - name: R|Tribe
   url: https://www.rtribe.org/
   platform: android ios
-  audience: addict
-  cost: free to $6 / month
-  features: accountability counseling friends monitoring
+  audience: addict general
+  cost: free to $499 / month
+  features: accountability coaching counseling friends
   icon:
-  description: R|Tribe is an app for mobile devices that attempts to assist users
-    in "interrupting the addiction cycle."  Through in-app connections to friends
-    (i.e., reports), and self-tracking of recovery, the user gains knowledge about
-    their own addiction cycle and is assisted in finding ways to break it.
+  description: R|Tribe is an app for keeping track of your emotions and staying accountable
+    to other pepole.  For a fee users can connect with coaches via messaging or video.
 - name: Safe Access
   url: https://www.safeaccess.com/
   platform: windows
