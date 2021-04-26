@@ -1326,14 +1326,6 @@
   features:
   icon:
   description: An Android browser with built-in ad-blocking.
-- name: Limit
-  url: https://chrome.google.com/webstore/detail/limit-set-limits-for-dist/blcdfhbibkkjpfdddnmnmhfgjlicebba
-  platform: browser
-  audience:
-  cost:
-  features:
-  icon:
-  description:
 - name: Little Web Browser
   url: https://play.google.com/store/apps/details?id=com.weejim.app.lynx
   platform: android
@@ -1792,14 +1784,6 @@
   audience: spouse addict parent
   cost: "$60 / year"
   features: abandoned defunct filtering monitoring screenshots scuzzy spying
-  icon:
-  description:
-- name: Pause
-  url: https://chrome.google.com/webstore/detail/pause-stop-mindless-brows/ljfdccdjpfjpfjbpdiihanpodilolofh
-  platform: browser
-  audience:
-  cost:
-  features:
   icon:
   description:
 - name: PC Pandora
