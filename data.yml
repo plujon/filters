@@ -23,7 +23,7 @@
   url: https://www.softactivity.com/
   platform:
   audience: authority
-  cost:
+  cost: "$199"
   features:
   icon:
   description:
@@ -31,7 +31,7 @@
   url: https://activtrak.com/
   platform: macosx windows
   audience: authority
-  cost: free to $336 / month / 5 users
+  cost: free to $15 / month / user
   features: filtering monitoring screenshots
   icon:
   description:
@@ -136,7 +136,7 @@
   url: https://www.avg.com/en-us/internet-security
   platform: windows
   audience: parent
-  cost:
+  cost: "$3 / month"
   features: antivirus
   icon:
   description:
@@ -172,14 +172,6 @@
   features: defunct
   icon:
   description:
-- name: Block site
-  url: https://chrome.google.com/webstore/detail/block-site-website-blocke/eiimnmioipafcokbfikbljfdeojpcgbh
-  platform: browser chrome
-  audience: general parent
-  cost:
-  features: blacklist keyword password whitelist
-  icon:
-  description:
 - name: BlockerX
   url: https://play.google.com/store/apps/details?id=io.funswitch.blocker&hl=en_US
   platform: android
@@ -209,10 +201,10 @@
     the network router at home for families.
 - name: BlockSite
   url: https://blocksite.co/
-  platform: android browser ios
-  audience: slacker
-  cost: free
-  features: filtering
+  platform: browser chrome
+  audience: general parent
+  cost:
+  features: blacklist keyword password whitelist
   icon:
   description:
 - name: Boomerang Parental Control
@@ -268,7 +260,7 @@
   platform: android
   audience: antiad
   cost:
-  features:
+  features: defunct
   icon:
   description: A minimalist browser that uses few system resources and that blocks
     ads.
@@ -319,14 +311,6 @@
   audience: parent
   cost: "$30"
   features: filtering monitoring timer
-  icon:
-  description:
-- name: Chrome supervised profile
-  url: https://support.google.com/chrome/answer/3463947
-  platform: browser chrome
-  audience: parent
-  cost: free
-  features:
   icon:
   description:
 - name: Circle
@@ -520,10 +504,10 @@
   icon:
   description:
 - name: CyberSitter
-  url: http://www.cybersitter.com/
+  url: https://www.27labs.com/
   platform: windows
   audience: parent authority
-  cost: "$50"
+  cost: "$40"
   features: filtering
   icon:
   description:
@@ -832,7 +816,7 @@
   platform:
   audience: parent
   cost: "$12 / month"
-  features:
+  features: defunct
   icon:
   description:
 - name: Forest
@@ -1106,9 +1090,10 @@
   platform:
   audience:
   cost: "$5 / month"
-  features:
+  features: defunct
   icon:
-  description:
+  description: Marked as defunct because the website is so small as to be rediculous.  It
+    does not describe the publisher of the app and the contact form is defunct.
 - name: Integrity Online
   url:
   platform:
@@ -1152,6 +1137,14 @@
     limit what can be done on iOS devices.  Similar to Mac OS X Parental Controls,
     the website filter can operate in unrestricted, automatic (no adult content),
     and whitelist-only modes.
+- name: iOS parental controls
+  url: https://support.apple.com/en-us/HT201304
+  platform: ios
+  audience: parent
+  cost:
+  features:
+  icon:
+  description:
 - name: iProtectYou
   url: http://www.softforyou.com/ip-index.html
   platform: windows
@@ -1216,7 +1209,7 @@
   url: https://usa.kaspersky.com/safe-kids
   platform: android ios macosx windows
   audience: parent
-  cost: free to $15
+  cost: "$15 / year"
   features: filtering monitoring
   icon:
   description:
@@ -1385,11 +1378,11 @@
   features: timetracking
   icon:
   description:
-- name: McAfee All Access
+- name: McAfee Antivirus
   url:
   platform:
   audience:
-  cost:
+  cost: "$20 / year"
   features:
   icon:
   description:
@@ -1439,14 +1432,6 @@
   audience:
   cost:
   features: defunct
-  icon:
-  description:
-- name: Microsoft Parental Controls
-  url: https://support.microsoft.com/hub/4338813/windows-help
-  platform: windows
-  audience: parent
-  cost: free
-  features: filtering games timer
   icon:
   description:
 - name: MinorMonitor
@@ -1526,7 +1511,7 @@
   platform: android ios
   audience: parent
   cost:
-  features: filtering monitoring spying
+  features: defunct filtering monitoring spying
   icon:
   description:
 - name: Naked Browser
@@ -1881,7 +1866,7 @@
   platform: android
   audience: parent
   cost: "$1"
-  features: games timer
+  features: defunct games timer
   icon:
   description: Requires user play a certain amount of educational games to unlock
     other apps.
@@ -2023,7 +2008,7 @@
   url: https://www.qustodio.com/
   platform: android ios macosx windows
   audience: parent authority general addict
-  cost: free or $55 / year
+  cost: free or $138 / year
   features: filtering location_tracking monitoring smarts spying timer
   icon: https://www.qustodio.com/wp-content/pad/qustodio-icon.gif
   description: Qustodio appears to be a complete filtering/monitoring package.  Aimed
@@ -2325,7 +2310,7 @@
   platform:
   audience:
   cost:
-  features: biglist
+  features: biglist defunct
   icon:
   description: Squidblacklist (SBL) is a publisher of blacklists for web filtering
     platforms.
@@ -2491,7 +2476,7 @@
   platform:
   audience:
   cost: "$35 / year"
-  features:
+  features: defunct
   icon:
   description: A suite of products offered by American Family Online.  Oddly, you
     must enter your mailing address to get the products.
@@ -2562,14 +2547,13 @@
   icon:
   description:
 - name: UBhind
-  url: https://play.google.com/store/apps/details
+  url: https://play.google.com/store/apps/details?id=kr.co.rinasoft.howuse
   platform: android ios
-  audience:
+  audience: addict slacker
   cost:
   features: applock monitoring timer
   icon:
-  description: With UBhind, you can once and for all curb your smartphone overuse
-    and regain control of your productivities!
+  description: Track your life and/or addition.
 - name: uBlock
   url: https://github.com/gorhill/uBlock
   platform: browser chrome palemoon
@@ -2828,19 +2812,19 @@
   icon:
   description:
 - name: Whitespace
-  url: https://apps.apple.com/us/developer/first-objective-limited/id757794911
+  url: https://apps.apple.com/us/app/whitespace/id1043474537
   platform: ios
   audience:
   cost:
   features: filtering
   icon:
   description: Removes images from Safari.
-- name: Windows Family Safety
-  url: https://familysafety.microsoft.com/
+- name: Windows Family
+  url: https://family.microsoft.com/
   platform: windows
   audience:
   cost: free
-  features:
+  features: filtering games timer
   icon:
   description: Windows Family Safety may have noble intentions, but it can easily
     lure a parent into a false sense of security if the Chrome browser is on the computer.  In
@@ -2884,7 +2868,7 @@
   platform: ios
   audience: parent
   cost: free
-  features: filtering
+  features: defunct filtering
   icon:
   description:
 - name: Xbox 360
