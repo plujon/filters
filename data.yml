@@ -404,7 +404,7 @@
   url: https://www.cloudveil.org/
   platform: android ios macosx windows
   audience:
-  cost:
+  cost: "$5 / month"
   features:
   icon:
   description:
@@ -493,8 +493,8 @@
   cost:
   features:
   icon:
-  description: CustomBlocker filters any element on any web site with any conditionwith
-    XPath and RegExp.
+  description: CustomBlocker filters any element on any web site with any condition
+    with XPath and RegExp.
 - name: CyberPatrol Parental Controls
   url: https://www.cyberpatrol.com/home/
   platform: windows
@@ -1326,6 +1326,14 @@
   features:
   icon:
   description: An Android browser with built-in ad-blocking.
+- name: Limit
+  url: https://chrome.google.com/webstore/detail/limit-set-limits-for-dist/blcdfhbibkkjpfdddnmnmhfgjlicebba
+  platform: browser
+  audience: slacker
+  cost:
+  features:
+  icon:
+  description: Made by freedom.to
 - name: Little Web Browser
   url: https://play.google.com/store/apps/details?id=com.weejim.app.lynx
   platform: android
@@ -1651,6 +1659,15 @@
   features:
   icon:
   description:
+- name: Ninja Adult Porn Blocker
+  url: https://chrome.google.com/webstore/detail/ninja-adult-porn-blocker/fheifbcbhmbfbebmidanhpeebappbfpd
+  platform:
+  audience:
+  cost:
+  features: misleading
+  icon:
+  description: Made by ixstudio.net.  Fallaciously claims to be the most powerful
+    adult porn websites blocker.
 - name: NoFap Panic Button
   url: https://addons.mozilla.org/en-US/firefox/addon/nofap-panic-button/
   platform: browser
@@ -1786,6 +1803,14 @@
   features: abandoned defunct filtering monitoring screenshots scuzzy spying
   icon:
   description:
+- name: Pause
+  url: https://chrome.google.com/webstore/detail/pause-stop-mindless-brows/ljfdccdjpfjpfjbpdiihanpodilolofh
+  platform: browser
+  audience: slacker
+  cost:
+  features:
+  icon:
+  description: Made by freedom.to
 - name: PC Pandora
   url: http://pcpandora.com/qustodio-vs-net-nanny-review-app/
   platform:
