@@ -329,7 +329,7 @@
   cost: "$3-$5 / month"
   features:
   icon:
-  description:
+  description: A Christian company that began in 1998.
 - name: Clean Router
   url: https://cleanrouter.com/features/
   platform: network
@@ -2100,14 +2100,16 @@
   icon:
   description:
 - name: SaferNet
-  url: https://safernet.com/
-  platform:
-  audience:
-  cost: "$8 / month"
-  features: scuzzy
+  url: https://safernetvpn.com/
+  platform: android chromeos ios kindle macosx windows
+  audience: parent authority
+  cost: "$4 / month"
+  features: misleading scuzzy
   icon:
   description: There is no information about the company on their website other than
-    an address in Colorado and a phone number.  No information about who makes it.
+    an address in Colorado and a phone number.  No information about who makes it.  They
+    claim to be the only company offering a VPN, malware protection, and Internet
+    controls.
 - name: SafeSquid
   url: https://www.safesquid.com/
   platform: network
