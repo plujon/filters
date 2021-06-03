@@ -16,7 +16,7 @@
         <tr>
           <td>
             <% if filter['url'] && !(filter['features'] || []).include?('defunct') %>
-              <a href="<%= filter["url"] %>" title="<%= filter["name"]%>" target="_blank">
+              <a href="<%= filter["url"] %>" title="<%= filter["name"]%>" target="_blank" rel="noopener">
             <%- if !filter["icon"].to_s.empty? -%>
               <img height="40" src="<%= filter["icon"] %>" alt="<%= filter["name"]%>" /><br>
             <%- end -%>
