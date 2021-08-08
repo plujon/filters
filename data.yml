@@ -863,6 +863,16 @@
   features:
   icon:
   description:
+- name: FREE filtering
+  url: https://freefiltering.org/
+  platform: network
+  audience: parent
+  cost: free to $20/month
+  features: dns filtering
+  icon:
+  description: The company offers dns-based filtering if one registers with name,
+    email, mobile phone number, and agrees to receive telemarketing calls.  In addition
+    to blocking porn, it also blocks pro-LGBTQ and pro-abortion sites.
 - name: Freedom
   url: https://freedom.to/
   platform: android chromeos ios macosx windows
