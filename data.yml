@@ -2524,6 +2524,15 @@
   features:
   icon:
   description:
+- name: Triggered
+  url: https://triggered.app/
+  platform: android ios
+  audience: addict
+  cost: "$5 / month"
+  features:
+  icon:
+  description: Triggered is an app that offers a button to help addicts connect with
+    supporters when temptation strikes.
 - name: True Vine Online
   url: https://www.truevine.net/
   platform: android ios macosx windows
