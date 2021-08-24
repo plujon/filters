@@ -2547,7 +2547,7 @@
   url: https://truple.io/
   platform: android chromeos kindle linux macosx windows
   audience: addict parent
-  cost: "$5 - $16 / month"
+  cost: "$14 / month"
   features: accountability filtering screenshots
   icon: https://truple.io/img/logo_small.png
   description: Truple captures screenshots at random times.
