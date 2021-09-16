@@ -624,7 +624,7 @@
   url: http://www.emypeople.net/
   platform:
   audience:
-  cost:
+  cost: "$2 - $20 / month"
   features:
   icon:
   description: A very small ISP with a mishmash of filtering services for the very
@@ -2035,6 +2035,14 @@
   description: Designed for accountability, recoveryBox, the iOS Mobile App for Addiction
     Recovery, is an iOS app toolset that facilitates tracking of daily life activities
     and gaining insight into why you do what you do.  Similar to R|Tribe.
+- name: Remojo
+  url: https://www.remojo.com/
+  platform: android ios macosx windows
+  audience:
+  cost: "$4 to $5 / month"
+  features: accountability filtering screenshots
+  icon:
+  description:
 - name: Rescuetime
   url: https://www.rescuetime.com/
   platform: android linux macosx windows
